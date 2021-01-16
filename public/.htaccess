@@ -1,0 +1,8 @@
+#RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^www\.enindu\.com
+#RewriteRule ^(.*)$ https://enindu.com/$1 [R=301,L]
+
+Header set Content-Security-Policy "default-src 'self'"
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains;"
+Header set Vary "User-Agent"
+Header set Cache-Control "public, max-age=31536000"
