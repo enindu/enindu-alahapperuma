@@ -57,13 +57,13 @@ func genPages() error {
 			return e
 		}
 
-		var lBuf bytes.Buffer
+		var minTmplBuf bytes.Buffer
 		s := bufio.NewScanner(strings.NewReader(tBuf.String()))
 		for s.Scan() {
-			lBuf.WriteString(strings.TrimSpace(s.Text()))
+			minTmplBuf.WriteString(strings.TrimSpace(s.Text()))
 		}
 
-		e = ioutil.WriteFile(fmt.Sprintf("public/%s", v.File), []byte(lBuf.String()), 0644)
+		e = ioutil.WriteFile(fmt.Sprintf("public/%s", v.File), []byte(minTmplBuf.String()), 0644)
 		if e != nil {
 			return e
 		}
@@ -100,13 +100,13 @@ func genPage(p string) error {
 		return e
 	}
 
-	var lBuf bytes.Buffer
+	var minTmplBuf bytes.Buffer
 	s := bufio.NewScanner(strings.NewReader(tBuf.String()))
 	for s.Scan() {
-		lBuf.WriteString(strings.TrimSpace(s.Text()))
+		minTmplBuf.WriteString(strings.TrimSpace(s.Text()))
 	}
 
-	e = ioutil.WriteFile(fmt.Sprintf("public/%s", p), []byte(lBuf.String()), 0644)
+	e = ioutil.WriteFile(fmt.Sprintf("public/%s", p), []byte(minTmplBuf.String()), 0644)
 	if e != nil {
 		return e
 	}
