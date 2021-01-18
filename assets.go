@@ -9,41 +9,41 @@ import (
 	"strings"
 )
 
-func genAssets(d string) error {
-	a, e := ioutil.ReadDir(fmt.Sprintf("source/assets/%s/", d))
+func genCSS() error {
+	css, e := ioutil.ReadDir("source/assets/css")
 	if e != nil {
 		return e
 	}
 
-	var aBuf bytes.Buffer
-	for _, v := range a {
-		aBin, e := ioutil.ReadFile(fmt.Sprintf("source/assets/%s/%s", d, v.Name()))
+	var cssBuf bytes.Buffer
+	for _, v := range css {
+		cssBin, e := ioutil.ReadFile(fmt.Sprintf("source/assets/css/%s", v.Name()))
 		if e != nil {
 			return e
 		}
 
-		s := bufio.NewScanner(strings.NewReader(string(aBin)))
+		s := bufio.NewScanner(strings.NewReader(string(cssBin)))
 		for s.Scan() {
-			if strings.Contains(s.Text(), "/*") {
-				continue
-			}
-
-			r, e := regexp.Compile(`(\s?[:;{},]\s?)`)
+			r, e := regexp.Compile(`\s*?[:;{},!\+]\s*?`)
 			if e != nil {
 				return e
 			}
 
-			aBuf.WriteString(r.ReplaceAllStringFunc(strings.TrimSpace(s.Text()), func(l string) string {
-				return strings.TrimSpace(l)
-			}))
+			cssBuf.WriteString(r.ReplaceAllStringFunc(strings.TrimSpace(s.Text()), strings.TrimSpace))
 		}
+	}
 
-		e = ioutil.WriteFile(fmt.Sprintf("public/%s/%s", d, v.Name()), []byte(aBuf.String()), 0644)
-		if e != nil {
-			return e
-		}
+	r, e := regexp.Compile(`\/\*[^*]*\*+([^/*][^*]*\*+)*\/`)
+	if e != nil {
+		return e
+	}
 
-		aBuf.Reset()
+	var minCSSBuf bytes.Buffer
+	minCSSBuf.WriteString(r.ReplaceAllString(cssBuf.String(), ""))
+
+	e = ioutil.WriteFile("public/css/style.css", []byte(minCSSBuf.String()), 0644)
+	if e != nil {
+		return e
 	}
 
 	return nil

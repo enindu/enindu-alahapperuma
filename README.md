@@ -15,7 +15,7 @@ $ go build
 There are several flags that you can use for generate pages and assets. All source pages and assets are located in `source/` directory and all generated stuff located in `public/` directory.
 
 ```
-$ enindu.com -gen-page <page>              # Generate a specific page
-$ enindu.com -gen-pages                    # Generate all pages at once
-$ enindu.com -gen-assets <path>            # Generate assets in specific directory
+$ enindu.com -gen-page <page> # Generate a specific page
+$ enindu.com -gen-pages       # Generate all pages at once
+$ enindu.com -gen-css         # Generate all CSSs at once
 ```

@@ -22,7 +22,7 @@ type Page struct {
 func main() {
 	pGen := flag.Bool("gen-page", false, "Generate a specific page\nEx: enindu.com -gen-page <page>")
 	psGen := flag.Bool("gen-pages", false, "Generate all pages at once\nEx: enindu.com -gen-pages")
-	aGen := flag.Bool("gen-assets", false, "Generate assets in specific directory\nEx: enindu.com -gen-assets <path>")
+	cssGen := flag.Bool("gen-css", false, "Generate all CSSs at once\nEx: enindu.com -gen-css")
 	flag.Parse()
 
 	if *pGen {
@@ -36,7 +36,7 @@ func main() {
 			log.Fatal(e.Error())
 		}
 
-		fmt.Println(fmt.Sprintf("%s page generated", flag.Arg(0)))
+		fmt.Println(fmt.Sprintf("%s page is generated", flag.Arg(0)))
 		return
 	}
 
@@ -46,22 +46,17 @@ func main() {
 			log.Fatal(e.Error())
 		}
 
-		fmt.Println("Pages generated")
+		fmt.Println("Pages are generated")
 		return
 	}
 
-	if *aGen {
-		if flag.Arg(0) == "" {
-			flag.PrintDefaults()
-			return
-		}
-
-		e := genAssets(flag.Arg(0))
+	if *cssGen {
+		e := genCSS()
 		if e != nil {
 			log.Fatal(e.Error())
 		}
 
-		fmt.Println("Assets generated")
+		fmt.Println("CSSs are generated")
 		return
 	}
 
