@@ -20,45 +20,45 @@ type Page struct {
 }
 
 func main() {
-	generatePageFlag := flag.Bool("generate-page", false, "Generate a page")
-	generatePagesFlag := flag.Bool("generate-pages", false, "Generate pages")
-	generateAssetsFlag := flag.Bool("generate-assets", false, "Generate assets")
+	pGen := flag.Bool("gen-page", false, "Generate a specific page\nEx: enindu.com -gen-page <page>")
+	psGen := flag.Bool("gen-pages", false, "Generate all pages at once\nEx: enindu.com -gen-pages")
+	aGen := flag.Bool("gen-assets", false, "Generate assets in specific directory\nEx: enindu.com -gen-assets <path>")
 	flag.Parse()
 
-	if *generatePageFlag {
+	if *pGen {
 		if flag.Arg(0) == "" {
 			flag.PrintDefaults()
 			return
 		}
 
-		issue := generatePage(flag.Arg(0))
-		if issue != nil {
-			log.Fatal(issue.Error())
+		e := genPage(flag.Arg(0))
+		if e != nil {
+			log.Fatal(e.Error())
 		}
 
 		fmt.Println(fmt.Sprintf("%s page generated", flag.Arg(0)))
 		return
 	}
 
-	if *generatePagesFlag {
-		issue := generatePages()
-		if issue != nil {
-			log.Fatal(issue.Error())
+	if *psGen {
+		e := genPages()
+		if e != nil {
+			log.Fatal(e.Error())
 		}
 
 		fmt.Println("Pages generated")
 		return
 	}
 
-	if *generateAssetsFlag {
+	if *aGen {
 		if flag.Arg(0) == "" {
 			flag.PrintDefaults()
 			return
 		}
 
-		issue := generateAssets(flag.Arg(0))
-		if issue != nil {
-			log.Fatal(issue.Error())
+		e := genAssets(flag.Arg(0))
+		if e != nil {
+			log.Fatal(e.Error())
 		}
 
 		fmt.Println("Assets generated")

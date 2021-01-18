@@ -9,42 +9,41 @@ import (
 	"strings"
 )
 
-func generateAssets(directory string) error {
-	assets, issue := ioutil.ReadDir(fmt.Sprintf("source/assets/%s/", directory))
-	if issue != nil {
-		return issue
+func genAssets(d string) error {
+	a, e := ioutil.ReadDir(fmt.Sprintf("source/assets/%s/", d))
+	if e != nil {
+		return e
 	}
 
-	var assetBuffer bytes.Buffer
-	for _, item := range assets {
-		binaryAsset, issue := ioutil.ReadFile(fmt.Sprintf("source/assets/%s/%s", directory, item.Name()))
-		if issue != nil {
-			return issue
+	var aBuf bytes.Buffer
+	for _, v := range a {
+		aBin, e := ioutil.ReadFile(fmt.Sprintf("source/assets/%s/%s", d, v.Name()))
+		if e != nil {
+			return e
 		}
 
-		bufferScanner := bufio.NewScanner(strings.NewReader(string(binaryAsset)))
-		for bufferScanner.Scan() {
-			if strings.Contains(bufferScanner.Text(), "/*") {
+		s := bufio.NewScanner(strings.NewReader(string(aBin)))
+		for s.Scan() {
+			if strings.Contains(s.Text(), "/*") {
 				continue
 			}
 
-			line := strings.TrimSpace(bufferScanner.Text())
-			regex, issue := regexp.Compile(`(\s?[:;{},]\s?)`)
-			if issue != nil {
-				return issue
+			r, e := regexp.Compile(`(\s?[:;{},]\s?)`)
+			if e != nil {
+				return e
 			}
 
-			assetBuffer.WriteString(regex.ReplaceAllStringFunc(line, func(parsedLine string) string {
-				return strings.TrimSpace(parsedLine)
+			aBuf.WriteString(r.ReplaceAllStringFunc(strings.TrimSpace(s.Text()), func(l string) string {
+				return strings.TrimSpace(l)
 			}))
 		}
 
-		issue = ioutil.WriteFile(fmt.Sprintf("public/%s/%s", directory, item.Name()), []byte(assetBuffer.String()), 0644)
-		if issue != nil {
-			return issue
+		e = ioutil.WriteFile(fmt.Sprintf("public/%s/%s", d, v.Name()), []byte(aBuf.String()), 0644)
+		if e != nil {
+			return e
 		}
 
-		assetBuffer.Reset()
+		aBuf.Reset()
 	}
 
 	return nil

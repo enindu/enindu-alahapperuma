@@ -38,67 +38,77 @@ func getPages() []Page {
 	}
 }
 
-func generatePages() error {
-	pages := getPages()
-	for _, item := range pages {
-		templates, issue := template.ParseFiles("source/pages/layouts/base.html", "source/pages/includes/header.html", "source/pages/includes/footer.html", fmt.Sprintf("source/pages/%s", item.File))
-		if issue != nil {
-			return issue
+func genPages() error {
+	p := getPages()
+	for _, v := range p {
+		t, e := template.ParseFiles(
+			"source/pages/layouts/base.html",
+			"source/pages/includes/header.html",
+			"source/pages/includes/footer.html",
+			fmt.Sprintf("source/pages/%s", v.File),
+		)
+		if e != nil {
+			return e
 		}
 
-		var rawTemplatesBuffer bytes.Buffer
-		issue = templates.Execute(&rawTemplatesBuffer, item)
-		if issue != nil {
-			return issue
+		var tBuf bytes.Buffer
+		e = t.Execute(&tBuf, v)
+		if e != nil {
+			return e
 		}
 
-		var parsedTemplatesBuffer bytes.Buffer
-		bufferScanner := bufio.NewScanner(strings.NewReader(rawTemplatesBuffer.String()))
-		for bufferScanner.Scan() {
-			parsedTemplatesBuffer.WriteString(strings.TrimSpace(bufferScanner.Text()))
+		var lBuf bytes.Buffer
+		s := bufio.NewScanner(strings.NewReader(tBuf.String()))
+		for s.Scan() {
+			lBuf.WriteString(strings.TrimSpace(s.Text()))
 		}
 
-		issue = ioutil.WriteFile(fmt.Sprintf("public/%s", item.File), []byte(parsedTemplatesBuffer.String()), 0644)
-		if issue != nil {
-			return issue
+		e = ioutil.WriteFile(fmt.Sprintf("public/%s", v.File), []byte(lBuf.String()), 0644)
+		if e != nil {
+			return e
 		}
 	}
 
 	return nil
 }
 
-func generatePage(page string) error {
-	templates, issue := template.ParseFiles("source/pages/layouts/base.html", "source/pages/includes/header.html", "source/pages/includes/footer.html", fmt.Sprintf("source/pages/%s", page))
-	if issue != nil {
-		return issue
+func genPage(p string) error {
+	t, e := template.ParseFiles(
+		"source/pages/layouts/base.html",
+		"source/pages/includes/header.html",
+		"source/pages/includes/footer.html",
+		fmt.Sprintf("source/pages/%s", p),
+	)
+	if e != nil {
+		return e
 	}
 
-	pageIndex := -1
-	pages := getPages()
-	for index, item := range pages {
-		if item.File == page {
-			pageIndex = index
+	pgs := getPages()
+	idx := -1
+	for i, v := range pgs {
+		if v.File == p {
+			idx = i
 		}
 	}
-	if pageIndex == -1 {
+	if idx == -1 {
 		return errors.New("There is no page found using that name")
 	}
 
-	var rawTemplatesBuffer bytes.Buffer
-	issue = templates.Execute(&rawTemplatesBuffer, pages[pageIndex])
-	if issue != nil {
-		return issue
+	var tBuf bytes.Buffer
+	e = t.Execute(&tBuf, pgs[idx])
+	if e != nil {
+		return e
 	}
 
-	var parsedTemplatesBuffer bytes.Buffer
-	bufferScanner := bufio.NewScanner(strings.NewReader(rawTemplatesBuffer.String()))
-	for bufferScanner.Scan() {
-		parsedTemplatesBuffer.WriteString(strings.TrimSpace(bufferScanner.Text()))
+	var lBuf bytes.Buffer
+	s := bufio.NewScanner(strings.NewReader(tBuf.String()))
+	for s.Scan() {
+		lBuf.WriteString(strings.TrimSpace(s.Text()))
 	}
 
-	issue = ioutil.WriteFile(fmt.Sprintf("public/%s", page), []byte(parsedTemplatesBuffer.String()), 0644)
-	if issue != nil {
-		return issue
+	e = ioutil.WriteFile(fmt.Sprintf("public/%s", p), []byte(lBuf.String()), 0644)
+	if e != nil {
+		return e
 	}
 
 	return nil
