@@ -24,7 +24,7 @@ func genCSS() error {
 
 		s := bufio.NewScanner(strings.NewReader(string(cssBin)))
 		for s.Scan() {
-			r, e := regexp.Compile(`\s*?[:;{},!\+]\s*?`)
+			r, e := regexp.Compile(`\s{0,}[\:\;\{\}\,\!\+\-\/\*\<\>\(\)]\s{0,}`)
 			if e != nil {
 				return e
 			}
