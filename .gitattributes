@@ -1,2 +1,4 @@
-/public/* linguist-vendored
-/source/* linguist-vendored
+*.html linguist-vendored
+*.css linguist-vendored
+*.xml linguist-vendored
+*.txt linguist-vendored
