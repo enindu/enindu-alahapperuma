@@ -1,7 +1,8 @@
 # <IfModule mod_rewrite.c>
-#   RewriteEngine On
-#   RewriteCond %{HTTP_HOST} ^www\.enindu\.com
-#   RewriteRule ^(.*)$ https://enindu.com/$1 [R=301,L]
+#   RewriteCond %{HTTP_HOST} !=""
+#   RewriteCond %{HTTP_HOST} !^www\. [NC]
+#   RewriteCond %{HTTPS}s ^on(s)|
+#   RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 # </IfModule>
 
 # <IfModule mod_deflate.c>
@@ -14,6 +15,6 @@
 #   </FilesMatch>
 
 #   Header set Content-Security-Policy "default-src 'self'"
-#   Header set Strict-Transport-Security "max-age=31536000; includeSubDomains;"
+#   Header set Strict-Transport-Security "max-age=31536000;includeSubDomains;preload"
 #   Header set Vary "User-Agent"
 # </IfModule>
