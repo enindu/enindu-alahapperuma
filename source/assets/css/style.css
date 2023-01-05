@@ -4,68 +4,124 @@
     padding: 0;
 }
 
+::selection {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #111111;
+    color: #bbbbbb;
     font-family: monospace;
     font-size: 1rem;
-    padding: 1rem;
+    margin: 20px;
 }
 
 h1,
 h2 {
-    line-height: 1;
+    font-weight: 800;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 1.5;
 }
 
 a {
-    color: #ffffff;
+    color: #bbbbbb;
+    transition: 0.5s ease-in-out;
 }
 
 a:hover {
-    color: #00ff00;
+    color: #2196f3;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    display: inline;
 }
 
 header {
     text-align: center;
 }
 
-header a,
-nav a,
-footer a {
+header h1 a {
+    color: #ffffff;
     text-decoration: none;
 }
 
-nav ul {
-    border-bottom: 0.1rem solid #ffffff;
-    border-top: 0.1rem solid #ffffff;
-    list-style: none;
-    padding: 0.5rem 0;
+header nav {
+    margin-top: 20px;
+}
+
+header ul {
     text-align: center;
 }
 
-nav ul li {
+header ul li {
     display: inline;
 }
 
-div {
-    text-align: right;
+header ul li:not(:last-child) {
+    padding-right: 20px;
 }
 
-section header {
+header ul li:not(:first-child) {
+    padding-left: 20px;
+}
+
+nav ul li:not(:last-child) {
+    padding-right: 20px;
+}
+
+nav ul li:not(:first-child) {
+    padding-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+main section:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+main section header {
+    margin-bottom: 20px;
     text-align: left;
 }
 
-footer {
-    text-align: center;
+main section header h2 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main section figure p:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+footer nav {
+    margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
-    header p,
-    nav ul {
+    ul {
         overflow-x: scroll;
         white-space: nowrap;
     }
