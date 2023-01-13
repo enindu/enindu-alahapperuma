@@ -15,8 +15,8 @@ func getPages() []Page {
 	return []Page{
 		{
 			File:        "index.html",
-			Title:       "Back-End Developer | Linux Power User | Freelancer | Enindu Alahapperuma",
-			Description: "I am Enindu Alahapperuma, a back-end developer from Sri Lanka. I do back-end programming, web development and a little bit of logo designing.",
+			Title:       "Back-End Developer, Linux Power User & Freelancer | Enindu Alahapperuma",
+			Description: "As a highly skilled and experienced back-end developer hailing from Sri Lanka, I specialize in the art of back-end programming, web development, and possess a proficiency in logo design. My name is Enindu Alahapperuma, and I am dedicated to providing exceptional service to my clients.",
 			Type:        "website",
 			Keywords:    "enindu, alahapperuma, back-end development, back-end programming, web designing, web development, php, go, node.js, deno, phyxle, sri lanka",
 			Author:      "Enindu Alahapperuma (enindu@gmail.com)",
@@ -27,7 +27,7 @@ func getPages() []Page {
 		{
 			File:        "contact.html",
 			Title:       "Contact Me | Enindu Alahapperuma",
-			Description: "My name is Enindu Alahapperuma and I am a back-end developer from Sri Lanka. If you wish to contact me, click this link and you are welcome.",
+			Description: "Introducing Enindu Alahapperuma, a seasoned back-end developer hailing from Sri Lanka. I possess a wealth of expertise in the realm of back-end programming and web development. Should you desire to reach out and connect with me, kindly follow this link, and you will be greeted with a warm welcome.",
 			Type:        "website",
 			Keywords:    "enindu, alahapperuma, back-end development, back-end programming, web designing, web development, php, go, node.js, deno, phyxle, sri lanka, contact",
 			Author:      "Enindu Alahapperuma (enindu@gmail.com)",
