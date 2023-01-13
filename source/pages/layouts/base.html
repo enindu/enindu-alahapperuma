@@ -12,9 +12,15 @@
     <meta property="og:type" content="{{.Type}}">
     <meta property="og:url" content="{{.URL}}">
     <meta property="og:image" content="{{.Image}}">
+    <meta name="twitter:card" content="{{.Twitter}}">
+    <meta name="twitter:site" content="{{.Username}}">
+    <meta name="twitter:creator" content="{{.Username}}">
+    <meta name="twitter:title" content="{{.Title}}">
+    <meta name="twitter:description" content="{{.Description}}">
+    <meta name="twitter:image" content="{{.Image}}">
     <title>{{.Title}}</title>
     <link rel="icon" href="images/favicon.png" type="image/png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">   
 </head>
 <body>
     {{template "header" .}}

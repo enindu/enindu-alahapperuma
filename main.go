@@ -9,11 +9,13 @@ import (
 // Page struct
 type Page struct {
 	File        string
+	Twitter     string
 	Title       string
 	Description string
 	Type        string
 	Keywords    string
 	Author      string
+	Username    string
 	URL         string
 	Image       string
 	Time        string
