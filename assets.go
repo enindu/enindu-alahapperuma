@@ -10,12 +10,14 @@ import (
 )
 
 func generateStyles() error {
+	var stylesBuffer bytes.Buffer
+	var minifiedStylesBuffer bytes.Buffer
+
 	styles, exception := os.ReadDir("source/assets/css")
 	if exception != nil {
 		return exception
 	}
 
-	var stylesBuffer bytes.Buffer
 	for _, v := range styles {
 		styleBinary, exception := os.ReadFile(fmt.Sprintf("source/assets/css/%s", v.Name()))
 		if exception != nil {
@@ -24,7 +26,7 @@ func generateStyles() error {
 
 		scanner := bufio.NewScanner(strings.NewReader(string(styleBinary)))
 		for scanner.Scan() {
-			regex, exception := regexp.Compile(`\s{0,}[\:\;\{\}\,\!\+\-\/\*\<\>\(\)]\s{0,}`)
+			regex, exception := regexp.Compile(`\s*([\:\;\{\}\,\!\+\-\/\*\<\>\(\)])\s*`)
 			if exception != nil {
 				return exception
 			}
@@ -38,7 +40,6 @@ func generateStyles() error {
 		return exception
 	}
 
-	var minifiedStylesBuffer bytes.Buffer
 	minifiedStylesBuffer.WriteString(regex.ReplaceAllString(stylesBuffer.String(), ""))
 
 	exception = os.WriteFile("public/css/style.css", minifiedStylesBuffer.Bytes(), 0644)
