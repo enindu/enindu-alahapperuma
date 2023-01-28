@@ -16,7 +16,7 @@ func getPages() []Page {
 		{
 			File:        "index.html",
 			URL:         "https://enindu.com/index.html",
-			Title:       "Back-End Developer| Linux Power User | Freelancer | Enindu Alahapperuma",
+			Title:       "Back-End Developer | Linux Power User | Freelancer | Enindu Alahapperuma",
 			Description: "Expert back-end developer from Sri Lanka, Enindu Alahapperuma, specializes in web development, back-end programming, and logo design. Offers exceptional service to clients.",
 			Keywords:    "enindu alahapperuma, back-end development, back-end programming, web development, PHP, Go, Node.js, Deno, Phyxle, Sri Lanka",
 			Type:        "website",
