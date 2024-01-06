@@ -5,26 +5,17 @@
 
     RewriteEngine On
 
-    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-    RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+    # Handle authorization header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
+    # Remove trailing slashes, if not a folder
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{REQUEST_URI} ^(.+)/$
-    RewriteRule ^ %1 [R,L]
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
 
-    RewriteRule ^\..+$ - [F,L]
-</IfModule>
-
-<IfModule mod_brotli.c>
-    SetOutputFilter BROTLI_COMPRESS
-</IfModule>
-
-<IfModule mod_headers.c>
-    Header always set Content-Security-Policy "default-src 'self'"
-    Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
-    Header always set Vary "User-Agent, Accept-Encoding"
-
-    <FilesMatch "^.+\.(css|eot|gif|html|ico|jpeg|jpg|js|map|pdf|png|svg|ttf|webp|woff|woff2)$">
-        Header set Cache-Control "public, max-age=63072000"
-    </FilesMatch>
+    # Send requests to front controller
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
 </IfModule>
