@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BaseController;
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::prefix('/')->group(function () {
     Route::resource('/', BaseController::class)->only(['index']);
+    Route::resource('/contact', ContactController::class)->only(['index']);
 });
 Route::prefix('/admin')->name('admin.')->group(function () {
     Route::middleware('auth')->group(function () {

@@ -21,7 +21,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a {!! $id == 'contact' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'contact' ? 'active' : '' }}" href="#">
+                <a {!! $id == 'contact' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'contact' ? 'active' : '' }}" href="{{ route('contact.index') }}">
                     <i class="fa-solid fa-comment me-1"></i>
                     <strong>Contact me</strong>
                 </a>
