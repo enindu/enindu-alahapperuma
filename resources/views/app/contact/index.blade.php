@@ -2,7 +2,7 @@
     $id = 'contact';
     $title = 'Need to get in touch with me?';
     $description = 'Experience spam-free communication through email. Your privacy is my priority. A warm welcome to clients, developers, and all seeking genuine connections!';
-    $keywords = 'enindu, enindu alahapperuma, back-end developer, back-end developer sri lanka, freelancing back-end developer, web developer, web developer sri lanka, freelancing web developer, php developer, php developer sri lanka, freelancing php developer, go developer, go developer sri lanka, freelancing go developer, system administrator, system administrator sri lanka, freelancing system administrator, logo designer, logo designer sri lanka, freelancing logo designer, software engineer, software engineer sri lanka, freelancer, freelancer sri lanka';
+    $keywords = 'enindu, enindu alahapperuma, back-end developer, back-end developer sri lanka, freelancing back-end developer, web developer, web developer sri lanka, freelancing web developer, php developer, php developer sri lanka, freelancing php developer, go developer, go developer sri lanka, freelancing go developer, system administrator, system administrator sri lanka, freelancing system administrator, website security expert, website security expert sri lanka, freelancing website security expert, logo designer, logo designer sri lanka, freelancing logo designer, software engineer, software engineer sri lanka, freelancer, freelancer sri lanka';
 @endphp
 
 <x-layouts.base :description="$description" :id="$id" :keywords="$keywords" :title="$title">
