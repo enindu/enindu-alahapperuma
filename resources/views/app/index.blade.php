@@ -1,11 +1,12 @@
 @php
     $id = 'index';
+    $type = 'website';
     $title = 'A web developer from Sri Lanka';
-    $description = 'Expert software engineer from Sri Lanka, Enindu Alahapperuma, specializes in back-end development, web development, system administration, and logo design.';
-    $keywords = 'enindu, enindu alahapperuma, back-end developer, back-end developer sri lanka, freelancing back-end developer, web developer, web developer sri lanka, freelancing web developer, php developer, php developer sri lanka, freelancing php developer, go developer, go developer sri lanka, freelancing go developer, system administrator, system administrator sri lanka, freelancing system administrator, website security expert, website security expert sri lanka, freelancing website security expert, logo designer, logo designer sri lanka, freelancing logo designer, software engineer, software engineer sri lanka, freelancer, freelancer sri lanka';
+    $description = 'Expert software engineer from Sri Lanka, Enindu Alahapperuma, specializes in back-end development, system administration, website security, and logo design.';
+    $keywords = 'enindu, back-end developer, web developer, php developer, go developer, system administrator, website security expert, logo designer, software engineer, freelancer';
 @endphp
 
-<x-layouts.base :description="$description" :id="$id" :keywords="$keywords" :title="$title">
+<x-layouts.base :description="$description" :id="$id" :keywords="$keywords" :title="$title" :type="$type">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">

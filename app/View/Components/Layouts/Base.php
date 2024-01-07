@@ -13,6 +13,7 @@ class Base extends Component
      */
     public function __construct(
         public string $id,
+        public string $type,
         public string $title,
         public string $description,
         public string $keywords,

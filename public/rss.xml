@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <atom:link href="https://enindu.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <title><![CDATA[Enindu Alahapperuma]]></title>
+        <link><![CDATA[https://enindu.com/rss.xml]]></link>
+        <image>
+            <url>https://enindu.com/images/rss-icon.png</url>
+            <title><![CDATA[Enindu Alahapperuma]]></title>
+            <link><![CDATA[https://enindu.com/rss.xml]]></link>
+        </image>
+        <description><![CDATA[I write articles about software engineering, back-end development, system administration, website security, and open source software, when I get bored.]]></description>
+        <language>en-US</language>
+        <pubDate>Sun, 07 Jan 2024 01:00:00 +0530</pubDate>
+        <item>
+            <title><![CDATA[The story of enindu.com]]></title>
+            <link>https://enindu.com/blog/the-story-of-enindu-com</link>
+            <description><![CDATA[In the year 2021, the decision to acquire the domain enindu.com was motivated by a rather unique reason. Until then, my first name had been somewhat exclusiv...]]></description>
+            <author><![CDATA[Enindu Alahapperuma]]></author>
+            <guid>https://enindu.com/1</guid>
+            <pubDate>Sun, 07 Jan 2024 13:42:00 +0530</pubDate>
+            <category>General</category>
+        </item>
+    </channel>
+</rss>

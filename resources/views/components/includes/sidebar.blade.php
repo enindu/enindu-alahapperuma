@@ -26,6 +26,26 @@
                     <strong>Contact me</strong>
                 </a>
             </li>
+            <li class="nav-item">
+                <a {!! $id == 'blog' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog' ? 'active' : '' }}" href="{{ route('blog.index') }}">
+                    <i class="fa-solid fa-newspaper me-1"></i>
+                    <strong>My blog</strong>
+                </a>
+            </li>
+            <li class="mt-3">
+                <h6 class="sidebar-header text-uppercase">
+                    <strong>Latest articles</strong>
+                </h6>
+            </li>
+            <li>
+                <hr class="sidebar-divider">
+            </li>
+            <li class="nav-item">
+                <a {!! $id == 'blog.the-story-of-enindu-com' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.the-story-of-enindu-com' ? 'active' : '' }}" href="{{ route('blog.the-story-of-enindu-com') }}">
+                    <i class="fa-solid fa-bookmark me-1"></i>
+                    <strong>The story of enindu.com</strong>
+                </a>
+            </li>
             <li class="mt-3">
                 <h6 class="sidebar-header text-uppercase">
                     <strong>External links</strong>
@@ -62,6 +82,12 @@
                 <a class="nav-link" href="{{ url('sitemap.xml') }}">
                     <i class="fa-solid fa-sitemap me-1"></i>
                     <strong>Sitemap</strong>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('rss.xml') }}">
+                    <i class="fa-solid fa-rss me-1"></i>
+                    <strong>RSS</strong>
                 </a>
             </li>
             <li class="nav-item">
