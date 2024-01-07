@@ -24,6 +24,7 @@
     <meta content="{{ Vite::asset('resources/images/ms-application-tile-image.png') }}" name="msapplication-TileImage">
     <meta content="#000000" name="msapplication-TileColor">
     <title>{{ $title }} | {{ env('APP_NAME') }}</title>
+    <link href="{{ url()->current() }}" rel="canonical">
     <link href="{{ url('rss.xml') }}" rel="alternate" title="{{ env('APP_NAME') }}" type="application/rss+xml">
     <link href="{{ Vite::asset('resources/images/favicon.png') }}" rel="icon" type="image/png">
     <link href="{{ Vite::asset('resources/images/apple-touch-icon.png') }}" rel="apple-touch-icon">
