@@ -55,7 +55,7 @@
                             <li><strong>Back-end frameworks:</strong> <a href="https://laravel.com" target="_blank">Laravel</a></li>
                             <li><strong>Server:</strong> <a href="https://www.kernel.org" target="_blank">Linux</a>-based <a href="https://en.wikipedia.org/wiki/Shared_web_hosting_service" target="_blank">shared server</a> with <a href="https://cpanel.net" target="_blank">cPanel</a></li>
                             <li><strong>HTTP server:</strong> <a href="https://httpd.apache.org" target="_blank">Apache HTTP server</a></li>
-                            <li><strong>Proxy server:</strong> <a href="https://www.cloudflare.com/en-gb">Cloudflare</a></li>
+                            <li><strong>Proxy server:</strong> <a href="https://www.cloudflare.com/en-gb" target="_blank">Cloudflare</a></li>
                         </ul>
                         <p>I've also integrated <a href="https://marketingplatform.google.com/about/analytics" target="_blank">Google Analytics</a> into this website for traffic analysis. Yes, I confess, I'm too lazy to explore alternatives and have stuck with a <a href="https://en.wikipedia.org/wiki/Google" target="_blank">Google</a> product. While I have no intention of tracking or storing your data, be cautious while scrolling through this website—Google might have other plans.</p>
                         <h2 id="the-branding">The branding</h2>
