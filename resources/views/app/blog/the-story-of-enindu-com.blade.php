@@ -15,24 +15,27 @@
         <meta content="General" property="article:section">
         <meta content="Website" property="article:tag">
     </x-slot:meta>
-    <div class="container-fluid">
+    <div class="h-entry container-fluid">
         <div class="row">
             <div class="col-12">
                 <div class="card mt-3">
                     <div class="card-body">
-                        <h1 class="card-title" id="web-developer-from-sri-lanka">{{ $title }}</h1>
+                        <h1 class="p-name card-title" id="web-developer-from-sri-lanka">{{ $title }}</h1>
                         <div class="d-flex flex-column gap-1">
                             <p class="mb-0">
-                                <small>Published on 2024-01-07 at 01:42 PM</small>
+                                <small>By <a class="p-author h-card" href="{{ route('contact.index') }}">Enindu Alahapperuma</a> on <a class="u-url" href="{{ url()->current() }}"><time class="dt-published" datetime="{{ \Carbon\Carbon::parse('2024-01-07 at 01:42 PM')->toIso8601String() }}">2024-01-07 at 01:42 PM</time></a></small>
+                            </p>
+                            <p class="mb-0">
+                                <small>This article is also published in <a class="u-syndication" href="https://medium.com/@Enindu/the-story-of-enindu-com-273fcc6c8ba5" target="_blank">Medium</a></small>
                             </p>
                             <p class="d-flex align-items-center mb-0">
-                                <span class="badge bg-primary">General</span>
+                                <span class="p-category badge bg-primary">General</span>
                                 <span class="badge bg-secondary">Website</span>
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="card mt-3">
+                <div class="e-content card mt-3">
                     <div class="card-body">
                         <h2 id="the-name-enindu">The name, Enindu</h2>
                         <p>In the year 2021, the decision to acquire the domain <a href="https://enindu.com">enindu.com</a> was motivated by a rather unique reason. Until then, my first name had been somewhat exclusive in <a href="https://en.wikipedia.org/wiki/Sri_Lanka" target="_blank">Sri Lanka</a>, or so I believed. I had successfully claimed handles for my first name across various online platforms, such as "<a href="mailto:enindu@gmail.com">enindu@gmail.com</a>", "<a href="mailto:enindu@yahoo.com">enindu@yahoo.com</a>", and "<a href="mailto:enindu@hotmail.com">enindu@hotmail.com</a>". In those days, <a href="https://en.wikipedia.org/wiki/Outlook.com#Transition_to_Outlook.com" target="_blank">there was no "@outlook.com" available</a>. I even secured the handles <a href="https://twitter.com/Enindu" target="_blank">"@Enindu" on Twitter (X)</a> and <a href="https://www.instagram.com/enindu" target="_blank">"@enindu" on Instagram</a>. These were simpler times, making it easier to establish my online presence. Although I seldom used most of these accounts, my primary objective was to establish my domain across the vast expanse of the internet. Admittedly, it was a bit of a selfish endeavor.</p>
