@@ -1,8 +1,29 @@
 <nav class="sidebar offcanvas-start offcanvas-xxl" id="sidebar" tabindex="-1">
     <div class="offcanvas-header bg-body-tertiary border-bottom border-opacity-25">
-        <a class="sidebar-brand" href="{{ route('index') }}">
-            <strong>{{ env('APP_NAME') }}</strong>
-        </a>
+        <div class="h-card">
+            <a class="sidebar-brand" href="{{ route('index') }}">
+                <strong class="p-name">{{ env('APP_NAME') }}</strong>
+            </a>
+            <p class="p-category mb-0">
+                <strong>Software engineer</strong>
+            </p>
+            <p class="p-country-name mb-0">
+                <strong>Sri Lanka</strong>
+            </p>
+            <p class="p-note mb-0">
+                <small>I'm a back-end developer, system administrator, and freelancer.</small>
+            </p>
+            <p class="mb-0">
+                <a class="u-url" href="{{ route('index') }}">
+                    <small>{{ env('APP_URL') }}</small>
+                </a>
+            </p>
+            <p class="mb-0">
+                <a class="u-email" href="mailto:enindu@gmail.com">
+                    <small>enindu@gmail.com</small>
+                </a>
+            </p>
+        </div>
     </div>
     <div class="offcanvas-body">
         <ul class="sidebar-nav">
