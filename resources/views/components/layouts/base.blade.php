@@ -26,6 +26,7 @@
     <title>{{ $title }} | {{ env('APP_NAME') }}</title>
     <link href="{{ url()->current() }}" rel="canonical">
     <link href="{{ url('rss.xml') }}" rel="alternate" title="{{ env('APP_NAME') }}" type="application/rss+xml">
+    <link href="https://mastodon.social/@enindu" rel="me">
     <link href="{{ Vite::asset('resources/images/favicon.png') }}" rel="icon" type="image/png">
     <link href="{{ Vite::asset('resources/images/apple-touch-icon.png') }}" rel="apple-touch-icon">
     @vite('resources/css/style.css')
