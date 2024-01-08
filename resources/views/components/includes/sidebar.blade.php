@@ -67,16 +67,60 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="https://linkedin.com/in/enindu" target="_blank">
+                    <i class="fa-brands fa-linkedin me-1"></i>
+                    <strong>LinkedIn</strong>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://mastodon.social/@enindu" target="_blank">
+                    <i class="fa-brands fa-mastodon me-1"></i>
+                    <strong>Mastodon</strong>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="https://twitter.com/Enindu" target="_blank">
                     <i class="fa-brands fa-x-twitter me-1"></i>
                     <strong>Twitter (X)</strong>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://linkedin.com/in/enindu" target="_blank">
-                    <i class="fa-brands fa-linkedin me-1"></i>
-                    <strong>LinkedIn</strong>
+                <a class="nav-link" href="https://news.ycombinator.com/user?id=Enindu" target="_blank">
+                    <i class="fa-brands fa-hacker-news me-1"></i>
+                    <strong>Hacker News</strong>
                 </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://medium.com/@Enindu" target="_blank">
+                    <i class="fa-brands fa-medium me-1"></i>
+                    <strong>Medium</strong>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.reddit.com/user/Enindu" target="_blank">
+                    <i class="fa-brands fa-reddit me-1"></i>
+                    <strong>Reddit</strong>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.quora.com/profile/Enindu-Alahapperuma" target="_blank">
+                    <i class="fa-brands fa-quora me-1"></i>
+                    <strong>Quora</strong>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.pinterest.com/enindu" target="_blank">
+                    <i class="fa-brands fa-pinterest me-1"></i>
+                    <strong>Pinterest</strong>
+                </a>
+            </li>
+            <li class="mt-3">
+                <h6 class="sidebar-header text-uppercase">
+                    <strong>Other links</strong>
+                </h6>
+            </li>
+            <li>
+                <hr class="sidebar-divider">
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{ url('sitemap.xml') }}">
@@ -89,6 +133,14 @@
                     <i class="fa-solid fa-rss me-1"></i>
                     <strong>RSS</strong>
                 </a>
+            </li>
+            <li class="mt-3">
+                <h6 class="sidebar-header text-uppercase">
+                    <strong>Repository links</strong>
+                </h6>
+            </li>
+            <li>
+                <hr class="sidebar-divider">
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://github.com/enindu/enindu-alahapperuma/blob/master/LICENSE.md" target="_blank">
