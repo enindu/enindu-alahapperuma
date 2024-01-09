@@ -20,7 +20,7 @@
             <div class="col-12">
                 <div class="card mt-3">
                     <div class="card-body">
-                        <h1 class="p-name card-title" id="web-developer-from-sri-lanka">{{ $title }}</h1>
+                        <h1 class="p-name card-title" id="the-story-of-enindu-com">{{ $title }}</h1>
                         <div class="d-flex flex-column gap-1">
                             <p class="mb-0">
                                 <small>By <a class="p-author h-card" href="{{ route('contact.index') }}">Enindu Alahapperuma</a> on <a class="u-url" href="{{ url()->current() }}"><time class="dt-published" datetime="{{ \Carbon\Carbon::parse('2024-01-07 at 01:42 PM')->toIso8601String() }}">2024-01-07 at 01:42 PM</time></a></small>

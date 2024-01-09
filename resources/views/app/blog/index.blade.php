@@ -12,7 +12,7 @@
             <div class="col-12">
                 <div class="card mt-3">
                     <div class="card-body">
-                        <h1 class="card-title mb-0" id="web-developer-from-sri-lanka">{{ $title }}</h1>
+                        <h1 class="card-title mb-0" id="i-write-articles-when-i-get-bored">{{ $title }}</h1>
                     </div>
                 </div>
                 <div class="card mt-3">
