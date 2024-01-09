@@ -135,6 +135,12 @@
                     <strong>Pinterest</strong>
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://blogroll.org" target="_blank">
+                    <i class="fa-solid fa-blog me-1"></i>
+                    <strong>Blogroll</strong>
+                </a>
+            </li>
             <li class="mt-3">
                 <h6 class="sidebar-header text-uppercase">
                     <strong>Other links</strong>
