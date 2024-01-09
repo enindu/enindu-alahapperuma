@@ -62,6 +62,12 @@
                 <hr class="sidebar-divider">
             </li>
             <li class="nav-item">
+                <a {!! $id == 'blog.dont-use-biometric-authentication' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.dont-use-biometric-authentication' ? 'active' : '' }}" href="{{ route('blog.dont-use-biometric-authentication') }}">
+                    <i class="fa-solid fa-bookmark me-1"></i>
+                    <strong>Don't use biometric auth...</strong>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a {!! $id == 'blog.the-story-of-enindu-com' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.the-story-of-enindu-com' ? 'active' : '' }}" href="{{ route('blog.the-story-of-enindu-com') }}">
                     <i class="fa-solid fa-bookmark me-1"></i>
                     <strong>The story of enindu.com</strong>

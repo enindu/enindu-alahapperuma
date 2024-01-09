@@ -13,6 +13,14 @@ class BlogController extends Controller
     }
 
     /**
+     * Display don't use biometric authentication page
+     */
+    public function dontUseBiometricAuthentication()
+    {
+        return view('app.blog.dont-use-biometric-authentication');
+    }
+
+    /**
      * Display a listing of the resource.
      */
     public function index()

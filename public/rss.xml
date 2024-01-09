@@ -11,7 +11,7 @@
         </image>
         <description><![CDATA[I write articles about software engineering, back-end development, system administration, website security, and open source software, when I get bored.]]></description>
         <language>en-US</language>
-        <pubDate>Sun, 07 Jan 2024 01:00:00 +0530</pubDate>
+        <pubDate>Tue, 09 Jan 2024 19:55:00 +0530</pubDate>
         <item>
             <title><![CDATA[The story of enindu.com]]></title>
             <link>https://enindu.com/blog/the-story-of-enindu-com</link>
@@ -20,6 +20,15 @@
             <guid>https://enindu.com/1</guid>
             <pubDate>Sun, 07 Jan 2024 13:42:00 +0530</pubDate>
             <category>General</category>
+        </item>
+        <item>
+            <title><![CDATA[Don't use biomentric authentication]]></title>
+            <link>https://enindu.com/blog/dont-use-biometric-authentication</link>
+            <description><![CDATA[In my country, a company (referred to as "Company A") introduced a user-friendly payment system, allowing users to make payments using their fingerprints. In...]]></description>
+            <author><![CDATA[enindu@gmail.com (Enindu Alahapperuma)]]></author>
+            <guid>https://enindu.com/2</guid>
+            <pubDate>Tue, 09 Jan 2024 19:55:00 +0530</pubDate>
+            <category>Cybersecurity</category>
         </item>
     </channel>
 </rss>
