@@ -53,6 +53,12 @@
                     <strong>Contact me</strong>
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link {{ $id == 'contact' ? 'active' : '' }}" href="https://www.buymeacoffee.com/enindu" target="_blank">
+                    <i class="fa-solid fa-mug-hot me-1"></i>
+                    <strong>Buy me a coffee</strong>
+                </a>
+            </li>
             <li class="mt-3">
                 <h6 class="sidebar-header text-uppercase">
                     <strong>Latest articles</strong>
