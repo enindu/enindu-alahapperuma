@@ -25,6 +25,8 @@
     <meta content="#000000" name="msapplication-TileColor">
     <title>{{ $title }} | {{ env('APP_NAME') }}</title>
     <link href="{{ url()->current() }}" rel="canonical">
+    <link href="https://webmention.io/enindu.com/webmention" rel="webmention">
+    <link href="https://webmention.io/enindu.com/xmlrpc" rel="pingback">
     <link href="{{ url('rss.xml') }}" rel="alternate" title="{{ env('APP_NAME') }}" type="application/rss+xml">
     <link href="https://mastodon.social/@enindu" rel="me">
     <link href="https://github.com/enindu" rel="me">
