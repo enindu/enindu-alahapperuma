@@ -21,6 +21,7 @@ Route::prefix('/')->group(function () {
     Route::resource('/contact', ContactController::class)->only(['index']);
     Route::get('/blog/the-story-of-enindu-com', [BlogController::class, 'theStoryOfEninduCom'])->name('blog.the-story-of-enindu-com');
     Route::get('/blog/dont-use-biometric-authentication', [BlogController::class, 'dontUseBiometricAuthentication'])->name('blog.dont-use-biometric-authentication');
+    Route::get('/blog/decentralized-hacker-news', [BlogController::class, 'decentralizedHackerNews'])->name('blog.decentralized-hacker-news');
     Route::resource('/blog', BlogController::class)->only(['index']);
 });
 Route::prefix('/admin')->name('admin.')->group(function () {

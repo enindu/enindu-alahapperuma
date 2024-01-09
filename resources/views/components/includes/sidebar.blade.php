@@ -68,6 +68,12 @@
                 <hr class="sidebar-divider">
             </li>
             <li class="nav-item">
+                <a {!! $id == 'blog.decentralized-hacker-news' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.decentralized-hacker-news' ? 'active' : '' }}" href="{{ route('blog.decentralized-hacker-news') }}">
+                    <i class="fa-solid fa-bookmark me-1"></i>
+                    <strong>Decentralized Hacker N...</strong>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a {!! $id == 'blog.dont-use-biometric-authentication' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.dont-use-biometric-authentication' ? 'active' : '' }}" href="{{ route('blog.dont-use-biometric-authentication') }}">
                     <i class="fa-solid fa-bookmark me-1"></i>
                     <strong>Don't use biometric aut...</strong>

@@ -21,6 +21,14 @@ class BlogController extends Controller
     }
 
     /**
+     * Display decentralized hacker news page
+     */
+    public function decentralizedHackerNews()
+    {
+        return view('app.blog.decentralized-hacker-news');
+    }
+
+    /**
      * Display a listing of the resource.
      */
     public function index()
