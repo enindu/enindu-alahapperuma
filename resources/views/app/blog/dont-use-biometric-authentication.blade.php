@@ -25,9 +25,9 @@
                             <p class="mb-0">
                                 <small>By <a class="p-author h-card" href="{{ route('contact.index') }}">Enindu Alahapperuma</a> on <a class="u-url" href="{{ url()->current() }}"><time class="dt-published" datetime="{{ \Carbon\Carbon::parse('2024-01-09 at 07:55 PM')->toIso8601String() }}">2024-01-09 at 07:55 PM</time></a></small>
                             </p>
-                            {{-- <p class="mb-0">
-                                <small>This article is also published in <a class="u-syndication" href="https://medium.com/@Enindu/the-story-of-enindu-com-273fcc6c8ba5" target="_blank">Medium</a></small>
-                            </p> --}}
+                            <p class="mb-0">
+                                <small>This article is also published in <a class="u-syndication" href="https://medium.com/@Enindu/dont-use-biometric-authentication-361210bf7846" target="_blank">Medium</a></small>
+                            </p>
                             <p class="d-flex align-items-center mb-0">
                                 <span class="p-category badge bg-primary">Cybersecurity</span>
                                 <span class="badge bg-secondary">Authentication</span>
