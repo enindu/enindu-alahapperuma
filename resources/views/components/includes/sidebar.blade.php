@@ -154,9 +154,9 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://blogroll.org" target="_blank">
-                    <i class="fa-solid fa-blog me-1"></i>
-                    <strong>Blogroll</strong>
+                <a class="nav-link" href="https://indieweb.org/User:Enindu.com" target="_blank">
+                    <i class="fa-solid fa-users me-1"></i>
+                    <strong>IndieWeb</strong>
                 </a>
             </li>
             <li class="mt-3">
