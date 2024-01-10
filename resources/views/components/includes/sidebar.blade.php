@@ -54,7 +54,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ $id == 'contact' ? 'active' : '' }}" href="https://www.buymeacoffee.com/enindu" target="_blank">
+                <a class="nav-link" href="https://www.buymeacoffee.com/enindu" target="_blank">
                     <i class="fa-solid fa-mug-hot me-1"></i>
                     <strong>Buy me a coffee</strong>
                 </a>
