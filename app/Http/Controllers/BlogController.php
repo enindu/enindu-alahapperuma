@@ -37,6 +37,14 @@ class BlogController extends Controller
     }
 
     /**
+     * Display the interesting case of IP cam page
+     */
+    public function theInterstingCaseOfIpCam()
+    {
+        return view('app.blog.the-interesting-case-of-ip-cam');
+    }
+
+    /**
      * Display a listing of the resource.
      */
     public function index()

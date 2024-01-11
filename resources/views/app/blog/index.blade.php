@@ -19,6 +19,22 @@
                     <div class="card-body">
                         <div class="row justify-content-between align-items-center gap-md-0 gap-1">
                             <div class="order-md-1 order-1 col-auto">
+                                <p class="mb-0">05. <a href="{{ route('blog.the-interesting-case-of-ip-cam') }}">The interesting case of IP cam</a></p>
+                            </div>
+                            <div class="col order-md-2 order-3">
+                                <p class="d-flex align-items-center mb-0">
+                                    <span class="badge bg-primary">Software</span>
+                                    <span class="badge bg-secondary">Source code</span>
+                                </p>
+                            </div>
+                            <div class="order-md-3 order-2 col-auto">
+                                <p class="mb-0">
+                                    <small>Published on 2024-01-12 at 04:49 AM</small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-between align-items-center gap-md-0 gap-1">
+                            <div class="order-md-1 order-1 col-auto">
                                 <p class="mb-0">04. <a href="{{ route('blog.otp-less-payment-system') }}">OTP-less payment system</a></p>
                             </div>
                             <div class="col order-md-2 order-3">

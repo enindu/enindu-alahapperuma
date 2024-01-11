@@ -23,6 +23,7 @@ Route::prefix('/')->group(function () {
     Route::get('/blog/dont-use-biometric-authentication', [BlogController::class, 'dontUseBiometricAuthentication'])->name('blog.dont-use-biometric-authentication');
     Route::get('/blog/decentralized-hacker-news', [BlogController::class, 'decentralizedHackerNews'])->name('blog.decentralized-hacker-news');
     Route::get('/blog/otp-less-payment-system', [BlogController::class, 'otpLessPaymentSystem'])->name('blog.otp-less-payment-system');
+    Route::get('/blog/the-interesting-case-of-ip-cam', [BlogController::class, 'theInterstingCaseOfIpCam'])->name('blog.the-interesting-case-of-ip-cam');
     Route::resource('/blog', BlogController::class)->only(['index']);
 });
 Route::prefix('/admin')->name('admin.')->group(function () {

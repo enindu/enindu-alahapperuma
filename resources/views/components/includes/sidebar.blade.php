@@ -46,6 +46,9 @@
                 <hr class="sidebar-divider">
             </li>
             <li class="nav-item">
+                <a {!! $id == 'blog.the-interesting-case-of-ip-cam' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.the-interesting-case-of-ip-cam' ? 'active' : '' }}" href="{{ route('blog.the-interesting-case-of-ip-cam') }}">The interesting case of...</a>
+            </li>
+            <li class="nav-item">
                 <a {!! $id == 'blog.otp-less-payment-system' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.otp-less-payment-system' ? 'active' : '' }}" href="{{ route('blog.otp-less-payment-system') }}">OTP-less payment system</a>
             </li>
             <li class="nav-item">

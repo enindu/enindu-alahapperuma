@@ -11,7 +11,7 @@
         </image>
         <description><![CDATA[I write articles about software engineering, back-end development, system administration, website security, and open source software, when I get bored.]]></description>
         <language>en-US</language>
-        <pubDate>Thu, 11 Jan 2024 16:09:00 +0530</pubDate>
+        <pubDate>Fri, 12 Jan 2024 04:49:00 +0530</pubDate>
         <item>
             <title><![CDATA[The story of enindu.com]]></title>
             <link>https://enindu.com/blog/the-story-of-enindu-com</link>
@@ -42,10 +42,19 @@
         <item>
             <title><![CDATA[OTP-less payment system]]></title>
             <link>https://enindu.com/blog/otp-less-payment-system</link>
-            <description><![CDATA[One of my friends needed a project, the final project for his bachelor's degree. Since he already worked in the financial sector, his idea was to create som...]]></description>
+            <description><![CDATA[One of my friends needed a project, the final project for his bachelor's degree. Since he already worked in the financial sector, his idea was to create some...]]></description>
             <author><![CDATA[enindu@gmail.com (Enindu Alahapperuma)]]></author>
             <guid>https://enindu.com/4</guid>
             <pubDate>Thu, 11 Jan 2024 16:09:00 +0530</pubDate>
+            <category>Architecture</category>
+        </item>
+        <item>
+            <title><![CDATA[The interesting case of IP cam]]></title>
+            <link>https://enindu.com/blog/the-interesting-case-of-ip-cam</link>
+            <description><![CDATA[I had a problem. I wanted to monitor my baby while I wasn't in the room; she was a newborn back then. In general, I work all over the house. If she cries, it...]]></description>
+            <author><![CDATA[enindu@gmail.com (Enindu Alahapperuma)]]></author>
+            <guid>https://enindu.com/5</guid>
+            <pubDate>Fri, 12 Jan 2024 04:49:00 +0530</pubDate>
             <category>Architecture</category>
         </item>
     </channel>
