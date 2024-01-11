@@ -24,7 +24,9 @@
     <meta content="{{ Vite::asset('resources/images/ms-application-tile-image.png') }}" name="msapplication-TileImage">
     <meta content="#000000" name="msapplication-TileColor">
     <title>{{ $title }} | {{ env('APP_NAME') }}</title>
-    <link href="{{ url()->current() }}" rel="canonical">
+    @if (request()->query->count() < 1)
+        <link href="{{ url()->current() }}" rel="canonical">
+    @endif
     <link href="https://webmention.io/enindu.com/webmention" rel="webmention">
     <link href="https://webmention.io/enindu.com/xmlrpc" rel="pingback">
     <link href="{{ url('rss.xml') }}" rel="alternate" title="{{ env('APP_NAME') }}" type="application/rss+xml">
