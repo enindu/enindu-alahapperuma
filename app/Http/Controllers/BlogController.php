@@ -29,6 +29,14 @@ class BlogController extends Controller
     }
 
     /**
+     * Display OTP-less payment system page
+     */
+    public function otpLessPaymentSystem()
+    {
+        return view('app.blog.otp-less-payment-system');
+    }
+
+    /**
      * Display a listing of the resource.
      */
     public function index()

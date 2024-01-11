@@ -11,7 +11,7 @@
         </image>
         <description><![CDATA[I write articles about software engineering, back-end development, system administration, website security, and open source software, when I get bored.]]></description>
         <language>en-US</language>
-        <pubDate>Wed, 10 Jan 2024 02:05:00 +0530</pubDate>
+        <pubDate>Thu, 11 Jan 2024 16:09:00 +0530</pubDate>
         <item>
             <title><![CDATA[The story of enindu.com]]></title>
             <link>https://enindu.com/blog/the-story-of-enindu-com</link>
@@ -33,10 +33,19 @@
         <item>
             <title><![CDATA[Decentralized Hacker News]]></title>
             <link>https://enindu.com/blog/decentralized-hacker-news</link>
-            <description><![CDATA[While scrolling through Hacker News, I randomly got this idea! I&#039;m not talking about only Hacker News, but a combination of Hacker News, Mastodon, and Reddit...]]></description>
+            <description><![CDATA[While scrolling through Hacker News, I randomly got this idea! I'm not talking about only Hacker News, but a combination of Hacker News, Mastodon, and Reddit...]]></description>
             <author><![CDATA[enindu@gmail.com (Enindu Alahapperuma)]]></author>
             <guid>https://enindu.com/3</guid>
             <pubDate>Wed, 10 Jan 2024 02:05:00 +0530</pubDate>
+            <category>Architecture</category>
+        </item>
+        <item>
+            <title><![CDATA[OTP-less payment system]]></title>
+            <link>https://enindu.com/blog/otp-less-payment-system</link>
+            <description><![CDATA[One of my friends needed a project, the final project for his bachelor's degree. Since he already worked in the financial sector, his idea was to create som...]]></description>
+            <author><![CDATA[enindu@gmail.com (Enindu Alahapperuma)]]></author>
+            <guid>https://enindu.com/4</guid>
+            <pubDate>Thu, 11 Jan 2024 16:09:00 +0530</pubDate>
             <category>Architecture</category>
         </item>
     </channel>

@@ -68,6 +68,12 @@
                 <hr class="sidebar-divider">
             </li>
             <li class="nav-item">
+                <a {!! $id == 'blog.otp-less-payment-system' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.otp-less-payment-system' ? 'active' : '' }}" href="{{ route('blog.otp-less-payment-system') }}">
+                    <i class="fa-solid fa-bookmark me-1"></i>
+                    <strong>OTP-less payment syst...</strong>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a {!! $id == 'blog.decentralized-hacker-news' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.decentralized-hacker-news' ? 'active' : '' }}" href="{{ route('blog.decentralized-hacker-news') }}">
                     <i class="fa-solid fa-bookmark me-1"></i>
                     <strong>Decentralized Hacker N...</strong>
