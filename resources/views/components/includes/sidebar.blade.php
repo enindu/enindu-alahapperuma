@@ -1,17 +1,11 @@
 <nav class="sidebar offcanvas-start offcanvas-xxl" id="sidebar" tabindex="-1">
-    <div class="offcanvas-header bg-body-tertiary border-bottom border-opacity-25">
+    <div class="offcanvas-header border-bottom">
         <div class="h-card">
-            <a class="sidebar-brand" href="{{ route('index') }}">
-                <strong class="p-name">{{ env('APP_NAME') }}</strong>
-            </a>
-            <p class="p-category mb-0">
-                <strong>Software engineer</strong>
-            </p>
-            <p class="p-country-name mb-0">
-                <strong>Sri Lanka</strong>
-            </p>
-            <p class="p-note mb-0">
-                <small>I'm a back-end developer, system administrator, and freelancer.</small>
+            <a class="sidebar-brand p-name" href="{{ route('index') }}">{{ env('APP_NAME') }}</a>
+            <p class="p-category mb-0">Software engineer</p>
+            <p class="p-country-name">Sri Lanka</p>
+            <p>
+                <small class="p-note">I'm a back-end developer, system administrator, and freelancer.</small>
             </p>
             <p class="mb-0">
                 <a class="u-url" href="{{ route('index') }}">
@@ -28,182 +22,103 @@
     <div class="offcanvas-body">
         <ul class="sidebar-nav">
             <li>
-                <h6 class="sidebar-header text-uppercase">
-                    <strong>Pages</strong>
-                </h6>
+                <h6 class="sidebar-header text-uppercase">Pages</h6>
             </li>
             <li>
                 <hr class="sidebar-divider">
             </li>
             <li class="nav-item">
-                <a {!! $id == 'index' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'index' ? 'active' : '' }}" href="{{ route('index') }}">
-                    <i class="fa-solid fa-home me-1"></i>
-                    <strong>Home</strong>
-                </a>
+                <a {!! $id == 'index' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'index' ? 'active' : '' }}" href="{{ route('index') }}">Home</a>
             </li>
             <li class="nav-item">
-                <a {!! $id == 'blog' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog' ? 'active' : '' }}" href="{{ route('blog.index') }}">
-                    <i class="fa-solid fa-newspaper me-1"></i>
-                    <strong>My blog</strong>
-                </a>
+                <a {!! $id == 'blog' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog' ? 'active' : '' }}" href="{{ route('blog.index') }}">My blog</a>
             </li>
             <li class="nav-item">
-                <a {!! $id == 'contact' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'contact' ? 'active' : '' }}" href="{{ route('contact.index') }}">
-                    <i class="fa-solid fa-comment me-1"></i>
-                    <strong>Contact me</strong>
-                </a>
+                <a {!! $id == 'contact' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'contact' ? 'active' : '' }}" href="{{ route('contact.index') }}">Contact me</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://www.buymeacoffee.com/enindu" target="_blank">
-                    <i class="fa-solid fa-mug-hot me-1"></i>
-                    <strong>Buy me a coffee</strong>
-                </a>
+                <a class="nav-link" href="https://www.buymeacoffee.com/enindu" target="_blank">Buy me a coffee</a>
             </li>
             <li class="mt-3">
-                <h6 class="sidebar-header text-uppercase">
-                    <strong>Latest articles</strong>
-                </h6>
+                <h6 class="sidebar-header text-uppercase">Latest articles</h6>
             </li>
             <li>
                 <hr class="sidebar-divider">
             </li>
             <li class="nav-item">
-                <a {!! $id == 'blog.otp-less-payment-system' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.otp-less-payment-system' ? 'active' : '' }}" href="{{ route('blog.otp-less-payment-system') }}">
-                    <i class="fa-solid fa-bookmark me-1"></i>
-                    <strong>OTP-less payment syst...</strong>
-                </a>
+                <a {!! $id == 'blog.otp-less-payment-system' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.otp-less-payment-system' ? 'active' : '' }}" href="{{ route('blog.otp-less-payment-system') }}">OTP-less payment system</a>
             </li>
             <li class="nav-item">
-                <a {!! $id == 'blog.decentralized-hacker-news' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.decentralized-hacker-news' ? 'active' : '' }}" href="{{ route('blog.decentralized-hacker-news') }}">
-                    <i class="fa-solid fa-bookmark me-1"></i>
-                    <strong>Decentralized Hacker N...</strong>
-                </a>
+                <a {!! $id == 'blog.decentralized-hacker-news' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.decentralized-hacker-news' ? 'active' : '' }}" href="{{ route('blog.decentralized-hacker-news') }}">Decentralized Hacker News</a>
             </li>
             <li class="nav-item">
-                <a {!! $id == 'blog.dont-use-biometric-authentication' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.dont-use-biometric-authentication' ? 'active' : '' }}" href="{{ route('blog.dont-use-biometric-authentication') }}">
-                    <i class="fa-solid fa-bookmark me-1"></i>
-                    <strong>Don't use biometric aut...</strong>
-                </a>
+                <a {!! $id == 'blog.dont-use-biometric-authentication' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.dont-use-biometric-authentication' ? 'active' : '' }}" href="{{ route('blog.dont-use-biometric-authentication') }}">Don't use biometric auth...</a>
             </li>
             <li class="nav-item">
-                <a {!! $id == 'blog.the-story-of-enindu-com' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.the-story-of-enindu-com' ? 'active' : '' }}" href="{{ route('blog.the-story-of-enindu-com') }}">
-                    <i class="fa-solid fa-bookmark me-1"></i>
-                    <strong>The story of enindu.com</strong>
-                </a>
+                <a {!! $id == 'blog.the-story-of-enindu-com' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.the-story-of-enindu-com' ? 'active' : '' }}" href="{{ route('blog.the-story-of-enindu-com') }}">The story of enindu.com</a>
             </li>
             <li class="mt-3">
-                <h6 class="sidebar-header text-uppercase">
-                    <strong>External links</strong>
-                </h6>
+                <h6 class="sidebar-header text-uppercase">External links</h6>
             </li>
             <li>
                 <hr class="sidebar-divider">
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://github.com/enindu" target="_blank">
-                    <i class="fa-brands fa-github me-1"></i>
-                    <strong>GitHub</strong>
-                </a>
+                <a class="nav-link" href="https://github.com/enindu" target="_blank">GitHub</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://gitlab.com/enindu" target="_blank">
-                    <i class="fa-brands fa-gitlab me-1"></i>
-                    <strong>GitLab</strong>
-                </a>
+                <a class="nav-link" href="https://gitlab.com/enindu" target="_blank">GitLab</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://linkedin.com/in/enindu" target="_blank">
-                    <i class="fa-brands fa-linkedin me-1"></i>
-                    <strong>LinkedIn</strong>
-                </a>
+                <a class="nav-link" href="https://linkedin.com/in/enindu" target="_blank">LinkedIn</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://mastodon.social/@enindu" target="_blank">
-                    <i class="fa-brands fa-mastodon me-1"></i>
-                    <strong>Mastodon</strong>
-                </a>
+                <a class="nav-link" href="https://mastodon.social/@enindu" target="_blank">Mastodon</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://twitter.com/Enindu" target="_blank">
-                    <i class="fa-brands fa-x-twitter me-1"></i>
-                    <strong>Twitter (X)</strong>
-                </a>
+                <a class="nav-link" href="https://twitter.com/Enindu" target="_blank">X (Twitter)</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://news.ycombinator.com/user?id=Enindu" target="_blank">
-                    <i class="fa-brands fa-hacker-news me-1"></i>
-                    <strong>Hacker News</strong>
-                </a>
+                <a class="nav-link" href="https://news.ycombinator.com/user?id=Enindu" target="_blank">Hacker News</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://medium.com/@Enindu" target="_blank">
-                    <i class="fa-brands fa-medium me-1"></i>
-                    <strong>Medium</strong>
-                </a>
+                <a class="nav-link" href="https://medium.com/@Enindu" target="_blank">Medium</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://www.reddit.com/user/Enindu" target="_blank">
-                    <i class="fa-brands fa-reddit me-1"></i>
-                    <strong>Reddit</strong>
-                </a>
+                <a class="nav-link" href="https://www.reddit.com/user/Enindu" target="_blank">Reddit</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://www.quora.com/profile/Enindu-Alahapperuma" target="_blank">
-                    <i class="fa-brands fa-quora me-1"></i>
-                    <strong>Quora</strong>
-                </a>
+                <a class="nav-link" href="https://www.quora.com/profile/Enindu-Alahapperuma" target="_blank">Quora</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://www.pinterest.com/enindu" target="_blank">
-                    <i class="fa-brands fa-pinterest me-1"></i>
-                    <strong>Pinterest</strong>
-                </a>
+                <a class="nav-link" href="https://www.pinterest.com/enindu" target="_blank">Pinterest</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://indieweb.org/User:Enindu.com" target="_blank">
-                    <i class="fa-solid fa-users me-1"></i>
-                    <strong>IndieWeb</strong>
-                </a>
+                <a class="nav-link" href="https://indieweb.org/User:Enindu.com" target="_blank">IndieWeb</a>
             </li>
             <li class="mt-3">
-                <h6 class="sidebar-header text-uppercase">
-                    <strong>Other links</strong>
-                </h6>
+                <h6 class="sidebar-header text-uppercase">Other links</h6>
             </li>
             <li>
                 <hr class="sidebar-divider">
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ url('sitemap.xml') }}">
-                    <i class="fa-solid fa-sitemap me-1"></i>
-                    <strong>Sitemap</strong>
-                </a>
+                <a class="nav-link" href="{{ url('sitemap.xml') }}">Sitemap</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ url('rss.xml') }}">
-                    <i class="fa-solid fa-rss me-1"></i>
-                    <strong>RSS</strong>
-                </a>
+                <a class="nav-link" href="{{ url('rss.xml') }}">RSS</a>
             </li>
             <li class="mt-3">
-                <h6 class="sidebar-header text-uppercase">
-                    <strong>Repository links</strong>
-                </h6>
+                <h6 class="sidebar-header text-uppercase">Repository links</h6>
             </li>
             <li>
                 <hr class="sidebar-divider">
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://github.com/enindu/enindu-alahapperuma/blob/master/LICENSE.md" target="_blank">
-                    <i class="fa-solid fa-id-card me-1"></i>
-                    <strong>MIT license</strong>
-                </a>
+                <a class="nav-link" href="https://github.com/enindu/enindu-alahapperuma/blob/master/LICENSE.md" target="_blank">MIT license</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://github.com/enindu/enindu-alahapperuma" target="_blank">
-                    <i class="fa-solid fa-code me-1"></i>
-                    <strong>Source code</strong>
-                </a>
+                <a class="nav-link" href="https://github.com/enindu/enindu-alahapperuma" target="_blank">Source code</a>
             </li>
         </ul>
     </div>

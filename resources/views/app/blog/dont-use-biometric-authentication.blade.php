@@ -21,6 +21,10 @@
                 <div class="card mt-3">
                     <div class="card-body">
                         <h1 class="p-name card-title" id="dont-use-biometric-authentication">{{ $title }}</h1>
+                    </div>
+                </div>
+                <div class="card mt-3">
+                    <div class="card-body">
                         <div class="d-flex flex-column gap-1">
                             <p class="mb-0">
                                 <small>By <a class="p-author h-card" href="{{ route('contact.index') }}">Enindu Alahapperuma</a> on <a class="u-url" href="{{ url()->current() }}"><time class="dt-published" datetime="{{ \Carbon\Carbon::parse('2024-01-09 at 07:55 PM')->toIso8601String() }}">2024-01-09 at 07:55 PM</time></a></small>

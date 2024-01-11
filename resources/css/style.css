@@ -1,26 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
 @import "../../node_modules/halfmoon/css/halfmoon.css";
-
 :root {
     --bs-border-radius: 0;
     --bs-border-radius-sm: 0;
-    --bs-border-radius-md: 0;
     --bs-border-radius-lg: 0;
     --bs-border-radius-xl: 0;
     --bs-border-radius-xxl: 0;
-    --bs-sidebar-width: 15rem;
-}
-html {
-    font-size: 120%;
+    --bs-font-sans-serif: "Martian Mono", monospace;
+    --bs-primary-hsl: 202, 80%, 24%;
+    --bs-secondary-hsl: 221, 39%, 11%;
 }
 body {
-    font-family: "M PLUS 2", sans-serif !important;
+    --bs-body-bg: #030712;
 }
-.row>* {
-    padding-right: var(--bs-spacer-3);
-    padding-left: var(--bs-spacer-3);
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1 {
+    --bs-heading-color: #0ea5e9;
+}
+a {
+    --bs-link-color-hsl: 199, 89%, 48%;
+    --bs-link-decoration: none;
+}
+a:hover {
+    --bs-link-hover-color-hsl: 200, 98%, 39%;
+    --bs-link-hover-decoration: none;
+}
+.sidebar {
+    --bs-sidebar-active-color: #0ea5e9;
+    --bs-sidebar-bg: #030712;
+    --bs-sidebar-border-color: #0ea5e9;
+    --bs-sidebar-brand-color: #0ea5e9;
+    --bs-sidebar-brand-hover-color: #0ea5e9;
+    --bs-sidebar-color: #f9fafb;
+    --bs-sidebar-hover-color: #f9fafb;
 }
 .sidebar-brand {
-    margin-right: 0;
+    font-weight: 800;
+}
+.card {
+    --bs-card-bg: #030712;
+    --bs-card-border-color: #0ea5e9;
+}
+.card-title {
+    --bs-card-title-color: #0ea5e9;
+    text-align: center;
+}
+.card-body {
+    --bs-card-color: #f9fafb;
+}
+.border-bottom {
+    --bs-border-color: #0ea5e9;
 }

@@ -21,6 +21,10 @@
                 <div class="card mt-3">
                     <div class="card-body">
                         <h1 class="p-name card-title" id="the-story-of-enindu-com">{{ $title }}</h1>
+                    </div>
+                </div>
+                <div class="card mt-3">
+                    <div class="card-body">
                         <div class="d-flex flex-column gap-1">
                             <p class="mb-0">
                                 <small>By <a class="p-author h-card" href="{{ route('contact.index') }}">Enindu Alahapperuma</a> on <a class="u-url" href="{{ url()->current() }}"><time class="dt-published" datetime="{{ \Carbon\Carbon::parse('2024-01-07 at 01:42 PM')->toIso8601String() }}">2024-01-07 at 01:42 PM</time></a></small>
@@ -62,7 +66,7 @@
                         </ul>
                         <p>I've also integrated <a href="https://marketingplatform.google.com/about/analytics" target="_blank">Google Analytics</a> into this website for traffic analysis. Yes, I confess, I'm too lazy to explore alternatives and have stuck with a <a href="https://en.wikipedia.org/wiki/Google" target="_blank">Google</a> product. While I have no intention of tracking or storing your data, be cautious while scrolling through this website—Google might have other plans.</p>
                         <h2 id="the-branding">The branding</h2>
-                        <p>I use the default colors of the Halfmoon framework. There is nothing new or exciting on this website in terms of colors. Perhaps, I will change them in the future, but who knows. <s>I tend to follow one branding tip for sure—I will never use images in the middle of website content. I decided to stick with the <a href="https://en.wikipedia.org/wiki/Minimalism" target="_blank">principle of minimalism</a>. So, this website will serve only text and nothing else.</s><sup>[<a href="{{ url()->current() }}#reference-2">2</a>]</sup></p>
+                        <p><s>I use the default colors of the Halfmoon framework. There is nothing new or exciting on this website in terms of colors. Perhaps, I will change them in the future, but who knows.</s><sup>[<a href="{{ url()->current() }}#reference-2">2</a>]</sup> <s>I tend to follow one branding tip for sure—I will never use images in the middle of website content. I decided to stick with the <a href="https://en.wikipedia.org/wiki/Minimalism" target="_blank">principle of minimalism</a>. So, this website will serve only text and nothing else.</s><sup>[<a href="{{ url()->current() }}#reference-3">3</a>]</sup></p>
                         <p>However, I have used images for the favicon, Apple touch icon, MS application tile image, and the <a href="https://ogp.me" target="_blank">Open Graph (OG)</a> image. I use only one OG image across the website. All of the images have only one symbol—the symbol of <a href="https://en.wikipedia.org/wiki/Jolly_Roger" target="_blank">Jolly Roger</a>, the flag of pirates. Specifically, the flag of <a href="https://en.wikipedia.org/wiki/Samuel_Bellamy" target="_blank">Samuel Bellamy</a>, also known as "The Black Sam," "The Prince of Pirates," or <a href="https://en.wikipedia.org/wiki/Samuel_Bellamy#cite_note-ForbesRank-2" target="_blank">the wealthiest pirate of all time, according to Forbes</a>. So, I don't hold the copyright for that image. I obtained it from <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a>. This image is licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY-SA 3.0</a>. You can see the original work and artists from <a href="https://commons.wikimedia.org/wiki/File:Flag_of_Edward_England.svg" target="_blank">this link</a>. Regarding the license, I must define the changes I made. I just cropped it, nothing more.</p>
                         <h2 id="disclaimer">Disclaimer</h2>
                         <p>All provided links are legitimate. Each of them is linked to either their Wikipedia pages or their official pages. These links are provided to help readers grasp the content more effectively. I have no intention to track you, steal your information, redirect you to annoying advertisements, or anything of the sort. However, please be reminded that I have integrated Google Analytics, and Google might track your activity.</p>
@@ -71,7 +75,8 @@
                         <h2 id="reference">Reference</h2>
                         <ol class="mb-0">
                             <li id="reference-1">I had to move to an EC2 server because the company's testing server had expired.</li>
-                            <li id="reference-2">This website will serve images on certain pages, such as the portfolio page (If I ever create one), certain articles (Whenever diagrams are necessary), and so on. However, I prefer to adhere to the principle of minimalism. Therefore, there will be images, but only a few.</li>
+                            <li id="reference-2">I have changed the theme color. This time, I chose <a href="https://tailwindcss.com/docs/customizing-colors" target="_blank">Tailwind colors</a> instead of Halfmoon colors. So, this will be my branding.</li>
+                            <li id="reference-3">This website will serve images on certain pages, such as the portfolio page (If I ever create one), certain articles (Whenever diagrams are necessary), and so on. However, I prefer to adhere to the principle of minimalism. Therefore, there will be images, but only a few.</li>
                         </ol>
                     </div>
                 </div>

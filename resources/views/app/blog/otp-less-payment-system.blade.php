@@ -21,6 +21,10 @@
                 <div class="card mt-3">
                     <div class="card-body">
                         <h1 class="p-name card-title" id="otp-less-payment-system">{{ $title }}</h1>
+                    </div>
+                </div>
+                <div class="card mt-3">
+                    <div class="card-body">
                         <div class="d-flex flex-column gap-1">
                             <p class="mb-0">
                                 <small>By <a class="p-author h-card" href="{{ route('contact.index') }}">Enindu Alahapperuma</a> on <a class="u-url" href="{{ url()->current() }}"><time class="dt-published" datetime="{{ \Carbon\Carbon::parse('2024-01-11 at 04:09 PM')->toIso8601String() }}">2024-01-11 at 04:09 PM</time></a></small>
@@ -43,8 +47,8 @@
                         <p>Given his familiarity with issues in his field, we decided to develop a payment system without a <a href="https://en.wikipedia.org/wiki/One-time_password" target="_blank">One-Time Password (OTP)</a>. I don't know about other countries, but in my country, OTP is mandatory for fraud protection. However, the problem persisted because, despite OTP being designed to protect users from fraud, some attackers still managed to bypass the system by deceiving users. Most users were unaware of OTPs or frauds, viewing the OTP process as troublesome. Almost all OTPs were sent to their phone number or email address. If a phone number isn't used for more than 6 months, service providers may cancel it without notification, potentially allowing unknown individuals to access OTPs, constituting a significant security breach. Additionally, network coverage issues caused delays and unresponsiveness. From my perspective, the actual solution was to educate people and service providers rather than building a new payment system.</p>
                         <p>Given his daily interactions with such customers, my friend was well aware of this issue. Hence, we decided to create a payment system, specifically a payment process without OTPs. So, I designed the architecture.</p>
                         <h2 id="diagram">Diagram</h2>
-                        <p>
-                            <img alt="{{ str(env('APP_NAME')) }} otp-less payment system" class="img-fluid" src="{{ Vite::asset('resources/images/otp-less-payment-system.svg') }}" width="100%">
+                        <p class="text-center">
+                            <img alt="{{ str(env('APP_NAME')) }} otp-less payment system" class="img-fluid" src="{{ Vite::asset('resources/images/otp-less-payment-system.png') }}">
                         </p>
                         <p>Let me break this down.</p>
                         <p>This system has four components. The fourth component, the core component, is managed by the bank. Although not directly depicted in this architecture, it's included to avoid any confusion.</p>
