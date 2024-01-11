@@ -25,9 +25,9 @@
                             <p class="mb-0">
                                 <small>By <a class="p-author h-card" href="{{ route('contact.index') }}">Enindu Alahapperuma</a> on <a class="u-url" href="{{ url()->current() }}"><time class="dt-published" datetime="{{ \Carbon\Carbon::parse('2024-01-11 at 04:09 PM')->toIso8601String() }}">2024-01-11 at 04:09 PM</time></a></small>
                             </p>
-                            {{-- <p class="mb-1">
-                                <small>POSSE: <a class="u-syndication" href="https://medium.com/@Enindu/decentralized-hacker-news-e0fd8424dcb1" target="_blank">Medium</a>, <a class="u-syndication" href="https://mastodon.social/@enindu/111728070625359671" target="_blank">Mastodon</a>, <a class="u-syndication" href="https://twitter.com/Enindu/status/1744831420206579735" target="_blank">Twitter (X)</a>, <a class="u-syndication" href="https://news.ycombinator.com/item?id=38932459" target="_blank">Hacker News</a></small>
-                            </p> --}}
+                            <p class="mb-1">
+                                <small>POSSE: <a class="u-syndication" href="https://medium.com/@Enindu/otp-less-payment-system-173d7b683c17" target="_blank">Medium</a>, <a class="u-syndication" href="https://mastodon.social/@enindu/111737066126532703" target="_blank">Mastodon</a>, <a class="u-syndication" href="https://twitter.com/Enindu/status/1745406911187755144" target="_blank">Twitter (X)</a>, <a class="u-syndication" href="https://github.com/enindu/otp-less-payment-system" target="_blank">GitHub</a></small>
+                            </p>
                             <p class="d-flex align-items-center mb-0">
                                 <span class="p-category badge bg-primary">Architecture</span>
                                 <span class="badge bg-secondary">Idea</span>
