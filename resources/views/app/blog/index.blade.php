@@ -33,7 +33,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="row justify-content-between align-items-center gap-md-0 gap-1">
+                        <div class="row justify-content-between align-items-center gap-md-0 mt-3 gap-1">
                             <div class="order-md-1 order-1 col-auto">
                                 <p class="mb-0">04. <a href="{{ route('blog.otp-less-payment-system') }}">OTP-less payment system</a></p>
                             </div>
