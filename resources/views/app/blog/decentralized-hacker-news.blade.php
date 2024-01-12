@@ -33,8 +33,8 @@
                                 <small>POSSE: <a class="u-syndication" href="https://medium.com/@Enindu/decentralized-hacker-news-e0fd8424dcb1" target="_blank">Medium</a>, <a class="u-syndication" href="https://mastodon.social/@enindu/111728070625359671" target="_blank">Mastodon</a>, <a class="u-syndication" href="https://twitter.com/Enindu/status/1744831420206579735" target="_blank">X (Twitter)</a>, <a class="u-syndication" href="https://news.ycombinator.com/item?id=38932459" target="_blank">Hacker News</a></small>
                             </p>
                             <p class="d-flex align-items-center mb-0">
-                                <span class="p-category badge bg-primary">Architecture</span>
-                                <span class="badge bg-secondary">Idea</span>
+                                <span class="p-category badge me-1 border">Architecture</span>
+                                <span class="badge border">Idea</span>
                             </p>
                         </div>
                     </div>

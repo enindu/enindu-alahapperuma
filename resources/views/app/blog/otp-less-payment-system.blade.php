@@ -33,8 +33,8 @@
                                 <small>POSSE: <a class="u-syndication" href="https://medium.com/@Enindu/otp-less-payment-system-173d7b683c17" target="_blank">Medium</a>, <a class="u-syndication" href="https://mastodon.social/@enindu/111737066126532703" target="_blank">Mastodon</a>, <a class="u-syndication" href="https://twitter.com/Enindu/status/1745406911187755144" target="_blank">X (Twitter)</a>, <a class="u-syndication" href="https://github.com/enindu/otp-less-payment-system" target="_blank">GitHub</a></small>
                             </p>
                             <p class="d-flex align-items-center mb-0">
-                                <span class="p-category badge bg-primary">Architecture</span>
-                                <span class="badge bg-secondary">Idea</span>
+                                <span class="p-category badge me-1 border">Architecture</span>
+                                <span class="badge border">Idea</span>
                             </p>
                         </div>
                     </div>

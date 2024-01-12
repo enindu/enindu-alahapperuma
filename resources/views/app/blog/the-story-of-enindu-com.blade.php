@@ -33,8 +33,8 @@
                                 <small>POSSE: <a class="u-syndication" href="https://medium.com/@Enindu/the-story-of-enindu-com-273fcc6c8ba5" target="_blank">Medium</a>, <a class="u-syndication" href="https://mastodon.social/@enindu/111726673128373880" target="_blank">Mastodon</a>, <a class="u-syndication" href="https://twitter.com/Enindu/status/1744738386152489202" target="_blank">X (Twitter)</a></small>
                             </p>
                             <p class="d-flex align-items-center mb-0">
-                                <span class="p-category badge bg-primary">General</span>
-                                <span class="badge bg-secondary">Website</span>
+                                <span class="p-category badge me-1 border">General</span>
+                                <span class="badge border">Website</span>
                             </p>
                         </div>
                     </div>

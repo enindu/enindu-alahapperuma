@@ -23,8 +23,8 @@
                             </div>
                             <div class="col order-md-2 mt-md-0 order-3 mt-1">
                                 <p class="d-flex align-items-center mb-0">
-                                    <span class="badge bg-primary">Software</span>
-                                    <span class="badge bg-secondary">Source code</span>
+                                    <span class="badge me-1 border">Software</span>
+                                    <span class="badge border">Source code</span>
                                 </p>
                             </div>
                             <div class="order-md-3 order-2 col-auto">
@@ -39,8 +39,8 @@
                             </div>
                             <div class="col order-md-2 mt-md-0 order-3 mt-1">
                                 <p class="d-flex align-items-center mb-0">
-                                    <span class="badge bg-primary">Architecture</span>
-                                    <span class="badge bg-secondary">Idea</span>
+                                    <span class="badge me-1 border">Architecture</span>
+                                    <span class="badge border">Idea</span>
                                 </p>
                             </div>
                             <div class="order-md-3 order-2 col-auto">
@@ -55,8 +55,8 @@
                             </div>
                             <div class="col order-md-2 mt-md-0 order-3 mt-1">
                                 <p class="d-flex align-items-center mb-0">
-                                    <span class="badge bg-primary">Architecture</span>
-                                    <span class="badge bg-secondary">Idea</span>
+                                    <span class="badge me-1 border">Architecture</span>
+                                    <span class="badge border">Idea</span>
                                 </p>
                             </div>
                             <div class="order-md-3 order-2 col-auto">
@@ -71,8 +71,8 @@
                             </div>
                             <div class="col order-md-2 mt-md-0 order-3 mt-1">
                                 <p class="d-flex align-items-center mb-0">
-                                    <span class="badge bg-primary">Cybersecurity</span>
-                                    <span class="badge bg-secondary">Authentication</span>
+                                    <span class="badge me-1 border">Cybersecurity</span>
+                                    <span class="badge border">Authentication</span>
                                 </p>
                             </div>
                             <div class="order-md-3 order-2 col-auto">
@@ -87,8 +87,8 @@
                             </div>
                             <div class="col order-md-2 mt-md-0 order-3 mt-1">
                                 <p class="d-flex align-items-center mb-0">
-                                    <span class="badge bg-primary">General</span>
-                                    <span class="badge bg-secondary">Website</span>
+                                    <span class="badge me-1 border">General</span>
+                                    <span class="badge border">Website</span>
                                 </p>
                             </div>
                             <div class="order-md-3 order-2 col-auto">

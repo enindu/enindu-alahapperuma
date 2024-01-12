@@ -33,8 +33,8 @@
                                 <small>POSSE: <a class="u-syndication" href="https://medium.com/@Enindu/dont-use-biometric-authentication-361210bf7846" target="_blank">Medium</a>, <a class="u-syndication" href="https://mastodon.social/@enindu/111726699863263757" target="_blank">Mastodon</a>, <a class="u-syndication" href="https://twitter.com/Enindu/status/1744742621468414018" target="_blank">X (Twitter)</a></small>
                             </p>
                             <p class="d-flex align-items-center mb-0">
-                                <span class="p-category badge bg-primary">Cybersecurity</span>
-                                <span class="badge bg-secondary">Authentication</span>
+                                <span class="p-category badge me-1 border">Cybersecurity</span>
+                                <span class="badge border">Authentication</span>
                             </p>
                         </div>
                     </div>

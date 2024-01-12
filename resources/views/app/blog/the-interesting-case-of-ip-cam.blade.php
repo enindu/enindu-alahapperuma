@@ -33,8 +33,8 @@
                                 <small>POSSE: <a class="u-syndication" href="https://medium.com/@Enindu/the-interesting-case-of-ip-cam-33c95164e37a" target="_blank">Medium</a>, <a class="u-syndication" href="https://mastodon.social/@enindu/111739974984422394" target="_blank">Mastodon</a>, <a class="u-syndication" href="https://twitter.com/Enindu/status/1745593518234710082" target="_blank">X (Twitter)</a></small>
                             </p>
                             <p class="d-flex align-items-center mb-0">
-                                <span class="p-category badge bg-primary">Software</span>
-                                <span class="badge bg-secondary">Source code</span>
+                                <span class="p-category badge me-1 border">Software</span>
+                                <span class="badge me-1 border">Source code</span>
                             </p>
                         </div>
                     </div>

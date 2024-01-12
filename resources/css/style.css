@@ -7,8 +7,9 @@
     --bs-border-radius-xl: 0;
     --bs-border-radius-xxl: 0;
     --bs-font-sans-serif: "Martian Mono", monospace;
-    --bs-primary-hsl: 202, 80%, 24%;
-    --bs-secondary-hsl: 221, 39%, 11%;
+}
+[data-bs-theme="dark"] {
+    --bs-border-color: #0ea5e9;
 }
 body {
     --bs-body-bg: #030712;
@@ -61,6 +62,10 @@ a:hover {
     --bs-btn-hover-border-color: #0ea5e9;
     --bs-btn-hover-color: #0ea5e9;
     --bs-btn-color: #0ea5e9;
+}
+.badge {
+    --bs-badge-bg: #030712;
+    --bs-badge-color: #0ea5e9;
 }
 .border-bottom {
     --bs-border-color: #0ea5e9;
