@@ -14,6 +14,11 @@
     </div>
     <div class="card mt-3">
         <div class="card-body">
+            <p class="mb-0">Welcome to my fixed-width world! Every single thing in here is confined to a specific width, ensuring that each element receives an equal amount of space, just like every character. However, borders are not fixed-width. Are we constrained by these borders that do not align with the fixed-width concept of this world? We might require borders to organize the content, or perhaps not. By the way, I am the designer, and I can always do whatever I want with those borders. I design my world! The only question is, do we truly need borders?</p>
+        </div>
+    </div>
+    <div class="card mt-3">
+        <div class="card-body">
             <h2 id="who-am-i">Who am I?</h2>
             <p>Greetings, I am Enindu Alahapperuma, a seasoned <a href="https://en.wikipedia.org/wiki/Software_engineering" target="_blank">software engineer</a>, <a href="https://en.wikipedia.org/wiki/Frontend_and_backend#Backend_focused" target="_blank">back-end developer</a>, and website security expert with a flair for <a href="https://en.wikipedia.org/wiki/System_administrator" target="_blank">system administration</a> and a touch of <a href="https://en.wikipedia.org/wiki/Logo#Logo_design" target="_blank">logo design</a>. With {{ \Carbon\Carbon::parse('2018-05-01')->diffInYears(now()) }}+ years of experience in the field, I proudly representing the vibrant tech scene of <a href="https://en.wikipedia.org/wiki/Sri_Lanka" target="_blank">Sri Lanka</a>. My passion and expertise revolve around back-end development and ensuring robust <a href="https://en.wikipedia.org/wiki/Systems_architecture" target="_blank">system architectures</a>.</p>
             <h2 id="i-am-a-back-end-developer">I am a back-end developer</h2>
