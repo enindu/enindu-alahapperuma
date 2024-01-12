@@ -21,7 +21,7 @@
                             <div class="order-md-1 order-1 col-auto">
                                 <p class="mb-0">05. <a href="{{ route('blog.the-interesting-case-of-ip-cam') }}">The interesting case of IP cam</a></p>
                             </div>
-                            <div class="col order-md-2 order-3">
+                            <div class="col order-md-2 mt-md-0 order-3 mt-1">
                                 <p class="d-flex align-items-center mb-0">
                                     <span class="badge bg-primary">Software</span>
                                     <span class="badge bg-secondary">Source code</span>
@@ -37,7 +37,7 @@
                             <div class="order-md-1 order-1 col-auto">
                                 <p class="mb-0">04. <a href="{{ route('blog.otp-less-payment-system') }}">OTP-less payment system</a></p>
                             </div>
-                            <div class="col order-md-2 order-3">
+                            <div class="col order-md-2 mt-md-0 order-3 mt-1">
                                 <p class="d-flex align-items-center mb-0">
                                     <span class="badge bg-primary">Architecture</span>
                                     <span class="badge bg-secondary">Idea</span>
@@ -53,7 +53,7 @@
                             <div class="order-md-1 order-1 col-auto">
                                 <p class="mb-0">03. <a href="{{ route('blog.decentralized-hacker-news') }}">Decentralized Hacker News</a></p>
                             </div>
-                            <div class="col order-md-2 order-3">
+                            <div class="col order-md-2 mt-md-0 order-3 mt-1">
                                 <p class="d-flex align-items-center mb-0">
                                     <span class="badge bg-primary">Architecture</span>
                                     <span class="badge bg-secondary">Idea</span>
@@ -69,7 +69,7 @@
                             <div class="order-md-1 order-1 col-auto">
                                 <p class="mb-0">02. <a href="{{ route('blog.dont-use-biometric-authentication') }}">Don't use biometric authentication</a></p>
                             </div>
-                            <div class="col order-md-2 order-3">
+                            <div class="col order-md-2 mt-md-0 order-3 mt-1">
                                 <p class="d-flex align-items-center mb-0">
                                     <span class="badge bg-primary">Cybersecurity</span>
                                     <span class="badge bg-secondary">Authentication</span>
@@ -85,7 +85,7 @@
                             <div class="order-md-1 order-1 col-auto">
                                 <p class="mb-0">01. <a href="{{ route('blog.the-story-of-enindu-com') }}">The story of enindu.com</a></p>
                             </div>
-                            <div class="col order-md-2 order-3">
+                            <div class="col order-md-2 mt-md-0 order-3 mt-1">
                                 <p class="d-flex align-items-center mb-0">
                                     <span class="badge bg-primary">General</span>
                                     <span class="badge bg-secondary">Website</span>
