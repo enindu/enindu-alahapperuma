@@ -25,6 +25,10 @@ a:hover {
     --bs-link-hover-color-hsl: 200, 98%, 39%;
     --bs-link-hover-decoration: none;
 }
+.row>* {
+    padding-left: var(--bs-spacer-3);
+    padding-right: var(--bs-spacer-3);
+}
 .navbar {
     --bs-navbar-brand-color: #0ea5e9;
 }

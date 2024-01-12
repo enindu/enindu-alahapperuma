@@ -74,7 +74,7 @@
                         <p>As of now, I don't have any specific plans for the future of this website. Who knows, I might integrate a database system, create an advanced system, establish a brand using my name, or convert this website into a freelancer's portfolio. One thing is certain—I will continue to write articles because I get bored very easily. Stay tuned for more updates.</p>
                         <h2 id="reference">Reference</h2>
                         <ol class="mb-0">
-                            <li id="reference-1">I have removed the Fontawesome library.</li>
+                            <li id="reference-1">I have removed the Font Awesome library.</li>
                             <li id="reference-2">I had to move to an EC2 server because the company's testing server had expired.</li>
                             <li id="reference-3">I have changed the theme color. This time, I chose <a href="https://tailwindcss.com/docs/customizing-colors" target="_blank">Tailwind colors</a> instead of Halfmoon colors. So, this will be my branding.</li>
                             <li id="reference-4">This website will serve images on certain pages, such as the portfolio page (If I ever create one), certain articles (Whenever diagrams are necessary), and so on. However, I prefer to adhere to the principle of minimalism. Therefore, there will be images, but only a few.</li>
