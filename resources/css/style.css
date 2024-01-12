@@ -34,6 +34,7 @@ a:hover {
     --bs-sidebar-brand-color: #0ea5e9;
     --bs-sidebar-brand-hover-color: #0ea5e9;
     --bs-sidebar-color: #f9fafb;
+    --bs-sidebar-header-font-weight: 800;
     --bs-sidebar-hover-color: #f9fafb;
 }
 .sidebar-brand {

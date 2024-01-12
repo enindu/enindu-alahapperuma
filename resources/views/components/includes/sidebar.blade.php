@@ -24,9 +24,6 @@
             <li>
                 <h6 class="sidebar-header text-uppercase">Pages</h6>
             </li>
-            <li>
-                <hr class="sidebar-divider">
-            </li>
             <li class="nav-item">
                 <a {!! $id == 'index' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'index' ? 'active' : '' }}" href="{{ route('index') }}">Home</a>
             </li>
@@ -41,9 +38,6 @@
             </li>
             <li class="mt-3">
                 <h6 class="sidebar-header text-uppercase">Latest articles</h6>
-            </li>
-            <li>
-                <hr class="sidebar-divider">
             </li>
             <li class="nav-item">
                 <a {!! $id == 'blog.the-interesting-case-of-ip-cam' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.the-interesting-case-of-ip-cam' ? 'active' : '' }}" href="{{ route('blog.the-interesting-case-of-ip-cam') }}">The interesting case of...</a>
@@ -62,9 +56,6 @@
             </li>
             <li class="mt-3">
                 <h6 class="sidebar-header text-uppercase">External links</h6>
-            </li>
-            <li>
-                <hr class="sidebar-divider">
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://github.com/enindu" target="_blank">GitHub</a>
@@ -102,9 +93,6 @@
             <li class="mt-3">
                 <h6 class="sidebar-header text-uppercase">Other links</h6>
             </li>
-            <li>
-                <hr class="sidebar-divider">
-            </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{ url('sitemap.xml') }}">Sitemap</a>
             </li>
@@ -113,9 +101,6 @@
             </li>
             <li class="mt-3">
                 <h6 class="sidebar-header text-uppercase">Repository links</h6>
-            </li>
-            <li>
-                <hr class="sidebar-divider">
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://github.com/enindu/enindu-alahapperuma/blob/master/LICENSE.md" target="_blank">MIT license</a>
