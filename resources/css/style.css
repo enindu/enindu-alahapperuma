@@ -24,6 +24,9 @@ a:hover {
     --bs-link-hover-color-hsl: 200, 98%, 39%;
     --bs-link-hover-decoration: none;
 }
+.navbar {
+    --bs-navbar-brand-color: #0ea5e9;
+}
 .sidebar {
     --bs-sidebar-active-color: #0ea5e9;
     --bs-sidebar-bg: #030712;
@@ -46,6 +49,17 @@ a:hover {
 }
 .card-body {
     --bs-card-color: #f9fafb;
+}
+.btn-secondary {
+    --bs-btn-active-bg: #030712;
+    --bs-btn-active-border-color: #0ea5e9;
+    --bs-btn-active-color: #0ea5e9;
+    --bs-btn-bg: #030712;
+    --bs-btn-border-color: #0ea5e9;
+    --bs-btn-hover-bg: #030712;
+    --bs-btn-hover-border-color: #0ea5e9;
+    --bs-btn-hover-color: #0ea5e9;
+    --bs-btn-color: #0ea5e9;
 }
 .border-bottom {
     --bs-border-color: #0ea5e9;

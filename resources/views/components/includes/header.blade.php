@@ -1,10 +1,6 @@
-<nav class="navbar navbar-expand-xxl bg-body-tertiary border-bottom d-flex d-xxl-none border-opacity-25">
+<nav class="navbar navbar-expand-xxl border-bottom d-flex d-xxl-none">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ route('index') }}">
-            <strong>{{ env('APP_NAME') }}</strong>
-        </a>
-        <button class="btn btn-secondary" data-bs-target="#sidebar" data-bs-toggle="offcanvas" type="button">
-            <i class="fa-solid fa-bars"></i>
-        </button>
+        <a class="navbar-brand" href="{{ route('index') }}">{{ env('APP_NAME') }}</a>
+        <button class="btn btn-secondary" data-bs-target="#sidebar" data-bs-toggle="offcanvas" type="button">Menu</button>
     </div>
 </nav>
