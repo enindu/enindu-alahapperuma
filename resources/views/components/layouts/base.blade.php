@@ -41,7 +41,14 @@
 <body class="ps-xxl-sbwidth">
     <x-includes.header />
     <x-includes.sidebar :id="$id" />
-    {{ $slot }}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                {{ $slot }}
+                <x-includes.footer />
+            </div>
+        </div>
+    </div>
     @vite('resources/js/script.js')
 </body>
 
