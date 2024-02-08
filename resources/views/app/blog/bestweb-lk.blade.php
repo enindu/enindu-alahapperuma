@@ -27,9 +27,9 @@
                     <p class="mb-0">
                         <small>By <a class="p-author h-card" href="{{ route('contact.index') }}">Enindu Alahapperuma</a> on <a class="u-url" href="{{ url()->current() }}"><time class="dt-published" datetime="{{ \Carbon\Carbon::parse('2024-02-08 at 09:12 PM')->toIso8601String() }}">2024-02-08 at 09:12 PM</time></a></small>
                     </p>
-                    {{-- <p class="mb-1">
-                        <small>POSSE: <a class="u-syndication" href="https://medium.com/@Enindu/the-interesting-case-of-ip-cam-33c95164e37a" target="_blank">Medium</a>, <a class="u-syndication" href="https://mastodon.social/@enindu/111739974984422394" target="_blank">Mastodon</a>, <a class="u-syndication" href="https://twitter.com/Enindu/status/1745593518234710082" target="_blank">X (Twitter)</a></small>
-                    </p> --}}
+                    <p class="mb-1">
+                        <small>POSSE: <a class="u-syndication" href="https://medium.com/@Enindu/bestweb-lk-12da77223f9e" target="_blank">Medium</a>, <a class="u-syndication" href="https://mastodon.social/@enindu/111896768566333465" target="_blank">Mastodon</a>, <a class="u-syndication" href="https://twitter.com/Enindu/status/1755628128859255105" target="_blank">X (Twitter)</a></small>
+                    </p>
                     <p class="d-flex align-items-center mb-0">
                         <span class="p-category badge me-1 border">Discussion</span>
                         <span class="badge me-1 border">Website competition</span>
