@@ -11,7 +11,7 @@
         </image>
         <description><![CDATA[I write articles about software engineering, back-end development, system administration, website security, and open source software, when I get bored.]]></description>
         <language>en-US</language>
-        <pubDate>Fri, 12 Jan 2024 04:49:00 +0530</pubDate>
+        <pubDate>Thu, 08 Feb 2024 09:12:00 +0530</pubDate>
         <item>
             <title><![CDATA[The story of enindu.com]]></title>
             <link>https://enindu.com/blog/the-story-of-enindu-com</link>
@@ -56,6 +56,15 @@
             <guid>https://enindu.com/5</guid>
             <pubDate>Fri, 12 Jan 2024 04:49:00 +0530</pubDate>
             <category>Architecture</category>
+        </item>
+        <item>
+            <title><![CDATA[BestWeb.lk]]></title>
+            <link>https://enindu.com/blog/bestweb-lk</link>
+            <description><![CDATA[In Sri Lanka, we have BestWeb.lk, a competition for websites organised annually by the LK Domain Registry. The rules are simple. If you have a website with a...]]></description>
+            <author><![CDATA[enindu@gmail.com (Enindu Alahapperuma)]]></author>
+            <guid>https://enindu.com/6</guid>
+            <pubDate>Thu, 08 Feb 2024 09:12:00 +0530</pubDate>
+            <category>Discussion</category>
         </item>
     </channel>
 </rss>

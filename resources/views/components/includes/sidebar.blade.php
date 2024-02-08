@@ -40,6 +40,9 @@
                 <h6 class="sidebar-header text-uppercase">Latest articles</h6>
             </li>
             <li class="nav-item">
+                <a {!! $id == 'blog.bestweb-lk' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.bestweb-lk' ? 'active' : '' }}" href="{{ route('blog.bestweb-lk') }}">BestWeb.lk</a>
+            </li>
+            <li class="nav-item">
                 <a {!! $id == 'blog.the-interesting-case-of-ip-cam' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.the-interesting-case-of-ip-cam' ? 'active' : '' }}" href="{{ route('blog.the-interesting-case-of-ip-cam') }}">The interesting case of...</a>
             </li>
             <li class="nav-item">
@@ -50,9 +53,6 @@
             </li>
             <li class="nav-item">
                 <a {!! $id == 'blog.dont-use-biometric-authentication' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.dont-use-biometric-authentication' ? 'active' : '' }}" href="{{ route('blog.dont-use-biometric-authentication') }}">Don't use biometric auth...</a>
-            </li>
-            <li class="nav-item">
-                <a {!! $id == 'blog.the-story-of-enindu-com' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.the-story-of-enindu-com' ? 'active' : '' }}" href="{{ route('blog.the-story-of-enindu-com') }}">The story of enindu.com</a>
             </li>
             <li class="mt-3">
                 <h6 class="sidebar-header text-uppercase">External links</h6>

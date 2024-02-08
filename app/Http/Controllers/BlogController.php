@@ -45,6 +45,14 @@ class BlogController extends Controller
     }
 
     /**
+     * Display BestWeb.lk page
+     */
+    public function bestWebLk()
+    {
+        return view('app.blog.bestweb-lk');
+    }
+
+    /**
      * Display a listing of the resource.
      */
     public function index()
