@@ -28,7 +28,7 @@
                         <small>By <a class="p-author h-card" href="{{ route('contact.index') }}">Enindu Alahapperuma</a> on <a class="u-url" href="{{ url()->current() }}"><time class="dt-published" datetime="{{ \Carbon\Carbon::parse('2024-01-07 at 01:42 PM')->toIso8601String() }}">2024-01-07 at 01:42 PM</time></a></small>
                     </p>
                     <p class="mb-1">
-                        <small>POSSE: <a class="u-syndication" href="https://medium.com/@Enindu/the-story-of-enindu-com-273fcc6c8ba5" target="_blank">Medium</a>, <a class="u-syndication" href="https://mastodon.social/@enindu/111726673128373880" target="_blank">Mastodon</a>, <a class="u-syndication" href="https://twitter.com/Enindu/status/1744738386152489202" target="_blank">X (Twitter)</a></small>
+                        <small>POSSE: <a class="u-syndication" href="https://mastodon.social/@enindu/111726673128373880" target="_blank">Mastodon</a>, <a class="u-syndication" href="https://twitter.com/Enindu/status/1744738386152489202" target="_blank">X (Twitter)</a>, <a class="u-syndication" href="https://www.linkedin.com/feed/update/urn:li:activity:7162147009934610433" target="_blank">LinkedIn</a></small>
                     </p>
                     <p class="d-flex align-items-center mb-0">
                         <span class="p-category badge me-1 border">General</span>
