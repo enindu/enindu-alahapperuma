@@ -90,6 +90,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="https://indieweb.org/User:Enindu.com" target="_blank">IndieWeb</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://xynosync.com" target="_blank">XynoSync</a>
+            </li>
             <li class="mt-3">
                 <h6 class="sidebar-header text-uppercase">Other links</h6>
             </li>
