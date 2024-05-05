@@ -28,7 +28,7 @@
                         <small>By <a class="p-author h-card" href="{{ route('contact.index') }}">Enindu Alahapperuma</a> on <a class="u-url" href="{{ url()->current() }}"><time class="dt-published" datetime="{{ \Carbon\Carbon::parse('2024-05-05 at 09:32 AM')->toIso8601String() }}">2024-05-05 at 09:32 AM</time></a></small>
                     </p>
                     <p class="mb-1">
-                        {{-- <small>POSSE: <a class="u-syndication" href="https://mastodon.social/@enindu/111726673128373880" target="_blank">Mastodon</a>, <a class="u-syndication" href="https://twitter.com/Enindu/status/1744738386152489202" target="_blank">X (Twitter)</a>, <a class="u-syndication" href="https://www.linkedin.com/feed/update/urn:li:activity:7162147009934610433" target="_blank">LinkedIn</a></small> --}}
+                        <small>POSSE: <a class="u-syndication" href="https://medium.com/@Enindu/xynosync-web-design-and-development-company-in-sri-lanka-b4a5952b2965" target="_blank">Medium</a>, <a class="u-syndication" href="https://mastodon.social/@enindu/112386652522776383" target="_blank">Mastodon</a>, <a class="u-syndication" href="https://twitter.com/Enindu/status/1786980881652908060" target="_blank">X (Twitter)</a>, <a class="u-syndication" href="https://www.linkedin.com/posts/enindu_xynosync-web-design-and-development-company-activity-7192746884594065408-gZQT" target="_blank">LinkedIn</a></small>
                     </p>
                     <p class="d-flex align-items-center mb-0">
                         <span class="p-category badge me-1 border">Web design</span>
