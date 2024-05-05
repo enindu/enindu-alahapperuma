@@ -40,6 +40,9 @@
                 <h6 class="sidebar-header text-uppercase">Latest articles</h6>
             </li>
             <li class="nav-item">
+                <a {!! $id == 'blog.xynosync-web-design-and-development-company-in-sri-lanka' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.xynosync-web-design-and-development-company-in-sri-lanka' ? 'active' : '' }}" href="{{ route('blog.xynosync-web-design-and-development-company-in-sri-lanka') }}">XynoSync - Web design an...</a>
+            </li>
+            <li class="nav-item">
                 <a {!! $id == 'blog.bestweb-lk' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.bestweb-lk' ? 'active' : '' }}" href="{{ route('blog.bestweb-lk') }}">BestWeb.lk</a>
             </li>
             <li class="nav-item">
@@ -50,9 +53,6 @@
             </li>
             <li class="nav-item">
                 <a {!! $id == 'blog.decentralized-hacker-news' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.decentralized-hacker-news' ? 'active' : '' }}" href="{{ route('blog.decentralized-hacker-news') }}">Decentralized Hacker News</a>
-            </li>
-            <li class="nav-item">
-                <a {!! $id == 'blog.dont-use-biometric-authentication' ? 'aria-current="page"' : '' !!} class="nav-link {{ $id == 'blog.dont-use-biometric-authentication' ? 'active' : '' }}" href="{{ route('blog.dont-use-biometric-authentication') }}">Don't use biometric auth...</a>
             </li>
             <li class="mt-3">
                 <h6 class="sidebar-header text-uppercase">External links</h6>

@@ -53,6 +53,14 @@ class BlogController extends Controller
     }
 
     /**
+     * Display XynoSync - web design and development company in Sri Lanka page
+     */
+    public function xynosyncWebDesignAndDevelopmentCompanyInSriLanka()
+    {
+        return view('app.blog.xynosync-web-design-and-development-company-in-sri-lanka');
+    }
+
+    /**
      * Display a listing of the resource.
      */
     public function index()

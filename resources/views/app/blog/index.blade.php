@@ -16,6 +16,22 @@
         <div class="card-body">
             <div class="row justify-content-between align-items-center gap-md-0 gap-1">
                 <div class="order-md-1 order-1 col-auto">
+                    <p class="mb-0">07. <a href="{{ route('blog.xynosync-web-design-and-development-company-in-sri-lanka') }}">XynoSync - Web design and development company in Sri Lanka</a></p>
+                </div>
+                <div class="col order-md-2 mt-md-0 order-3 mt-1">
+                    <p class="d-flex align-items-center mb-0">
+                        <span class="badge me-1 border">Web design</span>
+                        <span class="badge border">Company</span>
+                    </p>
+                </div>
+                <div class="order-md-3 order-2 col-auto">
+                    <p class="mb-0">
+                        <small>Published on 2024-05-05 at 09:32 AM</small>
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center gap-md-0 mt-3 gap-1">
+                <div class="order-md-1 order-1 col-auto">
                     <p class="mb-0">06. <a href="{{ route('blog.bestweb-lk') }}">BestWeb.lk</a></p>
                 </div>
                 <div class="col order-md-2 mt-md-0 order-3 mt-1">

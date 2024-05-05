@@ -11,7 +11,7 @@
         </image>
         <description><![CDATA[I write articles about software engineering, back-end development, system administration, website security, and open source software, when I get bored.]]></description>
         <language>en-US</language>
-        <pubDate>Thu, 08 Feb 2024 09:12:00 +0530</pubDate>
+        <pubDate>Sun, 05 May 2024 09:32:00 +0530</pubDate>
         <item>
             <title><![CDATA[The story of enindu.com]]></title>
             <link>https://enindu.com/blog/the-story-of-enindu-com</link>
@@ -65,6 +65,15 @@
             <guid>https://enindu.com/6</guid>
             <pubDate>Thu, 08 Feb 2024 09:12:00 +0530</pubDate>
             <category>Discussion</category>
+        </item>
+        <item>
+            <title><![CDATA[XynoSync - Web design and development company in Sri Lanka]]></title>
+            <link>https://enindu.com/blog/xynosync-web-design-and-development-company-in-sri-lanka</link>
+            <description><![CDATA[I co-founded a web design and software development company! As of the time of writing this article, I remain a director at Phyxle Infotech (Pvt) Ltd, a well...]]></description>
+            <author><![CDATA[enindu@gmail.com (Enindu Alahapperuma)]]></author>
+            <guid>https://enindu.com/7</guid>
+            <pubDate>Sun, 05 May 2024 09:32:00 +0530</pubDate>
+            <category>Web design</category>
         </item>
     </channel>
 </rss>

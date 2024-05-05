@@ -25,6 +25,7 @@ Route::prefix('/')->group(function () {
     Route::get('/blog/otp-less-payment-system', [BlogController::class, 'otpLessPaymentSystem'])->name('blog.otp-less-payment-system');
     Route::get('/blog/the-interesting-case-of-ip-cam', [BlogController::class, 'theInterstingCaseOfIpCam'])->name('blog.the-interesting-case-of-ip-cam');
     Route::get('/blog/bestweb-lk', [BlogController::class, 'bestWebLk'])->name('blog.bestweb-lk');
+    Route::get('/blog/xynosync-web-design-and-development-company-in-sri-lanka', [BlogController::class, 'xynosyncWebDesignAndDevelopmentCompanyInSriLanka'])->name('blog.xynosync-web-design-and-development-company-in-sri-lanka');
     Route::resource('/blog', BlogController::class)->only(['index']);
 });
 Route::prefix('/admin')->name('admin.')->group(function () {
