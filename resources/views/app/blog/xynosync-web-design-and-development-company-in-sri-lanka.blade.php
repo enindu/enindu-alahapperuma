@@ -52,12 +52,12 @@
                 <p>This situation prompted the establishment of <a href="https://xynosync.com" target="_blank">XynoSync</a>, the web design and software development company that I co-founded. XynoSync emerged as a solution to these industry-wide issues. We strive to address these problems by offering a wide range of web-related services, including website development, web app development, and software development. Our primary goal is to standardize web practices and enhance the web experience for all users.</p>
                 <p>XynoSync is a <a href="https://en.wikipedia.org/wiki/Startup_company" target="_blank">startup</a> dedicated to solving customer problems while adhering to industry standards and adopting a security-centric approach. We prioritize providing programmatic solutions over mere requirement fulfillment, value transparency with our customers, and ensure that our highly skilled developers deliver secure solutions in a timely manner. This commitment sets XynoSync apart from other companies. Our mission is simple: to improve the web experience for everyone.</p>
                 <p>If you ever need to contact XynoSync, you can find our contact details below. Feel free to reach out to us for guidance on your online journey.</p>
-                <ol class="mb-0">
+                <ul class="mb-0">
                     <li>Website: <a href="https://xynosync.com" target="_blank">https://xynosync.com</a></li>
                     <li>Email address: <a href="mailto:info@xynosync.com">info@xynosync.com</a></li>
                     <li>Phone number: <a href="tel:+94772557776">+94 77 255 7776</a></li>
                     <li>WhatsApp number: <a href="https://wa.me/94772557776" target="_blank">+94 77 255 7776</a></li>
-                </ol>
+                </ul>
             </div>
         </div>
     </div>
