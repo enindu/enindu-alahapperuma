@@ -9,8 +9,8 @@
 <x-layouts.base :description="$description" :id="$id" :keywords="$keywords" :title="$title" :type="$type">
     <x-slot:meta>
         <meta content="{{ \Carbon\Carbon::parse('2024-05-05 at 09:32 AM')->toIso8601String() }}" property="article:published_time">
-        <meta content="{{ \Carbon\Carbon::parse('2024-05-05 at 09:32 AM')->toIso8601String() }}" property="article:modified_time">
-        <meta content="{{ \Carbon\Carbon::parse('2024-05-05 at 09:32 AM')->add('1 year')->toIso8601String() }}" property="article:expiration_time">
+        <meta content="{{ \Carbon\Carbon::parse('2025-01-01 at 09:30 AM')->toIso8601String() }}" property="article:modified_time">
+        <meta content="{{ \Carbon\Carbon::parse('2025-01-01 at 09:30 AM')->add('1 year')->toIso8601String() }}" property="article:expiration_time">
         <meta content="{{ route('index') }}" property="article:author">
         <meta content="Web design" property="article:section">
         <meta content="Company" property="article:tag">
@@ -55,8 +55,8 @@
                 <ul class="mb-0">
                     <li>Website: <a href="https://xynosync.com" target="_blank">https://xynosync.com</a></li>
                     <li>Email address: <a href="mailto:info@xynosync.com">info@xynosync.com</a></li>
-                    <li>Phone number: <a href="tel:+94772557776">+94 77 255 7776</a></li>
-                    <li>WhatsApp number: <a href="https://wa.me/94772557776" target="_blank">+94 77 255 7776</a></li>
+                    <li>Phone number: <a href="tel:+94781999457">+94 78 199 9457</a></li>
+                    <li>WhatsApp number: <a href="https://wa.me/94781999457" target="_blank">+94 78 199 9457</a></li>
                 </ul>
             </div>
         </div>
