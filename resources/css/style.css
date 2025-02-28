@@ -1,0 +1,29 @@
+@import 'halfmoon';
+
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+:root {
+    --bs-body-font-family: Onest, sans-serif !important;
+    --bs-font-size-base: 1.125rem !important;
+}
+
+body {
+    background-color: #2e3440 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #8fbcbb !important;
+}
+
+a {
+    color: #8fbcbb !important;
+}
+
+.card {
+    background-color: #2e3440 !important;
+    border-color: #3b4252 !important;
+}
+
+.card-body {
+    color: #eceff4 !important;
+}
