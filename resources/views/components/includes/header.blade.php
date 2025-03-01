@@ -8,7 +8,7 @@
                     <a class="text-decoration-none {{ request()->routeIs('contact.*') ? 'active' : '' }} text-white" href="{{ route('contact.index') }}">Contact</a>
                 </div>
                 <div class="d-flex flex-column flex-lg-row gap-lg-3 gap-0">
-                    <a class="text-decoration-none text-white" href="#">Sitemap</a>
+                    <a class="text-decoration-none text-white" href="{{ url('sitemap.xml') }}">Sitemap</a>
                 </div>
             </div>
         </header>

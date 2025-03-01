@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://enindu.com/sitemap.xml
