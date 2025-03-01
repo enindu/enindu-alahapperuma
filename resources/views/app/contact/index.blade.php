@@ -1,21 +1,28 @@
 @php
     $id = 'contact.index';
-    $title = 'Need To Get In Touch With Me?';
-    $description = 'I am Enindu Alahapperuma, a freelancing software engineer from Sri Lanka, specializes in back-end engineering, system administration, and website security.';
+    $title = 'Contact Me';
+    $description = 'There are several ways to contact me, with the fastest method being my preferred choice. If you\'re already a client, you can reach me via WhatsApp. For addit...';
     $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, sri lanka, back-end engineer, system administrator, website security expert';
 @endphp
 
 @extends('components.layouts.base')
 @section('content')
-    <div class="card rounded-0 p-3">
+    <div class="card rounded-5 p-3">
         <div class="card-body">
             <div class="d-flex flex-column gap-3">
-                <h1 class="mb-0">{{ $title }}</h1>
+                <h1 class="mb-0">Contact Me</h1>
+                <p class="mb-0">There are several ways to contact me, with the fastest method being my preferred choice. If you're already a client, you can reach me via WhatsApp. For additional contact details, please see below.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card rounded-5 p-3">
+        <div class="card-body">
+            <div class="d-flex flex-column gap-3">
                 <h2 class="mb-0">Contact Information</h2>
-                <h3 class="mb-0">How To Contact Me?</h3>
-                <p class="mb-0">The fastest way to contact me is to simply send an email from your favorite email client to <a href="mailto:{{ env('APP_EMAIL') }}">{{ env('APP_EMAIL') }}</a>. I say it is the fastest way because I check my email very often. Additionally, you can find me on all the social media platforms mentioned in the left bar. While you can reach out to me there, please note that a response is not guaranteed as I do not check my social media accounts as frequently.</p>
-                <h3 class="mb-0">Why There Is No Contact Form?</h3>
-                <p class="mb-0">Throughout my career, I have created and managed hundreds of websites, and almost every one of them had a contact form. However, in my experience, genuine inquiries through these forms were extremely rare. The majority of submissions were spam. Despite implementing various anti-spam measures, the problem persisted. Consequently, I decided to remove the contact form altogether. From my perspective, contact forms are ineffective as they are seldom used for their intended purpose, at least in my experience.</p>
+                <h3 class="mb-0">Contact Methods</h3>
+                <p class="mb-0">The quickest way to reach me is by sending an email to <a class="text-decoration-none" href="mailto:{{ env('APP_EMAIL') }}">{{ env('APP_EMAIL') }}</a> from your preferred email client. I check my email regularly, which is why it's the fastest method. You can also find me on various social media platforms listed in the left bar. While I do monitor my social media, please note that responses may not be as prompt, as I don't check those accounts as often.</p>
+                <h3 class="mb-0">Contact Form</h3>
+                <p class="mb-0">Throughout my career, I have developed and managed hundreds of websites, most of which included a contact form. However, I found that genuine inquiries through these forms were extremely rare, with the majority of submissions being spam. Despite implementing various anti-spam measures, the issue persisted. As a result, I made the decision to remove the contact form entirely. In my experience, contact forms are often ineffective, as they are rarely used for their intended purpose.</p>
             </div>
         </div>
     </div>

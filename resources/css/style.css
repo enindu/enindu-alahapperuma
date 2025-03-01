@@ -3,27 +3,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
 
 :root {
-    --bs-body-font-family: Onest, sans-serif !important;
-    --bs-font-size-base: 1.125rem !important;
+    --bs-body-font-family: Onest, sans-serif;
+    --bs-font-size-base: 1.125rem;
+}
+
+* {
+    transition: all 0.25s ease-in-out;
 }
 
 body {
-    background-color: #2e3440 !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: #8fbcbb !important;
+    background-color: #000000;
 }
 
 a {
-    color: #8fbcbb !important;
+    color: #2b7fff;
+}
+
+a:hover {
+    color: #193cb8;
 }
 
 .card {
-    background-color: #2e3440 !important;
-    border-color: #3b4252 !important;
+    background-color: #000000;
+    border-color: #0e0e0e;
 }
 
 .card-body {
-    color: #eceff4 !important;
+    color: #ffffff;
+}
+
+.btn {
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #000000;
+    border-color: #2b7fff;
+    color: #2b7fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #000000 !important;
+    border-color: #193cb8 !important;
+    color: #193cb8 !important;
 }

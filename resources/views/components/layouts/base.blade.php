@@ -18,7 +18,7 @@
     <meta content="@Enindu" name="twitter:creator">
     <meta content="{{ $title }} | {{ env('APP_NAME') }}" name="twitter:title">
     <meta content="{{ $description }}" name="twitter:description">
-    <meta content="{{ Vite::asset('resources/meta.png') }}" name="twitter:image">
+    <meta content="{{ Vite::asset('resources/images/meta.png') }}" name="twitter:image">
     <meta content="#000000" name="theme-color">
     <meta content="{{ Vite::asset('resources/images/ms-application-tile-image.png') }}" name="msapplication-TileImage">
     <meta content="#000000" name="msapplication-TileColor">
