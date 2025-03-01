@@ -11,7 +11,7 @@
         <div class="card-body">
             <div class="d-flex flex-column gap-3">
                 <h1 class="mb-0">Web Development</h1>
-                <p class="mb-0">I offer two comprehensive pricing plans to cater to your specific needs. At this time, I do not provide custom plans. Please review the options below to find the one that best suits your requirements.</p>
+                <p class="mb-0">I provide two detailed pricing plans to meet your needs. Currently, custom plans are not available. Please review the options below to choose the one that best fits your requirements.</p>
             </div>
         </div>
     </div>
@@ -20,23 +20,23 @@
             <div class="d-flex flex-column gap-3">
                 <div class="d-flex flex-column">
                     <h2 class="mb-0">Basic Plan</h2>
-                    <p class="h6 mb-0">$100/one-time</p>
+                    <p class="h6 text-primary mb-0">$100/one-time</p>
                 </div>
-                <p class="mb-0">This plan is designed for static websites that need to display static content. It is ideal for small businesses, personal portfolios, or informational sites. Please note that no admin panel will be developed under this plan.</p>
+                <p class="mb-0">This plan is ideal for static websites that display fixed content. It suits small businesses, personal portfolios, or informational sites. Note that this plan does not include an admin panel.</p>
                 <ul class="mb-0 ps-3">
-                    <li>Up to 5 static pages ($10/additional page)</li>
-                    <li>No dynamic pages</li>
-                    <li>Terms and privacy policy pages</li>
-                    <li>Contact or inquiry form</li>
-                    <li>No major changes will apply on front-end</li>
-                    <li>Front-end based on template (HTML/CSS/JS) design</li>
-                    <li>Back-end based on Laravel (PHP) framework</li>
-                    <li>Responsive design</li>
-                    <li>Basic search engine optimization (SEO)</li>
-                    <li>Social media integrations</li>
-                    <li>No domain</li>
-                    <li>No hosting</li>
-                    <li>1-2 weeks for delivery</li>
+                    <li>Includes up to 5 static pages ($10 per additional page)</li>
+                    <li>No dynamic pages included</li>
+                    <li>Terms and privacy policy pages included</li>
+                    <li>Contact or inquiry form included</li>
+                    <li>No major front-end changes</li>
+                    <li>Front-end built using template (HTML/CSS/JS) design</li>
+                    <li>Back-end built using Laravel (PHP) framework</li>
+                    <li>Responsive design included</li>
+                    <li>Basic search engine optimization (SEO) included</li>
+                    <li>Social media integrations included</li>
+                    <li>Domain not included</li>
+                    <li>Hosting not included</li>
+                    <li>Delivery within 1-2 weeks</li>
                 </ul>
                 <p class="mb-0">If you are interested in this plan, click the button below to send an inquiry.</p>
                 <div>
@@ -50,23 +50,23 @@
             <div class="d-flex flex-column gap-3">
                 <div class="d-flex flex-column">
                     <h2 class="mb-0">Standard Plan</h2>
-                    <p class="h6 mb-0">$500/one-time</p>
+                    <p class="h6 text-primary mb-0">$500/one-time</p>
                 </div>
-                <p class="mb-0">This plan is designed for dynamic websites such as blogs, business portfolios, and more. It includes a bespoke admin panel to manage all dynamic content within the website, giving you greater control and flexibility over your site's content.</p>
+                <p class="mb-0">This plan is tailored for dynamic websites like blogs and business portfolios. It includes a custom admin panel to manage all dynamic content, providing you with greater control and flexibility over your site's content.</p>
                 <ul class="mb-0 ps-3">
-                    <li>Up to 10 static pages ($10/additional page)</li>
-                    <li>Unlimited dynamic pages with bespoke admin panel</li>
-                    <li>Terms and privacy policy pages</li>
-                    <li>Contact or inquiry form</li>
-                    <li>No major changes will apply on front-end</li>
-                    <li>Front-end based on template (HTML/CSS/JS) design</li>
-                    <li>Back-end based on Laravel (PHP) framework</li>
-                    <li>Responsive design</li>
-                    <li>Basic search engine optimization (SEO)</li>
-                    <li>Social media integrations</li>
-                    <li>No domain</li>
-                    <li>No hosting</li>
-                    <li>2-3 weeks for delivery</li>
+                    <li>Includes up to 10 static pages ($10 per additional page)</li>
+                    <li>Unlimited dynamic pages with a custom admin panel</li>
+                    <li>Terms and privacy policy pages included</li>
+                    <li>Contact or inquiry form included</li>
+                    <li>No major front-end changes</li>
+                    <li>Front-end built using template (HTML/CSS/JS) design</li>
+                    <li>Back-end built using Laravel (PHP) framework</li>
+                    <li>Responsive design included</li>
+                    <li>Basic search engine optimization (SEO) included</li>
+                    <li>Social media integrations included</li>
+                    <li>Domain not included</li>
+                    <li>Hosting not included</li>
+                    <li>Delivery within 2-3 weeks</li>
                 </ul>
                 <p class="mb-0">If you are interested in this plan, click the button below to send an inquiry.</p>
                 <div>

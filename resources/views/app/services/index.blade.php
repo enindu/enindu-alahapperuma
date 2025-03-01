@@ -11,7 +11,7 @@
         <div class="card-body">
             <div class="d-flex flex-column gap-3">
                 <h1 class="mb-0">My Services</h1>
-                <p class="mb-0">As an expert back-end developer and system administrator, I offer a variety of services as a freelancer. Below, you'll find detailed information about the services I provide, including pricing plans and other relevant details. Feel free to explore and reach out if you have any questions or need assistance with your project.</p>
+                <p class="mb-0">As a skilled back-end developer and system administrator, I offer a range of freelance services. Below, you will find detailed information about the services I provide, including pricing plans and other relevant details. Feel free to explore and contact me if you have any questions or need assistance with your project.</p>
             </div>
         </div>
     </div>
@@ -20,7 +20,7 @@
             <div class="d-flex flex-column gap-3">
                 <div class="d-flex flex-column gap-3">
                     <h2 class="mb-0">Web Development</h2>
-                    <p class="mb-0">As an experienced back-end developer, I offer comprehensive web development services tailored to your specific needs. My services include creating robust and scalable web applications, with a strong focus on high performance and security. Click the button below to explore my pricing plans and find the best fit for your project.</p>
+                    <p class="mb-0">I provide professional web development services, focusing on creating robust and secure web applications tailored to your needs. Click the button below to view my pricing plans and find the best option for your project.</p>
                     <div>
                         <a class="btn btn-primary rounded-5 px-5 py-2" href="{{ route('services.web-development') }}">View Service</a>
                     </div>
@@ -33,7 +33,7 @@
             <div class="d-flex flex-column gap-3">
                 <div class="d-flex flex-column gap-3">
                     <h2 class="mb-0">System Administration</h2>
-                    <p class="mb-0">With extensive experience in system administration, I offer a wide range of services focused on cloud computing and server management. My services are designed to ensure your systems run smoothly, efficiently, and securely. Click the button below to explore my pricing plans and find the best solution for your needs.</p>
+                    <p class="mb-0">With extensive experience in system administration, I offer a variety of services in cloud computing and server management. My goal is to ensure your systems operate smoothly, efficiently, and securely. Click the button below to view my pricing plans and find the best solution for your needs.</p>
                     <div>
                         <a class="btn btn-primary rounded-5 px-5 py-2" href="{{ route('services.system-administration') }}">View Service</a>
                     </div>
