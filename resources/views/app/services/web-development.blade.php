@@ -18,7 +18,10 @@
     <div class="card rounded-5 p-3">
         <div class="card-body">
             <div class="d-flex flex-column gap-3">
-                <h2 class="mb-0">Basic Plan - $100</h2>
+                <div class="d-flex flex-column">
+                    <h2 class="mb-0">Basic Plan</h2>
+                    <p class="h6 mb-0">$100/one-time</p>
+                </div>
                 <p class="mb-0">This plan is designed for static websites that need to display static content. It is ideal for small businesses, personal portfolios, or informational sites. Please note that no admin panel will be developed under this plan.</p>
                 <ul class="mb-0 ps-3">
                     <li>Up to 5 static pages ($10/additional page)</li>
@@ -45,7 +48,10 @@
     <div class="card rounded-5 p-3">
         <div class="card-body">
             <div class="d-flex flex-column gap-3">
-                <h2 class="mb-0">Standard Plan - $500</h2>
+                <div class="d-flex flex-column">
+                    <h2 class="mb-0">Standard Plan</h2>
+                    <p class="h6 mb-0">$500/one-time</p>
+                </div>
                 <p class="mb-0">This plan is designed for dynamic websites such as blogs, business portfolios, and more. It includes a bespoke admin panel to manage all dynamic content within the website, giving you greater control and flexibility over your site's content.</p>
                 <ul class="mb-0 ps-3">
                     <li>Up to 10 static pages ($10/additional page)</li>
