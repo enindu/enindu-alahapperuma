@@ -3,7 +3,7 @@
         <div class="h-card">
             <div class="d-flex flex-column gap-3">
                 <div class="d-flex flex-column">
-                    <img alt="{{ env('APP_NAME') }} Logo" class="img-fluid u-photo" src="{{ Vite::asset('resources/images/logo.png') }}">
+                    <img alt="{{ env('APP_NAME') }} Logo" class="img-fluid u-photo" src="{{ Vite::asset('resources/images/logo.svg') }}">
                 </div>
                 <div class="d-flex flex-column">
                     <p class="p-name h2 mb-0" href="{{ route('index') }}">{{ env('APP_NAME') }}</p>

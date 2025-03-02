@@ -8,7 +8,7 @@
 }
 
 * {
-    transition: all 0.25s ease-in-out;
+    transition: all 250ms linear;
 }
 
 body {
@@ -24,8 +24,12 @@ a:hover {
 }
 
 .card {
+    background-color: #00000055;
+    border-color: transparent;
+}
+
+.card:hover {
     background-color: #000000;
-    border-color: #222222;
 }
 
 .card-body {
@@ -41,7 +45,7 @@ a:hover {
 }
 
 .btn-primary {
-    background-color: #000000;
+    background-color: transparent;
     border-color: #2b7fff;
     color: #2b7fff;
 }
@@ -49,7 +53,7 @@ a:hover {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-    background-color: #000000 !important;
+    background-color: transparent !important;
     border-color: #193cb8 !important;
     color: #193cb8 !important;
 }
