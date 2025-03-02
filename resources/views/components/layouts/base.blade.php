@@ -36,9 +36,8 @@
 </head>
 
 <body>
-    <div class="particles-wrapper">
-        <div class="particles" id="particles"></div>
-    </div>
+    @include('components.includes.preloader')
+    @include('components.includes.particles')
     <div class="container my-3">
         <div class="row g-3">
             <div class="col-12 col-lg-3 order-lg-1 order-2">
