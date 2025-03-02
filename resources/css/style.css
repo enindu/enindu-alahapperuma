@@ -79,6 +79,15 @@ a:hover {
     width: 200px;
 }
 
+.header-wrapper {
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.header-wrapper a.active {
+    color: #2b7fff !important;
+}
+
 .particles-wrapper {
     filter: blur(100px);
     height: 100%;
