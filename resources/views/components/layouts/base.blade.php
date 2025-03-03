@@ -35,7 +35,7 @@
     <link href="{{ Vite::asset('resources/css/style.css') }}" rel="stylesheet">
 </head>
 
-<body>
+<body class="overflow-hidden">
     @include('components.includes.preloader')
     @include('components.includes.particles')
     <div class="container my-3">

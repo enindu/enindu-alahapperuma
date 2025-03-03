@@ -1,5 +1,5 @@
 import "bootstrap";
-import PSJ from "particles.js-es";
+import particles from "particles.js-es";
 
 import.meta.glob(["../images/**"]);
 
@@ -8,26 +8,26 @@ document.addEventListener("DOMContentLoaded", () => {
     initParticles();
 });
 
-function initPreloader() {
+const initPreloader = () => {
     const preloaderWrapper = document.querySelector("#preloader-wrapper");
 
     if (preloaderWrapper) {
         const body = document.querySelector("body");
 
-        body.style.overflow = "hidden";
-
         setTimeout(() => {
-            preloaderWrapper.style.display = "none";
-            body.style.overflow = "auto";
+            preloaderWrapper.classList.remove("d-flex");
+            preloaderWrapper.classList.add("d-none");
+            body.classList.remove("overflow-hidden");
+            body.classList.add("overflow-auto");
         }, 1000);
     }
-}
+};
 
-function initParticles() {
+const initParticles = () => {
     const particlesWrapper = document.querySelector("#particles-wrapper");
 
     if (particlesWrapper) {
-        PSJ.init("particles", {
+        particles.init("particles", {
             particles: {
                 number: {
                     value: 50,
@@ -62,7 +62,7 @@ function initParticles() {
                 },
                 move: {
                     enable: true,
-                    speed: 3,
+                    speed: 5,
                     direction: "none",
                     random: true,
                     straight: false,
@@ -84,4 +84,4 @@ function initParticles() {
             retina_detect: true,
         });
     }
-}
+};
