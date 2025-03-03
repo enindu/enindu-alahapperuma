@@ -40,7 +40,7 @@
                 </ul>
                 <p class="mb-0">If you are interested in this plan, click the button below to send an inquiry.</p>
                 <div>
-                    <a class="btn btn-primary rounded-5 px-5 py-2" href="mailto:{{ env('APP_EMAIL') }}?subject=Web%20Development%20Inquiry&body=Basic%20Plan">Send Inquiry</a>
+                    <a class="btn btn-primary rounded-pill px-5 py-2" href="mailto:{{ env('APP_EMAIL') }}?subject=Web%20Development%20Inquiry&body=Basic%20Plan">Send Inquiry</a>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
                 </ul>
                 <p class="mb-0">If you are interested in this plan, click the button below to send an inquiry.</p>
                 <div>
-                    <a class="btn btn-primary rounded-5 px-5 py-2" href="mailto:{{ env('APP_EMAIL') }}?subject=Web%20Development%20Inquiry&body=Standard%20Plan">Send Inquiry</a>
+                    <a class="btn btn-primary rounded-pill px-5 py-2" href="mailto:{{ env('APP_EMAIL') }}?subject=Web%20Development%20Inquiry&body=Standard%20Plan">Send Inquiry</a>
                 </div>
             </div>
         </div>

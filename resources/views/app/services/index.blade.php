@@ -22,7 +22,7 @@
                     <h2 class="mb-0">Web Development</h2>
                     <p class="mb-0">I provide professional web development services, focusing on creating robust and secure web applications tailored to your needs. Click the button below to view my pricing plans and find the best option for your project.</p>
                     <div>
-                        <a class="btn btn-primary rounded-5 px-5 py-2" href="{{ route('services.web-development') }}">View Service</a>
+                        <a class="btn btn-primary rounded-pill px-5 py-2" href="{{ route('services.web-development') }}">View Service</a>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                     <h2 class="mb-0">System Administration</h2>
                     <p class="mb-0">With extensive experience in system administration, I offer a variety of services in cloud computing and server management. My goal is to ensure your systems operate smoothly, efficiently, and securely. Click the button below to view my pricing plans and find the best solution for your needs.</p>
                     <div>
-                        <a class="btn btn-primary rounded-5 px-5 py-2" href="{{ route('services.system-administration') }}">View Service</a>
+                        <a class="btn btn-primary rounded-pill px-5 py-2" href="{{ route('services.system-administration') }}">View Service</a>
                     </div>
                 </div>
             </div>
