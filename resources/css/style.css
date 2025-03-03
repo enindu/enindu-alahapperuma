@@ -71,6 +71,16 @@ a:hover {
     width: 200px;
 }
 
+.top-wrapper {
+    background-color: #00000055;
+    bottom: 20px;
+    right: 20px;
+}
+
+.top-wrapper:hover {
+    background-color: #000000;
+}
+
 .header-wrapper {
     scrollbar-width: none;
 }

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html id="html" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -55,6 +55,7 @@
             </div>
         </div>
     </div>
+    @include('components.includes.top')
     <script src="{{ Vite::asset('resources/js/script.js') }}" type="module"></script>
 </body>
 
