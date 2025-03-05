@@ -7,17 +7,17 @@ class ServiceController extends Controller
     /**
      * Display web development page.
      */
-    public function webDevelopment()
+    public function service1()
     {
-        return view('app.services.web-development');
+        return view('app.services.service-1');
     }
 
     /**
      * Display system administration page.
      */
-    public function systemAdminstration()
+    public function service2()
     {
-        return view('app.services.system-administration');
+        return view('app.services.service-2');
     }
 
     /**

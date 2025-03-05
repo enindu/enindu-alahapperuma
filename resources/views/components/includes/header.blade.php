@@ -5,6 +5,7 @@
                 <div class="d-flex flex-row gap-3">
                     <a class="link text-white text-decoration-none {{ request()->routeIs('index') ? 'active' : '' }}" href="{{ route('index') }}">Home</a>
                     <a class="link text-white text-decoration-none {{ request()->routeIs('services.*') ? 'active' : '' }}" href="{{ route('services.index') }}">Services</a>
+                    <a class="link text-white text-decoration-none {{ request()->routeIs('blog.*') ? 'active' : '' }}" href="{{ route('blog.index') }}">Blog</a>
                     <a class="link text-white text-decoration-none {{ request()->routeIs('contact.*') ? 'active' : '' }}" href="{{ route('contact.index') }}">Contact</a>
                 </div>
                 <div class="d-flex flex-row gap-3">

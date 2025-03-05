@@ -1,5 +1,5 @@
 @php
-    $id = 'services.web-development';
+    $id = 'services.service-1';
     $title = 'Web Development | My Services';
     $description = 'I offer two comprehensive pricing plans to cater to your specific needs. At this time, I do not provide custom plans. Please review the options below to find...';
     $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, sri lanka, back-end engineer, system administrator, website security expert';
