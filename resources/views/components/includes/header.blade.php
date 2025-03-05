@@ -10,6 +10,7 @@
                 </div>
                 <div class="d-flex flex-row gap-3">
                     <a class="link text-white text-decoration-none" href="{{ url('sitemap.xml') }}">Sitemap</a>
+                    <a class="link text-white text-decoration-none" href="{{ url('rss.xml') }}">RSS</a>
                 </div>
             </div>
         </header>

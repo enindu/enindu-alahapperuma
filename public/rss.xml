@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <atom:link href="https://enindu.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <title>Enindu Alahapperuma</title>
+        <link>https://enindu.com</link>
+        <image>
+            <url>https://enindu.com/images/rss.png</url>
+            <title>Enindu Alahapperuma</title>
+            <link>https://enindu.com</link>
+        </image>
+        <description><![CDATA[Besides offering back-end development and system administration services, I also write articles in my spare time. These articles mainly focus on web development, software I've created, and my personal insights on various topics.]]></description>
+        <language>en-US</language>
+        <pubDate>Wed, 05 Mar 2025 23:29:00 +0530</pubDate>
+        <item>
+            <title><![CDATA[I Have Revamped My Website]]></title>
+            <link>https://enindu.com/blog/i-have-revamped-my-website</link>
+            <description><![CDATA[I have upgraded the Laravel framework to version 12, made significant improvements to the front-end design, and added service pages to the website. This means I am now officially offering my services as a freelancer. Read below to learn more about these updates.]]></description>
+            <author>enindu@gmail.com (Enindu Alahapperuma)</author>
+            <guid>https://enindu.com/1</guid>
+            <pubDate>Wed, 05 Mar 2025 23:29:00 +0530</pubDate>
+            <category>General</category>
+        </item>
+    </channel>
+</rss>
