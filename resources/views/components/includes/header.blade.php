@@ -1,7 +1,7 @@
 <div class="card rounded-5 p-3">
     <div class="card-body">
         <header class="header-wrapper overflow-x-scroll">
-            <div class="header d-flex justify-content-between flex-row gap-3">
+            <div class="header d-flex flex-row justify-content-between gap-3">
                 <div class="d-flex flex-row gap-3">
                     <a class="link text-white text-decoration-none {{ request()->routeIs('index') ? 'active' : '' }}" href="{{ route('index') }}">Home</a>
                     <a class="link text-white text-decoration-none {{ request()->routeIs('services.*') ? 'active' : '' }}" href="{{ route('services.index') }}">Services</a>
