@@ -11,5 +11,6 @@ Route::get('/services/web-development', [ServiceController::class, 'service1'])-
 Route::get('/services/system-administration', [ServiceController::class, 'service2'])->name('services.service-2');
 Route::resource('/services', ServiceController::class)->only(['index']);
 Route::get('/blog/i-have-revamped-my-website', [BlogController::class, 'article1'])->name('blog.article-1');
+Route::get('/blog/ultimate-web-development-guide-for-clients', [BlogController::class, 'article2'])->name('blog.article-2');
 Route::resource('/blog', BlogController::class)->only(['index']);
 Route::resource('/contact', ContactController::class)->only(['index']);

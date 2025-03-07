@@ -13,6 +13,14 @@ class BlogController extends Controller
     }
 
     /**
+     * Display ultimate web development guide for clients page.
+     */
+    public function article2()
+    {
+        return view('app.blog.article-2');
+    }
+
+    /**
      * Display a listing of the resource.
      */
     public function index()
