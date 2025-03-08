@@ -7,17 +7,25 @@ class BlogController extends Controller
     /**
      * Display I have revamped my website page.
      */
-    public function article1()
+    public function blog1()
     {
-        return view('app.blog.article-1');
+        return view('app.blog.blog-1');
     }
 
     /**
      * Display ultimate web development guide for clients page.
      */
-    public function article2()
+    public function blog2()
     {
-        return view('app.blog.article-2');
+        return view('app.blog.blog-2');
+    }
+
+    /**
+     * Display understanding HTTP page.
+     */
+    public function blog3()
+    {
+        return view('app.blog.blog-3');
     }
 
     /**

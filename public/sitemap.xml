@@ -36,6 +36,11 @@
         <priority>0.9</priority>
     </url>
     <url>
+        <loc>https://enindu.com/blog/understanding-http</loc>
+        <lastmod>2025-03-08T15:56:00+05:30</lastmod>
+        <priority>0.9</priority>
+    </url>
+    <url>
         <loc>https://enindu.com/contact</loc>
         <lastmod>2025-03-01T01:00:00+05:30</lastmod>
         <priority>1.0</priority>

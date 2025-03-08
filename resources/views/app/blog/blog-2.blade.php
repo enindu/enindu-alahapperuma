@@ -1,5 +1,5 @@
 @php
-    $id = 'blog.article-2';
+    $id = 'blog.blog-2';
     $title = 'Ultimate Web Development Guide For Clients | My Blog';
     $description = 'I come across numerous web development groups on Facebook every day. These groups are filled with people—some searching for web developers at low prices, whi...';
     $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, sri lanka, back-end engineer, system administrator, website security expert';

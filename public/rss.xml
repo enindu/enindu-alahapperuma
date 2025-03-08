@@ -26,8 +26,17 @@
             <link>https://enindu.com/blog/ultimate-web-development-guide-for-clients</link>
             <description><![CDATA[I come across numerous web development groups on Facebook every day. These groups are filled with people—some searching for web developers at low prices, while others are offering their services for equally low rates. This obsession with cheap work has distorted the true value of web development in recent years. The reality is, web development is not cheap at all.]]></description>
             <author>enindu@gmail.com (Enindu Alahapperuma)</author>
-            <guid>https://enindu.com/1</guid>
+            <guid>https://enindu.com/2</guid>
             <pubDate>Fri, 07 Mar 2025 19:40:00 +0530</pubDate>
+            <category>General</category>
+        </item>
+        <item>
+            <title><![CDATA[Understanding HTTP]]></title>
+            <link>https://enindu.com/blog/understanding-http</link>
+            <description><![CDATA[There are countless articles and videos on the internet explaining what HTTP is. If I were to write this post in the same way, it would just be another one among many. Instead, I'll be breaking down HTTP from the perspective of a back-end engineer, highlighting common issues developers face with it. Let's dive in.]]></description>
+            <author>enindu@gmail.com (Enindu Alahapperuma)</author>
+            <guid>https://enindu.com/3</guid>
+            <pubDate>Sat, 08 Mar 2025 15:55:00 +0530</pubDate>
             <category>General</category>
         </item>
     </channel>

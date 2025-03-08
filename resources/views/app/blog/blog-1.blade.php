@@ -1,5 +1,5 @@
 @php
-    $id = 'blog.article-1';
+    $id = 'blog.blog-1';
     $title = 'I Have Revamped My Website | My Blog';
     $description = 'I have upgraded the Laravel framework to version 12, made significant improvements to the front-end design, and added service pages to the website. This mean...';
     $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, sri lanka, back-end engineer, system administrator, website security expert';
