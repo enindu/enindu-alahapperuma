@@ -96,6 +96,10 @@ a:hover {
     color: #2b7fff !important;
 }
 
+.internal-links-wrapper .internal-links .link.active {
+    color: #2b7fff !important;
+}
+
 .particles-wrapper {
     filter: blur(100px);
 }

@@ -43,7 +43,8 @@
             <div class="col-12 col-lg-3 order-lg-1 order-2">
                 <div class="d-flex flex-column gap-3">
                     @include('components.includes.profile')
-                    @include('components.includes.links')
+                    @include('components.includes.internal-links')
+                    @include('components.includes.external-links')
                     @include('components.includes.footer')
                 </div>
             </div>
