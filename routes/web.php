@@ -13,5 +13,6 @@ Route::resource('/services', ServiceController::class)->only(['index']);
 Route::get('/blog/i-have-revamped-my-website', [BlogController::class, 'blog1'])->name('blog.blog-1');
 Route::get('/blog/ultimate-web-development-guide-for-clients', [BlogController::class, 'blog2'])->name('blog.blog-2');
 Route::get('/blog/understanding-http', [BlogController::class, 'blog3'])->name('blog.blog-3');
+Route::get('/blog/playing-with-http-servers', [BlogController::class, 'blog4'])->name('blog.blog-4');
 Route::resource('/blog', BlogController::class)->only(['index']);
 Route::resource('/contact', ContactController::class)->only(['index']);

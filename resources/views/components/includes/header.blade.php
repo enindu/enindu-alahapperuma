@@ -9,8 +9,8 @@
                     <a class="link text-white text-decoration-none {{ request()->routeIs('contact.*') ? 'active' : '' }}" href="{{ route('contact.index') }}">Contact</a>
                 </div>
                 <div class="d-flex flex-row gap-3">
-                    <a class="link text-white text-decoration-none" href="{{ url('sitemap.xml') }}">Sitemap</a>
-                    <a class="link text-white text-decoration-none" href="{{ url('rss.xml') }}">RSS</a>
+                    <a class="link text-white text-decoration-none" href="{{ url('sitemap.xml') }}" target="_blank">Sitemap</a>
+                    <a class="link text-white text-decoration-none" href="{{ url('rss.xml') }}" target="_blank">RSS</a>
                 </div>
             </div>
         </header>

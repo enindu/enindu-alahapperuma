@@ -16,6 +16,11 @@
     transition: all 250ms linear;
 }
 
+::selection {
+    background-color: #2b7fff;
+    color: #ffffff;
+}
+
 body {
     background-color: #000000;
 }

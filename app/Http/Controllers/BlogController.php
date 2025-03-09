@@ -29,6 +29,14 @@ class BlogController extends Controller
     }
 
     /**
+     * Display playing with HTTP servers page.
+     */
+    public function blog4()
+    {
+        return view('app.blog.blog-4');
+    }
+
+    /**
      * Display a listing of the resource.
      */
     public function index()

@@ -39,5 +39,14 @@
             <pubDate>Sat, 08 Mar 2025 15:55:00 +0530</pubDate>
             <category>General</category>
         </item>
+        <item>
+            <title><![CDATA[Playing With HTTP Servers]]></title>
+            <link>https://enindu.com/blog/playing-with-http-servers</link>
+            <description><![CDATA[In a previous article, I provided a high-level overview of HTTP. In this article, I will dive into the low-level implementation of HTTP, covering topics such as creating HTTP servers and even lower-level TCP servers. Discussions on HTTP and TCP clients will be reserved for a separate article. Expect plenty of code examples. So, let's get started.]]></description>
+            <author>enindu@gmail.com (Enindu Alahapperuma)</author>
+            <guid>https://enindu.com/4</guid>
+            <pubDate>Sun, 09 Mar 2025 11:44:00 +0530</pubDate>
+            <category>General</category>
+        </item>
     </channel>
 </rss>

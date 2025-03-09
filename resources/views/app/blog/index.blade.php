@@ -18,6 +18,7 @@
     <div class="card rounded-5 p-3">
         <div class="card-body">
             <div class="d-flex flex-column gap-3 gap-lg-0">
+                <a class="text-white text-decoration-none" href="{{ route('blog.blog-4') }}">Playing With HTTP Servers</a>
                 <a class="text-white text-decoration-none" href="{{ route('blog.blog-3') }}">Understanding HTTP</a>
                 <a class="text-white text-decoration-none" href="{{ route('blog.blog-2') }}">Ultimate Web Development Guide For Clients</a>
                 <a class="text-white text-decoration-none" href="{{ route('blog.blog-1') }}">I Have Revamped My Website</a>
