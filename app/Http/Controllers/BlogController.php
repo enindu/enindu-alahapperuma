@@ -37,6 +37,14 @@ class BlogController extends Controller
     }
 
     /**
+     * Display shared hosting explained for clients page.
+     */
+    public function blog5()
+    {
+        return view('app.blog.blog-5');
+    }
+
+    /**
      * Display a listing of the resource.
      */
     public function index()

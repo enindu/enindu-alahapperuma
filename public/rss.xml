@@ -48,5 +48,14 @@
             <pubDate>Sun, 09 Mar 2025 11:44:00 +0530</pubDate>
             <category>General</category>
         </item>
+        <item>
+            <title><![CDATA[Shared Hosting Explained For Clients]]></title>
+            <link>https://enindu.com/blog/shared-hosting-explained-for-clients</link>
+            <description><![CDATA[This isn't just another article explaining shared hosting. Instead, I'll break it down from a system administrator's perspective—why you should never use shared hosting, even for a small web application, and what better alternatives exist. If you're looking for affordable hosting solutions, this will be a comprehensive guide, much like my previous article on web development. Let's dive in!]]></description>
+            <author>enindu@gmail.com (Enindu Alahapperuma)</author>
+            <guid>https://enindu.com/5</guid>
+            <pubDate>Tue, 11 Mar 2025 12:01:00 +0530</pubDate>
+            <category>General</category>
+        </item>
     </channel>
 </rss>
