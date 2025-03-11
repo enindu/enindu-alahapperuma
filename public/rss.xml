@@ -57,5 +57,14 @@
             <pubDate>Tue, 11 Mar 2025 12:01:00 +0530</pubDate>
             <category>General</category>
         </item>
+        <item>
+            <title><![CDATA[Understanding DNS]]></title>
+            <link>https://enindu.com/blog/understanding-dns</link>
+            <description><![CDATA[Most developers have a high-level understanding of DNS. However, for web developers, grasping DNS at a low level is crucial. Writing yet another article explaining DNS from a high-level perspective would be redundant. Instead, this article delves into the DNS protocol and its inner workings at a low level, offering a system administrator's perspective. Let's dive in.]]></description>
+            <author>enindu@gmail.com (Enindu Alahapperuma)</author>
+            <guid>https://enindu.com/6</guid>
+            <pubDate>Wed, 12 Mar 2025 01:00:00 +0530</pubDate>
+            <category>General</category>
+        </item>
     </channel>
 </rss>

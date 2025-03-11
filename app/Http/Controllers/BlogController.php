@@ -45,6 +45,14 @@ class BlogController extends Controller
     }
 
     /**
+     * Display understanding DNS page.
+     */
+    public function blog6()
+    {
+        return view('app.blog.blog-6');
+    }
+
+    /**
      * Display a listing of the resource.
      */
     public function index()
