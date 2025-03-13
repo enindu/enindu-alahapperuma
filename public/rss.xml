@@ -66,5 +66,14 @@
             <pubDate>Wed, 12 Mar 2025 01:00:00 +0530</pubDate>
             <category>General</category>
         </item>
+        <item>
+            <title><![CDATA[Playing With DNS Clients]]></title>
+            <link>https://enindu.com/blog/playing-with-dns-clients</link>
+            <description><![CDATA[In a previous article, I provided a low-level overview of DNS servers. While it wasn't an exhaustive guide, it covered the fundamentals to help you understand how DNS works. In this article, I'll build on that foundation with real-world examples. Let's dive in!]]></description>
+            <author>enindu@gmail.com (Enindu Alahapperuma)</author>
+            <guid>https://enindu.com/7</guid>
+            <pubDate>Thu, 13 Mar 2025 21:32:00 +0530</pubDate>
+            <category>General</category>
+        </item>
     </channel>
 </rss>

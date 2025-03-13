@@ -18,5 +18,6 @@ Route::get('/blog/understanding-http', [BlogController::class, 'blog3'])->name('
 Route::get('/blog/playing-with-http-servers', [BlogController::class, 'blog4'])->name('blog.blog-4');
 Route::get('/blog/shared-hosting-explained-for-clients', [BlogController::class, 'blog5'])->name('blog.blog-5');
 Route::get('/blog/understanding-dns', [BlogController::class, 'blog6'])->name('blog.blog-6');
+Route::get('/blog/playing-with-dns-clients', [BlogController::class, 'blog7'])->name('blog.blog-7');
 Route::resource('/blog', BlogController::class)->only(['index']);
 Route::resource('/contact', ContactController::class)->only(['index']);
