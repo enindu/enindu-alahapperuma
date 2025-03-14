@@ -61,6 +61,14 @@ class BlogController extends Controller
     }
 
     /**
+     * Display running shell commands within shared hosting page.
+     */
+    public function blog8()
+    {
+        return view('app.blog.blog-8');
+    }
+
+    /**
      * Display a listing of the resource.
      */
     public function index()

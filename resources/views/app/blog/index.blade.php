@@ -18,6 +18,7 @@
     <div class="card rounded-5 p-3">
         <div class="card-body">
             <div class="d-flex flex-column gap-3 gap-lg-0">
+                <a class="text-white text-decoration-none" href="{{ route('blog.blog-8') }}">Running Shell Commands Within Shared Hosting</a>
                 <a class="text-white text-decoration-none" href="{{ route('blog.blog-7') }}">Playing With DNS Clients</a>
                 <a class="text-white text-decoration-none" href="{{ route('blog.blog-6') }}">Understanding DNS</a>
                 <a class="text-white text-decoration-none" href="{{ route('blog.blog-5') }}">Shared Hosting Explained For Clients</a>

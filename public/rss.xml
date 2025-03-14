@@ -75,5 +75,14 @@
             <pubDate>Thu, 13 Mar 2025 21:32:00 +0530</pubDate>
             <category>General</category>
         </item>
+        <item>
+            <title><![CDATA[Running Shell Commands Within Shared Hosting]]></title>
+            <link>https://enindu.com/blog/running-shell-commands-within-shared-hosting</link>
+            <description><![CDATA[In a previous article, I discussed shared hosting. In this one, I'll be experimenting with a shared hosting server. My goal is to highlight a vulnerability and help you approach certain aspects from a different perspective. Let's get started!]]></description>
+            <author>enindu@gmail.com (Enindu Alahapperuma)</author>
+            <guid>https://enindu.com/8</guid>
+            <pubDate>Fri, 14 Mar 2025 15:20:00 +0530</pubDate>
+            <category>General</category>
+        </item>
     </channel>
 </rss>

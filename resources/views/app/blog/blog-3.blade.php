@@ -45,8 +45,8 @@ Connection: keep-alive</code></pre>
 Content-Type: text/html
 Content-Length: 100
 
-{{ '<!doctype html>' }}
-{{ '<!-- Code goes here -->' }}</code></pre>
+&lt;!doctype html&gt;
+&lt;!-- Code goes here --&gt;</code></pre>
                 <p class="mb-0">Just like with a custom HTTP client, now you know how to create a custom HTTP server. All you need to do is follow the rules.</p>
                 <p class="mb-0">As I mentioned earlier, playing with protocols is fun because once you understand the bounds of a protocol, you can do whatever you like. You can even invent an entirely new protocol. It will truly refine your understanding—trust me.</p>
                 <p class="mb-0">Now that you know what HTTP is and how it works, let's discuss what this has to do with web developers and what problems they often face.</p>
