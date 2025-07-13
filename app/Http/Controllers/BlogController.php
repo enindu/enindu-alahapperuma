@@ -69,6 +69,14 @@ class BlogController extends Controller
     }
 
     /**
+     * Display how poor development skills break internet page.
+     */
+    public function blog9()
+    {
+        return view('app.blog.blog-9');
+    }
+
+    /**
      * Display a listing of the resource.
      */
     public function index()

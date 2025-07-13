@@ -20,5 +20,6 @@ Route::get('/blog/shared-hosting-explained-for-clients', [BlogController::class,
 Route::get('/blog/understanding-dns', [BlogController::class, 'blog6'])->name('blog.blog-6');
 Route::get('/blog/playing-with-dns-clients', [BlogController::class, 'blog7'])->name('blog.blog-7');
 Route::get('/blog/running-shell-commands-within-shared-hosting', [BlogController::class, 'blog8'])->name('blog.blog-8');
+Route::get('/blog/how-poor-development-skills-break-internet', [BlogController::class, 'blog9'])->name('blog.blog-9');
 Route::resource('/blog', BlogController::class)->only(['index']);
 Route::resource('/contact', ContactController::class)->only(['index']);

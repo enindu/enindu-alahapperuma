@@ -84,5 +84,14 @@
             <pubDate>Fri, 14 Mar 2025 15:20:00 +0530</pubDate>
             <category>General</category>
         </item>
+        <item>
+            <title><![CDATA[How Poor Development Skills Break Internet]]></title>
+            <link>https://enindu.com/blog/how-poor-development-skills-break-internet</link>
+            <description><![CDATA[The most important part of a website's lifecycle is probably the development skills, with infrastructure skills coming second. I often come across websites built with poor development practices that are easy to hack. Seeing this so often has frustrated me and inspired me to write this article. So without wasting any more time, let's get straight to the point.]]></description>
+            <author>enindu@gmail.com (Enindu Alahapperuma)</author>
+            <guid>https://enindu.com/9</guid>
+            <pubDate>Sun, 13 Jul 2025 14:13:00 +0530</pubDate>
+            <category>General</category>
+        </item>
     </channel>
 </rss>
