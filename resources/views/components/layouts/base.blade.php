@@ -33,9 +33,31 @@
     <link href="{{ Vite::asset('resources/images/favicon.png') }}" rel="icon" type="image/png">
     <link href="{{ Vite::asset('resources/images/apple-touch-icon.png') }}" rel="apple-touch-icon">
     <link href="{{ Vite::asset('resources/css/style.css') }}" rel="stylesheet">
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KFRPPXVL');
+    </script>
 </head>
 
 <body class="overflow-hidden">
+    <noscript>
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-KFRPPXVL" style="display: none; visibility: hidden;" width="0"></iframe>
+    </noscript>
     @include('components.includes.preloader')
     @include('components.includes.particles')
     <div class="container my-3">
