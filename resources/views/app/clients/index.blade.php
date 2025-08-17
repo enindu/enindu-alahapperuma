@@ -21,10 +21,11 @@
                 <a class="text-white text-decoration-none" href="https://ynjenlighten.com" target="_blank">YNJ Enlighten</a>
                 <a class="text-white text-decoration-none" href="https://banaano.com" target="_blank">Banaano</a>
                 <a class="text-white text-decoration-none" href="https://elegantaquatics.co.uk" target="_blank">Elegant Aquatics</a>
+                <a class="text-white text-decoration-none" href="#" target="_blank">Trans Asia Maldives</a>
                 <a class="text-white text-decoration-none" href="https://xynosync.com" target="_blank">XynoSync</a>
                 <a class="text-white text-decoration-none" href="https://crafterscollection.com" target="_blank">Crafters Collection</a>
                 <a class="text-white text-decoration-none" href="https://dubsndot.com.au" target="_blank">dubsndot</a>
-                <a class="text-white text-decoration-none" href="https://www.facebook.com/COLOMBOBUSINESSASSOCIATIONSRILANKA" target="_blank">Colombo Business Association</a>
+                <a class="text-white text-decoration-none" href="#" target="_blank">Colombo Business Association</a>
                 <a class="text-white text-decoration-none" href="#" target="_blank">TicketZone</a>
                 <a class="text-white text-decoration-none" href="https://phyxle.com" target="_blank">Phyxle</a>
                 <a class="text-white text-decoration-none" href="https://novart.lk" target="_blank">Novart</a>
