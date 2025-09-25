@@ -1,11 +1,11 @@
 @php
     $id = 'contact.index';
     $title = 'Contact Me';
-    $description = 'There are several ways to contact me, with the fastest method being my preferred choice. If you\'re already a client, you can reach me via WhatsApp. For addit...';
+    $description = 'You can contact me in various ways, with the quickest being my preferred method. If you are an existing client, you can reach me via WhatsApp. For more conta...';
     $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, sri lanka, back-end engineer, system administrator, website security expert';
 @endphp
 
-@extends('components.layouts.base')
+@extends('components.layouts.base-1')
 @section('content')
     <div class="card rounded-5 p-3">
         <div class="card-body">

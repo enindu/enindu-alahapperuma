@@ -1,11 +1,11 @@
 @php
     $id = 'services.index';
     $title = 'My Services';
-    $description = 'As an expert back-end developer and system administrator, I offer a variety of services as a freelancer. Below, you\'ll find detailed information about the se...';
+    $description = 'As a skilled back-end developer and system administrator, I offer a range of freelance services. Below, you will find detailed information about the services...';
     $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, sri lanka, back-end engineer, system administrator, website security expert';
 @endphp
 
-@extends('components.layouts.base')
+@extends('components.layouts.base-1')
 @section('content')
     <div class="card rounded-5 p-3">
         <div class="card-body">

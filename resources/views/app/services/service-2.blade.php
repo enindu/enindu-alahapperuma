@@ -1,17 +1,17 @@
 @php
     $id = 'services.service-2';
     $title = 'System Administration | My Services';
-    $description = 'I offer several pricing plans for system administration, including a custom plan that allows you to tailor services to your specific needs. You don\'t need to...';
+    $description = 'I provide various system administration plans, including a custom plan tailored to your specific needs. You won\'t have to worry about server management—I wil...';
     $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, sri lanka, back-end engineer, system administrator, website security expert';
 @endphp
 
-@extends('components.layouts.base')
+@extends('components.layouts.base-1')
 @section('content')
     <div class="card rounded-5 p-3">
         <div class="card-body">
             <div class="d-flex flex-column gap-3">
                 <h1 class="mb-0">System Administration</h1>
-                <p class="mb-0">I provide various system administration plans, including a custom plan tailored to your specific needs. You won't have to worry about server management—I'll handle everything for you. All standard plans are hosted on AWS and support only PHP. If your web application uses a different programming language or platform, you'll need a custom plan. Review the plans below to find the best fit for you. Note that all charges are billed annually.</p>
+                <p class="mb-0">I provide various system administration plans, including a custom plan tailored to your specific needs. You won't have to worry about server management—I will handle everything for you. All standard plans are hosted on AWS and support only PHP. If your web application uses a different programming language or platform, you'll need a custom plan. Review the plans below to find the best fit for you. Note that all charges are billed annually.</p>
             </div>
         </div>
     </div>

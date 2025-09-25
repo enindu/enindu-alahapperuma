@@ -1,5 +1,5 @@
 <!doctype html>
-<html id="html" lang="en">
+<html class="h-100" id="html" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -27,9 +27,20 @@
     <link href="https://webmention.io/enindu.com/webmention" rel="webmention">
     <link href="https://webmention.io/enindu.com/xmlrpc" rel="pingback">
     <link href="{{ url('rss.xml') }}" rel="alternate" title="{{ env('APP_NAME') }}" type="application/rss+xml">
-    <link href="https://mastodon.social/@enindu" rel="me">
     <link href="https://github.com/enindu" rel="me">
     <link href="https://gitlab.com/enindu" rel="me">
+    <link href="https://linkedin.com/in/enindu" rel="me">
+    <link href="https://x.com/Enindu" rel="me">
+    <link href="https://www.facebook.com/enindu.alahapperuma.official" rel="me">
+    <link href="https://www.instagram.com/enindu" rel="me">
+    <link href="https://mastodon.social/@enindu" rel="me">
+    <link href="https://news.ycombinator.com/user?id=Enindu" rel="me">
+    <link href="https://medium.com/@Enindu" rel="me">
+    <link href="https://www.reddit.com/user/Enindu" rel="me">
+    <link href="https://www.quora.com/profile/Enindu-Alahapperuma" rel="me">
+    <link href="https://www.pinterest.com/enindu" rel="me">
+    <link href="https://indieweb.org/User:Enindu.com" rel="me">
+    <link href="https://www.buymeacoffee.com/enindu" rel="me">
     <link href="{{ Vite::asset('resources/images/favicon.png') }}" rel="icon" type="image/png">
     <link href="{{ Vite::asset('resources/images/apple-touch-icon.png') }}" rel="apple-touch-icon">
     <link href="{{ Vite::asset('resources/css/style.css') }}" rel="stylesheet">
@@ -54,31 +65,22 @@
     </script>
 </head>
 
-<body class="overflow-hidden">
+<body class="overflow-hidden h-100">
     <noscript>
         <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-KFRPPXVL" style="display: none; visibility: hidden;" width="0"></iframe>
     </noscript>
     @include('components.includes.preloader')
     @include('components.includes.particles')
-    <div class="container my-3">
-        <div class="row g-3">
-            <div class="col-12 col-lg-3 order-lg-1 order-2">
+    <div class="container py-3 h-100">
+        <div class="row align-items-center justify-content-center h-100">
+            <div class="col-12 col-lg-6">
                 <div class="d-flex flex-column gap-3">
-                    @include('components.includes.profile')
-                    @include('components.includes.internal-links')
-                    @include('components.includes.external-links')
-                    @include('components.includes.footer')
-                </div>
-            </div>
-            <div class="col-12 col-lg-9 order-lg-2 order-1">
-                <div class="d-flex flex-column gap-3">
-                    @include('components.includes.header')
                     @yield('content')
+                    @include('components.includes.footer')
                 </div>
             </div>
         </div>
     </div>
-    @include('components.includes.top')
     <script src="{{ Vite::asset('resources/js/script.js') }}" type="module"></script>
 </body>
 

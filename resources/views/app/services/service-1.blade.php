@@ -1,11 +1,11 @@
 @php
     $id = 'services.service-1';
     $title = 'Web Development | My Services';
-    $description = 'I offer two comprehensive pricing plans to cater to your specific needs. At this time, I do not provide custom plans. Please review the options below to find...';
+    $description = 'I provide two detailed pricing plans to meet your needs. Currently, custom plans are not available. Please review the options below to choose the one that be...';
     $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, sri lanka, back-end engineer, system administrator, website security expert';
 @endphp
 
-@extends('components.layouts.base')
+@extends('components.layouts.base-1')
 @section('content')
     <div class="card rounded-5 p-3">
         <div class="card-body">

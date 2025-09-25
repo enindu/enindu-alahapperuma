@@ -4,6 +4,7 @@ use App\Http\Controllers\BaseController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\GoogleAdsController;
 use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
 
@@ -23,3 +24,4 @@ Route::get('/blog/running-shell-commands-within-shared-hosting', [BlogController
 Route::get('/blog/how-poor-development-skills-break-internet', [BlogController::class, 'blog9'])->name('blog.blog-9');
 Route::resource('/blog', BlogController::class)->only(['index']);
 Route::resource('/contact', ContactController::class)->only(['index']);
+Route::get('/google-ads/submit-contacts', [GoogleAdsController::class, 'submitContacts'])->name('google-ads.submit-contacts');

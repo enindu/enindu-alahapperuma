@@ -1,11 +1,11 @@
 @php
     $id = 'index';
     $title = 'I Am A Freelancer From Sri Lanka';
-    $description = 'I am a back-end engineer, system administrator, and website security expert based in Sri Lanka. With years of experience, I specialize in building and managi...';
+    $description = 'I am a back-end engineer, system administrator, and website security expert from Sri Lanka. With years of experience, I focus on creating and managing reliab...';
     $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, sri lanka, back-end engineer, system administrator, website security expert';
 @endphp
 
-@extends('components.layouts.base')
+@extends('components.layouts.base-1')
 @section('content')
     <div class="card rounded-5 p-3">
         <div class="card-body">
