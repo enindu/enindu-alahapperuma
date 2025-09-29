@@ -69,7 +69,7 @@
                 </ul>
                 <p class="mb-0">I you are interested in this plan, click below button to send an inquiry.</p>
                 <div>
-                    <a class="btn btn-primary rounded-pill px-5 py-2" href="mailto:{{ env('APP_EMAIL') }}?subject=System%20administration%20inquiry&body=Shared%20plan" target="_blank">Send Inquiry</a>
+                    <a class="btn btn-primary rounded-pill px-5 py-2" href="mailto:{{ env('APP_EMAIL') }}">Send Inquiry</a>
                 </div>
             </div>
         </div>
@@ -131,7 +131,7 @@
                 </ul>
                 <p class="mb-0">I you are interested in this plan, click below button to send an inquiry.</p>
                 <div>
-                    <a class="btn btn-primary rounded-pill px-5 py-2" href="mailto:{{ env('APP_EMAIL') }}?subject=System%20administration%20inquiry&body=Static%20plan" target="_blank">Send Inquiry</a>
+                    <a class="btn btn-primary rounded-pill px-5 py-2" href="mailto:{{ env('APP_EMAIL') }}">Send Inquiry</a>
                 </div>
             </div>
         </div>
@@ -194,7 +194,7 @@
                 </ul>
                 <p class="mb-0">I you are interested in this plan, click below button to send an inquiry.</p>
                 <div>
-                    <a class="btn btn-primary rounded-pill px-5 py-2" href="mailto:{{ env('APP_EMAIL') }}?subject=System%20administration%20inquiry&body=Scale%20plan" target="_blank">Send Inquiry</a>
+                    <a class="btn btn-primary rounded-pill px-5 py-2" href="mailto:{{ env('APP_EMAIL') }}">Send Inquiry</a>
                 </div>
             </div>
         </div>
@@ -257,7 +257,7 @@
                 </ul>
                 <p class="mb-0">I you are interested in this plan, click below button to send an inquiry.</p>
                 <div>
-                    <a class="btn btn-primary rounded-pill px-5 py-2" href="mailto:{{ env('APP_EMAIL') }}?subject=System%20administration%20inquiry&body=Ultimate%20plan" target="_blank">Send Inquiry</a>
+                    <a class="btn btn-primary rounded-pill px-5 py-2" href="mailto:{{ env('APP_EMAIL') }}">Send Inquiry</a>
                 </div>
             </div>
         </div>
@@ -272,7 +272,7 @@
                 <p class="mb-0">If the predefined plans do not meet your needs, please contact me to discuss your requirements. I will create a custom plan tailored to your specific needs. Pricing for custom plans will be based on the services you require.</p>
                 <p class="mb-0">If you are interested in a custom plan, click the button below to send an inquiry.</p>
                 <div>
-                    <a class="btn btn-primary rounded-pill px-5 py-2" href="mailto:{{ env('APP_EMAIL') }}?subject=System%20administration%20inquiry&body=Custom%20plan" target="_blank">Send Inquiry</a>
+                    <a class="btn btn-primary rounded-pill px-5 py-2" href="mailto:{{ env('APP_EMAIL') }}">Send Inquiry</a>
                 </div>
             </div>
         </div>
