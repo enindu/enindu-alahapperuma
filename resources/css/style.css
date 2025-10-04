@@ -96,8 +96,16 @@ a:hover {
     color: #2b7fff !important;
 }
 
+.internal-links-wrapper {
+    scrollbar-width: none;
+}
+
 .internal-links-wrapper .internal-links .link.active {
     color: #2b7fff !important;
+}
+
+.external-links-wrapper {
+    scrollbar-width: none;
 }
 
 .particles-wrapper {

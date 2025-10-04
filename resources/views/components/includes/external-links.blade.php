@@ -1,7 +1,7 @@
 <div class="card rounded-5 p-3">
     <div class="card-body">
-        <div class="links-wrapper overflow-x-scroll">
-            <div class="links d-flex flex-row flex-lg-column gap-3 gap-lg-0">
+        <div class="external-links-wrapper overflow-x-scroll">
+            <div class="external-links d-flex flex-row flex-lg-column gap-3 gap-lg-0">
                 <a class="link text-white text-nowrap text-decoration-none" href="https://github.com/enindu" target="_blank">GitHub</a>
                 <a class="link text-white text-nowrap text-decoration-none" href="https://gitlab.com/enindu" target="_blank">GitLab</a>
                 <a class="link text-white text-nowrap text-decoration-none" href="https://linkedin.com/in/enindu" target="_blank">LinkedIn</a>
