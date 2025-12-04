@@ -51,11 +51,11 @@
                         <a class="text-white text-decoration-none" href="https://prowear.lk" target="_blank">Pro Wear</a>
                         <a class="text-white text-decoration-none" href="https://everfreightexpress.com" target="_blank">Everfreight Express</a>
                         <a class="text-white text-decoration-none" href="https://pragathieducation.lk" target="_blank">Pragathi Education</a>
-                        <a class="text-white text-decoration-none" href="https://taprobanaapparel.com" target="_blank">Taprobana Apparel</a>
-                        <a class="text-white text-decoration-none" href="https://futuredreams.lk" target="_blank">Future Dreams & Merchant Investments</a>
-                        <a class="text-white text-decoration-none" href="https://winterasiatours.com" target="_blank">Winter Asia Tours & Travels</a>
+                        <p class="mb-0">Taprobana Apparel</p>
+                        <p class="mb-0">Future Dreams & Merchant Investments</p>
+                        <p class="mb-0">Winter Asia Tours & Travels</p>
                         <p class="mb-0">Degital Zip</p>
-                        <a class="text-white text-decoration-none" href="https://ammaiputhai.com" target="_blank">Ammai Puthai</a>
+                        <p class="mb-0">Ammai Puthai</p>
                         <p class="mb-0">Hasarel</p>
                         <p class="mb-0">Dilshan Fashion Outlet</p>
                         <p class="mb-0">Union Timbers</p>
