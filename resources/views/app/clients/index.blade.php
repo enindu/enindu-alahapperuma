@@ -45,6 +45,7 @@
                     <h2 class="mb-0">XynoSync Clients</h2>
                     <p class="mb-0">I co-founded XynoSync to offer a different approach to solving client problems and achieving their goals. The company was established to serve clients with a programmatic, security-focused approach rather than relying solely on marketing materials, while ensuring full transparency between the company and its clients. At XynoSync, I have had the opportunity to collaborate with numerous clients and developers, providing my expertise in web development, system administration, and consulting services.</p>
                     <div class="d-flex flex-column gap-3 gap-lg-0">
+                        <a class="text-white text-decoration-none" href="https://lovehut.lk" target="_blank">Love Hut</a>
                         <a class="text-white text-decoration-none" href="https://ciaolankatours.com" target="_blank">Ciao Lanka Tours & Adventure</a>
                         <p class="mb-0">Wahana Pola</p>
                         <p class="mb-0">Devil Tours & Taxi Service</p>
