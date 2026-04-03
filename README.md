@@ -1,3 +1,7 @@
 # Enindu Alahapperuma
 
-This is the source code of my personal website which is licensed under [MIT](https://opensource.org/license/mit). You can distribute or modify the source code as mentioned in the license.
+Source code of my personal website.
+
+## License
+
+This software is licensed under MIT. You can view full license [here](https://github.com/enindu/enindu-alahapperuma/blob/master/LICENSE.md).
