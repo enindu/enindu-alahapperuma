@@ -1,12 +1,31 @@
-@import 'halfmoon';
+@import "halfmoon";
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Onest:wght@100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Onest:wght@100..900&display=swap');
+@keyframes zoom {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(100%);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1000%);
+    }
+}
 
 :root {
     --bs-body-font-family: Onest, sans-serif;
-    --bs-font-monospace: 'JetBrains Mono', monospace;
+    --bs-font-monospace: "JetBrains Mono", monospace;
     --bs-font-size-base: 1.125rem;
     --bs-border-color: #ffffff;
+}
+
+::selection {
+    background-color: #2b7fff;
+    color: #ffffff;
 }
 
 * {
@@ -14,11 +33,6 @@
     scrollbar-color: #ffffff transparent;
     scrollbar-width: thin;
     transition: all 250ms linear;
-}
-
-::selection {
-    background-color: #2b7fff;
-    color: #ffffff;
 }
 
 body {
@@ -110,19 +124,4 @@ a:hover {
 
 .particles-wrapper {
     filter: blur(100px);
-}
-
-@keyframes zoom {
-    0% {
-        opacity: 0;
-        transform: scale(0);
-    }
-    50% {
-        opacity: 1;
-        transform: scale(100%);
-    }
-    100% {
-        opacity: 0;
-        transform: scale(1000%);
-    }
 }
