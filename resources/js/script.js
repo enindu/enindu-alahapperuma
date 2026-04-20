@@ -9,34 +9,32 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const initPreloader = () => {
-    const preloaderWrapper = document.querySelector("#preloader-wrapper");
+    const xPreloaderContainer = document.querySelector("#x-preloader-container");
 
-    if (preloaderWrapper) {
+    if (xPreloaderContainer) {
         const body = document.querySelector("body");
 
         setTimeout(() => {
-            preloaderWrapper.classList.remove("d-flex");
-            preloaderWrapper.classList.add("d-none");
-            body.classList.remove("overflow-hidden");
-            body.classList.add("overflow-auto");
+            xPreloaderContainer.style.display = "none";
+            body.style.overflow = "auto";
         }, 1000);
     }
 };
 
 const initParticles = () => {
-    const particlesWrapper = document.querySelector("#particles-wrapper");
+    const xParticlesContainer = document.querySelector("#x-particles-container");
 
-    if (particlesWrapper) {
-        particles.init("particles", {
+    if (xParticlesContainer) {
+        particles.init("x-particles", {
             particles: {
                 number: {
-                    value: 50,
+                    value: 100,
                     density: {
-                        enable: false,
+                        enable: true,
                     },
                 },
                 color: {
-                    value: ["#2b7fff"],
+                    value: ["#2b7fff", "#000000", "#000000", "#000000", "#000000"],
                 },
                 shape: {
                     type: "circle",

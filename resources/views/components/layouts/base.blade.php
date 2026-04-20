@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="html" lang="en">
+<html id="x-html" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -43,6 +43,9 @@
     <link href="https://www.buymeacoffee.com/enindu" rel="me">
     <link href="{{ Vite::asset('resources/images/favicon.png') }}" rel="icon" type="image/png">
     <link href="{{ Vite::asset('resources/images/apple-touch-icon.png') }}" rel="apple-touch-icon">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Onest:wght@100..900&display=swap" rel="stylesheet">
     <link href="{{ Vite::asset('resources/css/style.css') }}" rel="stylesheet">
     <script>
         (function(w, d, s, l, i) {
@@ -65,26 +68,27 @@
     </script>
 </head>
 
-<body class="overflow-hidden">
+<body>
     <noscript>
-        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-KFRPPXVL" style="display: none; visibility: hidden;" width="0"></iframe>
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-KFRPPXVL" style="display:none;visibility:hidden;" width="0"></iframe>
     </noscript>
     @include('components.includes.preloader')
     @include('components.includes.particles')
-    <div class="container my-3">
-        <div class="row g-3">
-            <div class="col-12 col-lg-3 order-lg-1 order-2">
-                <div class="d-flex flex-column gap-3">
-                    @include('components.includes.profile')
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-3">
+                <div class="x-container">
+                    @include('components.includes.profile-desktop')
                     @include('components.includes.internal-links')
                     @include('components.includes.external-links')
-                    @include('components.includes.footer')
                 </div>
             </div>
-            <div class="col-12 col-lg-9 order-lg-2 order-1">
-                <div class="d-flex flex-column gap-3">
+            <div class="col-12 col-lg-9">
+                <div class="x-container">
                     @include('components.includes.header')
+                    @include('components.includes.profile-mobile')
                     @yield('content')
+                    @include('components.includes.footer')
                 </div>
             </div>
         </div>
