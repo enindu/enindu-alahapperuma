@@ -356,15 +356,15 @@ img {
     z-index: 1;
 }
 
-.x-top-container:hover {
-    background-color: var(--x-black);
-}
-
 @media (max-width: 992px) {
     .x-top-container {
         bottom: 16px;
         right: 12px;
     }
+}
+
+.x-top-container:hover {
+    background-color: var(--x-black);
 }
 
 .x-top {
