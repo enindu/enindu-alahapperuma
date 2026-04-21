@@ -23,7 +23,7 @@
                 <div class="x-list">
                     <a href="https://ynjenlighten.com" target="_blank">YNJ Enlighten</a>
                     <a href="https://banaano.com" target="_blank">Banaano</a>
-                    <a href="https://elegantaquatics.co.uk" target="_blank">Elegant Aquatics</a>
+                    <p>Elegant Aquatics</p>
                     <p>Trans Asia Maldives</p>
                     <a href="https://xynosync.com" target="_blank">XynoSync</a>
                     <p>OOThoughts</p>
