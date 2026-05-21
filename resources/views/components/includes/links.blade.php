@@ -1,4 +1,4 @@
-<div class="card d-none d-lg-block">
+<div class="card">
     <div class="card-body">
         <div class="x-links-container">
             <div class="x-links">
