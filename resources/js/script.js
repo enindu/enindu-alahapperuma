@@ -1,8 +1,6 @@
 import "bootstrap";
 import particles from "particles.js-es";
 
-import.meta.glob(["../images/**"]);
-
 document.addEventListener("DOMContentLoaded", () => {
     initPreloader();
     initParticles();

@@ -74,26 +74,7 @@
     </noscript>
     @include('components.includes.preloader')
     @include('components.includes.particles')
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-3">
-                <div class="x-container">
-                    @include('components.includes.profile-desktop')
-                    @include('components.includes.internal-links')
-                    @include('components.includes.external-links')
-                </div>
-            </div>
-            <div class="col-12 col-lg-9">
-                <div class="x-container">
-                    @include('components.includes.header')
-                    @include('components.includes.profile-mobile')
-                    @yield('content')
-                    @include('components.includes.footer')
-                </div>
-            </div>
-        </div>
-    </div>
-    @include('components.includes.top')
+    @yield('base-content')
     <script src="{{ Vite::asset('resources/js/script.js') }}" type="module"></script>
 </body>
 

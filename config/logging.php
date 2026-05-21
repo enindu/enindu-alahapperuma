@@ -1,10 +1,5 @@
 <?php
 
-use Monolog\Handler\NullHandler;
-use Monolog\Handler\StreamHandler;
-use Monolog\Handler\SyslogUdpHandler;
-use Monolog\Processor\PsrLogMessageProcessor;
-
 return [
 
     /*
@@ -57,7 +52,7 @@ return [
         'stack' => [
 
             'driver' => 'stack',
-            'channels' => explode(',', env('LOG_STACK', 'single')),
+            'channels' => explode(',', (string) env('LOG_STACK', 'single')),
             'ignore_exceptions' => false,
 
         ],
@@ -85,7 +80,7 @@ return [
 
             'driver' => 'slack',
             'url' => env('LOG_SLACK_WEBHOOK_URL'),
-            'username' => env('LOG_SLACK_USERNAME', 'Enindu Alahapperuma Log'),
+            'username' => env('LOG_SLACK_USERNAME', env('APP_NAME', 'Skeleton')),
             'emoji' => env('LOG_SLACK_EMOJI', ':boom:'),
             'level' => env('LOG_LEVEL', 'critical'),
             'replace_placeholders' => true,
@@ -96,7 +91,7 @@ return [
 
             'driver' => 'monolog',
             'level' => env('LOG_LEVEL', 'debug'),
-            'handler' => env('LOG_PAPERTRAIL_HANDLER', SyslogUdpHandler::class),
+            'handler' => env('LOG_PAPERTRAIL_HANDLER', Monolog\Handler\SyslogUdpHandler::class),
 
             'handler_with' => [
 
@@ -106,7 +101,7 @@ return [
 
             ],
 
-            'processors' => [PsrLogMessageProcessor::class],
+            'processors' => [Monolog\Processor\PsrLogMessageProcessor::class],
 
         ],
 
@@ -114,16 +109,17 @@ return [
 
             'driver' => 'monolog',
             'level' => env('LOG_LEVEL', 'debug'),
-            'handler' => StreamHandler::class,
-            'formatter' => env('LOG_STDERR_FORMATTER'),
+            'handler' => Monolog\Handler\StreamHandler::class,
 
-            'with' => [
+            'handler_with' => [
 
                 'stream' => 'php://stderr',
 
             ],
 
-            'processors' => [PsrLogMessageProcessor::class],
+            'formatter' => env('LOG_STDERR_FORMATTER'),
+            'processors' => [Monolog\Processor\PsrLogMessageProcessor::class],
+
         ],
 
         'syslog' => [
@@ -146,7 +142,7 @@ return [
         'null' => [
 
             'driver' => 'monolog',
-            'handler' => NullHandler::class,
+            'handler' => Monolog\Handler\NullHandler::class,
 
         ],
 

@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Enindu Alahapperuma'),
+    'name' => env('APP_NAME', 'Skeleton'),
 
     /*
     |--------------------------------------------------------------------------
@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'Asia/Colombo',
+    'timezone' => env('APP_TIMEZONE', 'UTC'),
 
     /*
     |--------------------------------------------------------------------------
@@ -95,7 +95,7 @@ return [
 
     'cipher' => 'AES-256-CBC',
     'key' => env('APP_KEY'),
-    'previous_keys' => [...array_filter(explode(',', env('APP_PREVIOUS_KEYS', '')))],
+    'previous_keys' => [...array_filter(explode(',', (string) env('APP_PREVIOUS_KEYS', '')))],
 
     /*
     |--------------------------------------------------------------------------

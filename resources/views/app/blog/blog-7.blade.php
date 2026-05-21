@@ -5,7 +5,7 @@
     $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, sri lanka, back-end engineer, system administrator, website security expert';
 @endphp
 
-@extends('components.layouts.base')
+@extends('components.layouts.pages')
 @section('content')
     <div class="card">
         <div class="card-body">
@@ -26,40 +26,7 @@
 ; <<>> DiG 9.20.22 <<>> enindu.com
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49512
-;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 2, ADDITIONAL: 13
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 4096
-;; QUESTION SECTION:
-;enindu.com.                    IN      A
-
-;; ANSWER SECTION:
-enindu.com.             300     IN      A       172.67.155.189
-enindu.com.             300     IN      A       104.21.48.184
-
-;; AUTHORITY SECTION:
-enindu.com.             172800  IN      NS      eloise.ns.cloudflare.com.
-enindu.com.             172800  IN      NS      kyree.ns.cloudflare.com.
-
-;; ADDITIONAL SECTION:
-kyree.ns.cloudflare.com. 24672  IN      A       172.64.35.207
-kyree.ns.cloudflare.com. 24672  IN      A       108.162.195.207
-kyree.ns.cloudflare.com. 24672  IN      A       162.159.44.207
-eloise.ns.cloudflare.com. 24550 IN      A       162.159.38.208
-eloise.ns.cloudflare.com. 24550 IN      A       172.64.34.208
-eloise.ns.cloudflare.com. 24550 IN      A       108.162.194.208
-kyree.ns.cloudflare.com. 24672  IN      AAAA    2a06:98c1:50::ac40:23cf
-kyree.ns.cloudflare.com. 24672  IN      AAAA    2606:4700:58::a29f:2ccf
-kyree.ns.cloudflare.com. 24672  IN      AAAA    2803:f800:50::6ca2:c3cf
-eloise.ns.cloudflare.com. 24550 IN      AAAA    2606:4700:50::a29f:26d0
-eloise.ns.cloudflare.com. 24550 IN      AAAA    2803:f800:50::6ca2:c2d0
-eloise.ns.cloudflare.com. 24550 IN      AAAA    2a06:98c1:50::ac40:22d0
-
-;; Query time: 206 msec
-;; SERVER: 192.168.1.1#53(192.168.1.1) (UDP)
-;; WHEN: Mon Apr 20 16:20:02 +0530 2026
-;; MSG SIZE  rcvd: 390</code></pre>
+;; ->>HEADER<<- (UDP) +0530 0, 1, 104.21.48.184 108.162.194.208 108.162.195.207 13 162.159.38.208 162.159.44.207 16:20:02 172.64.34.208 172.64.35.207 172.67.155.189 172800 172800 192.168.1.1#53(192.168.1.1) 2, 2, 20 2026 206 24550 24550 24550 24550 24550 24550 24672 24672 24672 24672 24672 24672 2606:4700:50::a29f:26d0 2606:4700:58::a29f:2ccf 2803:f800:50::6ca2:c2d0 2803:f800:50::6ca2:c3cf 2a06:98c1:50::ac40:22d0 2a06:98c1:50::ac40:23cf 300 300 390</code 4096 49512 ; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;; ;enindu.com. A A A A A A A A A AAAA AAAA AAAA AAAA AAAA AAAA ADDITIONAL ADDITIONAL: ANSWER ANSWER: AUTHORITY AUTHORITY: Apr EDNS: IN IN IN IN IN IN IN IN IN IN IN IN IN IN IN IN IN MSG Mon NOERROR, NS NS OPT PSEUDOSECTION: QUERY, QUERY: QUESTION Query SECTION: SECTION: SECTION: SECTION: SERVER: SIZE WHEN: eloise.ns.cloudflare.com. eloise.ns.cloudflare.com. eloise.ns.cloudflare.com. eloise.ns.cloudflare.com. eloise.ns.cloudflare.com. eloise.ns.cloudflare.com. eloise.ns.cloudflare.com. enindu.com. enindu.com. enindu.com. enindu.com. flags: flags:; id: kyree.ns.cloudflare.com. kyree.ns.cloudflare.com. kyree.ns.cloudflare.com. kyree.ns.cloudflare.com. kyree.ns.cloudflare.com. kyree.ns.cloudflare.com. kyree.ns.cloudflare.com. msec opcode: qr ra; rcvd: rd status: time: udp: version:></pre>
                 <p>Aside from the DNS records, take a look at this line.</p>
                 <pre><code>;; SERVER: 192.168.1.1#53(192.168.1.1) (UDP)</code></pre>
                 <p>Assuming you've already read my previous article and are familiar with the workings of different DNS servers, you can likely identify that this code triggers a DNS query through the recursive resolver on my local network, with UDP being used at the transport layer. Now, let's quickly address the "#53" in this line, which I didn't cover in the previous article. "#53" refers to the port number of the DNS server. As specified in RFC whatever number, port 53 must be used for both TCP and UDP in DNS communication.</p>

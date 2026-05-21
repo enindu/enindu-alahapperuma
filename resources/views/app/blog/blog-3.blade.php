@@ -5,7 +5,7 @@
     $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, sri lanka, back-end engineer, system administrator, website security expert';
 @endphp
 
-@extends('components.layouts.base')
+@extends('components.layouts.pages')
 @section('content')
     <div class="card">
         <div class="card-body">
