@@ -2,7 +2,7 @@
     <div class="card-body">
         <div class="x-external-links-container">
             <div class="x-external-links">
-                <p>External Links</p>
+                <p>Find Me On</p>
                 <a href="https://github.com/enindu" target="_blank">GitHub</a>
                 <a href="https://gitlab.com/enindu" target="_blank">GitLab</a>
                 <a href="https://linkedin.com/in/enindu" target="_blank">LinkedIn</a>

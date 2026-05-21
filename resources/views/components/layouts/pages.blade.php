@@ -5,8 +5,7 @@
             <div class="col-12 col-lg-3">
                 <div class="x-container">
                     @include('components.includes.profile-desktop')
-                    @include('components.includes.internal-links')
-                    @include('components.includes.external-links')
+                    @include('components.includes.links')
                 </div>
             </div>
             <div class="col-12 col-lg-9">
