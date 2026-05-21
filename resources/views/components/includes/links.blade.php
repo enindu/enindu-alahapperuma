@@ -1,7 +1,7 @@
 <div class="card d-none d-lg-block">
     <div class="card-body">
-        <div class="x-external-links-container">
-            <div class="x-external-links">
+        <div class="x-links-container">
+            <div class="x-links">
                 <p>Find Me On</p>
                 <a href="https://github.com/enindu" target="_blank">GitHub</a>
                 <a href="https://gitlab.com/enindu" target="_blank">GitLab</a>

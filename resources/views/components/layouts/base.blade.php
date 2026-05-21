@@ -73,7 +73,6 @@
         <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-KFRPPXVL" style="display:none;visibility:hidden;" width="0"></iframe>
     </noscript>
     @include('components.includes.preloader')
-    @include('components.includes.particles')
     @yield('base-content')
     <script src="{{ Vite::asset('resources/js/script.js') }}" type="module"></script>
 </body>
