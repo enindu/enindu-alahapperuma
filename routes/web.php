@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AboutController;
 use App\Http\Controllers\BaseController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ClientController;
@@ -9,6 +10,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('web')->group(function () {
     Route::resource('/', BaseController::class)->only(['index']);
+    Route::resource('/about', AboutController::class)->only(['index']);
     Route::get('/services/web-development', [ServiceController::class, 'service1'])->name('services.service-1');
     Route::get('/services/system-administration', [ServiceController::class, 'service2'])->name('services.service-2');
     Route::resource('/services', ServiceController::class)->only(['index']);

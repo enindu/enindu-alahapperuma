@@ -4,6 +4,7 @@
             <div class="x-header">
                 <div class="x-header-links">
                     <a class="{{ request()->routeIs('index') ? 'active' : '' }}" href="{{ route('index') }}">Home</a>
+                    <a class="{{ request()->routeIs('about.*') ? 'active' : '' }}" href="{{ route('about.index') }}">About</a>
                     <a class="{{ request()->routeIs('services.*') ? 'active' : '' }}" href="{{ route('services.index') }}">Services</a>
                     <a class="{{ request()->routeIs('clients.*') ? 'active' : '' }}" href="{{ route('clients.index') }}">Clients</a>
                     <a class="{{ request()->routeIs('blog.*') ? 'active' : '' }}" href="{{ route('blog.index') }}">Blog</a>
