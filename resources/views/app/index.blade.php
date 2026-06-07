@@ -38,7 +38,7 @@
             <div class="facts">
                 <div class="box">
                     <img alt="experience" height="80" src="{{ Vite::asset('resources/images/experience.svg') }}" width="80">
-                    <div class="meta">
+                    <div>
                         <p class="h1">{{ now()->format('Y') - 2018 }}+</p>
                         <p>Experience</p>
                         <p>in years</p>
@@ -46,7 +46,7 @@
                 </div>
                 <div class="box">
                     <img alt="websites" height="80" src="{{ Vite::asset('resources/images/websites.svg') }}" width="80">
-                    <div class="meta">
+                    <div>
                         <p class="h1">86+</p>
                         <p>Websites</p>
                         <p>developed</p>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="box">
                     <img alt="servers" height="80" src="{{ Vite::asset('resources/images/servers.svg') }}" width="80">
-                    <div class="meta">
+                    <div>
                         <p class="h1">8+</p>
                         <p>Servers</p>
                         <p>managed</p>
@@ -62,7 +62,7 @@
                 </div>
                 <div class="box">
                     <img alt="clients" height="80" src="{{ Vite::asset('resources/images/clients.svg') }}" width="80">
-                    <div class="meta">
+                    <div>
                         <p class="h1">84+</p>
                         <p>Collaborated</p>
                         <p>clients</p>
@@ -71,20 +71,18 @@
             </div>
         </div>
     </section>
-    <section id="home-about-section">
+    <section>
         <div class="container">
-            <div class="about">
-                <div class="box">
-                    <div class="content">
-                        <h2 class="h1">Brief introduction about me.</h2>
-                        <p>I am Enindu Alahapperuma, a freelance software engineer and infrastructure administrator based in Sri Lanka with over {{ now()->format('Y') - 2018 }} years of experience. I started my career in web development, and my passion for learning gradually led me into cloud infrastructure, Linux system administration, and cybersecurity. Today, I combine expertise across these fields to design, build, and manage reliable, secure, and high-performance digital systems from the ground up.</p>
-                        <p>My broad experience across the entire web technology stack allows me to provide complete end-to-end solutions for clients. By combining secure back-end development with resilient cloud infrastructure and strong security practices, I ensure that every system I build is efficient, scalable, and protected against modern cyber threats.</p>
-                        <p>To learn more about my background, technical skills, and the professional services I offer, please click the button below.</p>
-                        <a class="button" href="{{ route('about.index') }}">
-                            <span>About me</span>
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
+            <div class="box">
+                <div class="content">
+                    <h2 class="h1">Brief introduction about me.</h2>
+                    <p>I am Enindu Alahapperuma, a freelance software engineer and infrastructure administrator based in Sri Lanka with over {{ now()->format('Y') - 2018 }} years of experience. I started my career in web development, and my passion for learning gradually led me into cloud infrastructure, Linux system administration, and cybersecurity. Today, I combine expertise across these fields to design, build, and manage reliable, secure, and high-performance digital systems from the ground up.</p>
+                    <p>My broad experience across the entire web technology stack allows me to provide complete end-to-end solutions for clients. By combining secure back-end development with resilient cloud infrastructure and strong security practices, I ensure that every system I build is efficient, scalable, and protected against modern cyber threats.</p>
+                    <p>To learn more about my background, technical skills, and the professional services I offer, please click the button below.</p>
+                    <a class="button" href="{{ route('about.index') }}">
+                        <span>About me</span>
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
                 </div>
             </div>
         </div>

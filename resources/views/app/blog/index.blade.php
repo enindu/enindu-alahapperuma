@@ -27,9 +27,9 @@
             </div>
         </div>
     </section>
-    <section id="blog-blog-section">
+    <section id="blog-list-section">
         <div class="container">
-            <div class="blog">
+            <div class="list">
                 <div class="box">
                     <div class="content">
                         <h2 class="h1">How poor development skills break internet.</h2>

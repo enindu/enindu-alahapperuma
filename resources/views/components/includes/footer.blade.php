@@ -12,9 +12,7 @@
                                 <p class="p-country-name">{{ config('website.country') }}</p>
                             </div>
                         </div>
-                        <div class="body">
-                            <p class="p-note">I am a freelance software engineer specializing in web development, a cloud infrastructure engineer focused on Linux system administration, and a cybersecurity specialist focused on application and network security.</p>
-                        </div>
+                        <p class="p-note">I am a freelance software engineer specializing in web development, a cloud infrastructure engineer focused on Linux system administration, and a cybersecurity specialist focused on application and network security.</p>
                         <div class="links">
                             <div class="link">
                                 <i class="ri-whatsapp-line"></i>

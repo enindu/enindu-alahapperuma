@@ -27,9 +27,9 @@
             </div>
         </div>
     </section>
-    <section id="services-services-section">
+    <section id="services-list-section">
         <div class="container">
-            <div class="services">
+            <div class="list">
                 <div class="box">
                     <div class="content">
                         <h2 class="h1">Explore my web development services.</h2>

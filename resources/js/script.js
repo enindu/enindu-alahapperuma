@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initTop();
 });
 const initPreloader = () => {
-    const preloader = document.getElementById("preloader");
+    const preloader = document.getElementById("preloader-section");
     if (preloader) {
         setTimeout(() => {
             preloader.style.opacity = 0;
@@ -13,7 +13,7 @@ const initPreloader = () => {
     }
 };
 const initTop = () => {
-    const top = document.getElementById("top");
+    const top = document.getElementById("top-section");
     if (top) {
         window.addEventListener("scroll", () => {
             const bottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 5;
