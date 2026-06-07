@@ -35,7 +35,6 @@
         <link href="https://instagram.com/enindu" rel="me">
         <link href="https://linkedin.com/in/enindu" rel="me">
         <link href="https://mastodon.social/@enindu" rel="me">
-        <link href="https://medium.com/@Enindu" rel="me">
         <link href="https://news.ycombinator.com/user?id=Enindu" rel="me">
         <link href="https://pinterest.com/enindu" rel="me">
         <link href="https://quora.com/profile/Enindu-Alahapperuma" rel="me">

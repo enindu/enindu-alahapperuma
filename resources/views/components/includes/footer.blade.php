@@ -57,7 +57,6 @@
                             <a href="https://instagram.com/enindu" target="_blank">Instagram</a>
                             <a href="https://linkedin.com/in/enindu" target="_blank">LinkedIn</a>
                             <a href="https://mastodon.social/@enindu" target="_blank">Mastodon</a>
-                            <a href="https://medium.com/@Enindu" target="_blank">Medium</a>
                             <a href="https://pinterest.com/enindu" target="_blank">Pinterest</a>
                             <a href="https://quora.com/profile/Enindu-Alahapperuma" target="_blank">Quora</a>
                             <a href="https://reddit.com/user/Enindu" target="_blank">Reddit</a>
