@@ -1,7 +1,9 @@
+import hljs from "highlight.js";
 import "bootstrap";
 document.addEventListener("DOMContentLoaded", () => {
     initPreloader();
     initTop();
+    initHighlightJS();
 });
 const initPreloader = () => {
     const preloader = document.getElementById("preloader-section");
@@ -33,4 +35,7 @@ const initTop = () => {
             });
         });
     }
+};
+const initHighlightJS = () => {
+    hljs.highlightAll();
 };

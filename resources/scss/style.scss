@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Lilex:ital,wght@0,100..700;1,100..700&display=swap');
 @import "remixicon/fonts/remixicon.css";
+@import "highlight.js/styles/github-dark.css";
 @import "halfmoon/css/halfmoon.css";
 $breakpoint: 1200px;
 $black_color: #22292b;
@@ -86,17 +87,21 @@ a {
     }
 }
 pre {
-    border: calc($factor_size * 0.0625) solid $gray_color;
+    background-color: $black_color;
     border-radius: calc($radius_size * 0.75);
     line-height: 1.2;
     margin: 0;
     max-height: calc($factor_size * 35);
     overflow: scroll;
-    padding: $padding_size;
+    padding: calc($padding_size * 0.5);
+    scrollbar-color: $white_color transparent;
     scrollbar-width: thin;
     code {
         @include code_font();
-        font-weight: $medium_font_weight;
+        font-weight: $bold_font_weight;
+        &.hljs {
+            background-color: $black_color;
+        }
     }
 }
 .container {
@@ -658,7 +663,7 @@ pre {
 }
 #blog-list-section {
     .container {
-        .blog {
+        .list {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
