@@ -37,6 +37,7 @@
                             <a href="{{ route('about.index') }}">About</a>
                             <a href="{{ route('services.index') }}">Services</a>
                             <a href="{{ route('clients.index') }}">Clients</a>
+                            <a href="{{ route('projects.index') }}">Projects</a>
                             <a href="{{ route('blog.index') }}">Blog</a>
                             <a href="{{ route('contact.index') }}">Contact</a>
                             <a href="{{ url('sitemap.xml') }}">Sitemap</a>

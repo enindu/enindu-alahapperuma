@@ -76,12 +76,6 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section id="clients-list-section">
-        <div class="container">
-            <div class="list">
                 <div class="box">
                     <div class="content">
                         <h2 class="h1">Explore my XynoSync clients.</h2>
@@ -152,12 +146,6 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section id="clients-list-section">
-        <div class="container">
-            <div class="list">
                 <div class="box">
                     <div class="content">
                         <h2 class="h1">Explore my dubsndot clients.</h2>
@@ -186,12 +174,6 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section id="clients-list-section">
-        <div class="container">
-            <div class="list">
                 <div class="box">
                     <div class="content">
                         <h2 class="h1">Explore my Phyxle clients.</h2>
@@ -358,12 +340,6 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section id="clients-list-section">
-        <div class="container">
-            <div class="list">
                 <div class="box">
                     <div class="content">
                         <h2 class="h1">Explore my Novart clients.</h2>

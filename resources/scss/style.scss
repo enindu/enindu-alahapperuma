@@ -8,6 +8,10 @@ $white_color: #f9fbfb;
 $gray_color: #e3e7e8;
 $red_color: #e7000b;
 $green_color: #00a63e;
+$cyan_color: #0092b8;
+$indigo_color: #4f39f6;
+$purple_color: #8200db;
+$pink_color: #e60076;
 $primary_color: #155dfc;
 $factor_size: 16px;
 $font_size: calc($factor_size * 1.125);
@@ -653,12 +657,79 @@ pre {
         .list {
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             gap: $gap_size;
             @media (max-width: $breakpoint) {
                 flex-direction: column;
+                flex-wrap: nowrap;
             }
             .box {
-                width: 100%;
+                width: calc((100% - $gap_size) / 2);
+                @media (max-width: $breakpoint) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+#projects-list-section {
+    .container {
+        .list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: $gap_size;
+            @media (max-width: $breakpoint) {
+                flex-direction: column;
+                flex-wrap: nowrap;
+            }
+            .box {
+                width: calc((100% - ($gap_size * 2)) / 3);
+                @media (max-width: $breakpoint) {
+                    width: 100%;
+                }
+                .content {
+                    .title {
+                        display: flex;
+                        flex-direction: column;
+                        .technologies {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            gap: calc($gap_size * 0.5);
+                            .technology {
+                                align-items: center;
+                                display: flex;
+                                flex-direction: row;
+                                gap: calc($gap_size * 0.5);
+                                i {
+                                    font-size: calc($font_size * 0.5);
+                                    &.blade {
+                                        color: $red_color;
+                                    }
+                                    &.css {
+                                        color: $purple_color;
+                                    }
+                                    &.go {
+                                        color: $cyan_color;
+                                    }
+                                    &.php {
+                                        color: $indigo_color;
+                                    }
+                                    &.scss {
+                                        color: $pink_color;
+                                    }
+                                    &.shell {
+                                        color: $green_color;
+                                    }
+                                }
+                                span {
+                                    font-size: calc($font_size * 0.75);
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
