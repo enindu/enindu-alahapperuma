@@ -1,282 +1,297 @@
 @php
     $id = 'services.service-2';
-    $title = 'System Administration | My Services';
-    $description = 'I provide various system administration plans, including a custom plan tailored to your specific needs. You won\'t have to worry about server management—I wil...';
-    $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, sri lanka, back-end engineer, system administrator, website security expert';
+    $title = 'Infrastructure administration | My services';
+    $description = 'I offer several infrastructure administration plans, along with a custom plan for specialized requirements. All predefined plans are hosted on AWS and suppor...';
+    $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, web developer, infrastructure engineer, linux system administrator, cybersecurity expert, sri lanka';
 @endphp
 
 @extends('components.layouts.pages')
-@section('content')
-    <div class="card">
-        <div class="card-body">
-            <div class="x-content">
-                <h1>System Administration</h1>
-                <p>I provide various system administration plans, including a custom plan tailored to your specific needs. You won't have to worry about server management—I will handle everything for you. All standard plans are hosted on AWS and support only PHP. If your web application uses a different programming language or platform, you'll need a custom plan. Review the plans below to find the best fit for you. Note that all charges are billed annually.</p>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <div class="x-content">
-                <div class="x-title">
-                    <h2>Shared Plan</h2>
-                    <p>$5/virtual host/month - Suitable for individuals</p>
-                </div>
-                <p>This plan is ideal for basic web applications. Your application will be hosted on a shared EC2 server with other applications. HTTPS will be implemented using Let's Encrypt for secure communication.</p>
-                <p>In this plan, I will fully manage the operating system, HTTP server, database server, and all other relevant software. Additionally, I will handle DNS and TLS configurations. Furthermore, I will host your application, implement version control, provide regular backups, and offer 24x7 support. See below for more details.</p>
-                <ul>
-                    <li>
-                        <p>Server stack</p>
-                        <ul>
-                            <li>Apache</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p>Technology stack</p>
-                        <ul>
-                            <li>PHP</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p>Database stack</p>
-                        <ul>
-                            <li>MariaDB</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p>Specification</p>
-                        <ul>
-                            <li>1 GB memory</li>
-                            <li>2 vCPUs</li>
-                            <li>50 GB storage</li>
-                            <li>Supports up to 1 virtual host</li>
-                            <li>10,000 visits per month (1,000 requests per visit)</li>
-                            <li>10,000,000 requests per month (200 KB per request)</li>
-                            <li>2 TB bandwidth per month</li>
-                            <li>No monitoring included</li>
-                            <li>Weekly backups</li>
-                            <li>99.9% uptime guarantee</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p>Support</p>
-                        <ul>
-                            <li>24x7 support via email and WhatsApp</li>
-                            <li>Response time within 8 hours</li>
-                            <li>Recovery time within 6 hours</li>
-                        </ul>
-                    </li>
-                </ul>
-                <p>I you are interested in this plan, click below button to send an inquiry.</p>
-                <div>
-                    <a class="btn btn-primary" href="mailto:{{ config('website.email') }}">Send Inquiry</a>
+@section('pages-content')
+    <section id="breadcrumb-section">
+        <div class="container">
+            <div class="breadcrumb">
+                <div class="box">
+                    <div class="content">
+                        <h1 class="display-1">
+                            <i class="ri-cloud-line"></i>
+                            <span>Infrastructure administration.</span>
+                        </h1>
+                        <p>I offer several infrastructure administration plans, along with a custom plan for specialized requirements. All predefined plans are hosted on AWS and support PHP-based applications. If your application uses a different programming language, framework, or platform, a custom plan will be required. Please review the plans below to find the option that best suits your needs. All plans are billed annually.</p>
+                        <div class="links">
+                            <a href="{{ route('index') }}">Home</a>
+                            <i class="ri-arrow-right-s-line"></i>
+                            <a href="{{ route('services.index') }}">Services</a>
+                            <i class="ri-arrow-right-s-line"></i>
+                            <span>Infrastructure administration</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <div class="x-content">
-                <div class="x-title">
-                    <h2>Static Plan</h2>
-                    <p>$15/virtual host/month - Suitable for individuals</p>
-                    <p>$45/5 virtual hosts/month - Suitable for businesses</p>
+    </section>
+    <section id="services-plans-section">
+        <div class="container">
+            <div class="plans">
+                <div class="box">
+                    <div class="content">
+                        <div class="title">
+                            <h2 class="h2">Shared plan.</h2>
+                            <strong>$5 monthly (1 host)</strong>
+                        </div>
+                        <p>This plan is ideal for individuals or small businesses looking to host basic web applications. Your application will be hosted on a shared EC2 server alongside other clients' applications, helping to keep costs low while providing a reliable hosting environment.</p>
+                        <ul>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Apache</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>PHP</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>MariaDB</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>1GB RAM (Shared)</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>2 vCPUs (Shared)</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>50GB SSD (Shared)</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>2TB bandwidth (Shared)</span>
+                            </li>
+                            <li>
+                                <i class="ri-close-circle-line"></i>
+                                <span>Application monitoring</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Application monitoring</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Weekly backups</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>99.9% uptime</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>24/7 support</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Response within 8 hours</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Recover within 6 hours</span>
+                            </li>
+                        </ul>
+                        <p>If you are interested in this plan, click the button below to send an inquiry.</p>
+                        <a class="button" href="https://wa.me/{{ str(config('website.whatsapp'))->replace(' ', '') }}" target="_blank">
+                            <span>Send inquiry</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
                 </div>
-                <p>This plan is ideal for individuals and businesses needing to host small to medium-sized, non-scalable web applications with an internal database server. Your web applications will be hosted on a dedicated Lightsail server, with HTTPS implemented using Let's Encrypt.</p>
-                <p>In this plan, I will manage the pre-installed operating system, HTTP server, and database server on Lightsail. Additionally, I will handle DNS, TLS, and other necessary configurations. I will also host your application, manage version control, provide regular backups, and offer 24x7 support. See below for more details.</p>
-                <ul>
-                    <li>
-                        <p>Server stack</p>
+                <div class="box">
+                    <div class="content">
+                        <div class="title">
+                            <h2 class="h2">Scale plan.</h2>
+                            <strong>$20 monthly (1 host)</strong>
+                            <strong>$85 monthly (10 hosts)</strong>
+                        </div>
+                        <p>This plan is ideal for individuals and businesses that need to host scalable web applications with a dedicated database. As your application grows, the infrastructure can be expanded to meet increasing demands. Your application will be hosted on a dedicated EC2 instance, providing improved performance, flexibility, and isolation.</p>
                         <ul>
-                            <li>Apache</li>
-                            <li>nginx</li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Apache/nginx</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>PHP</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>MySQL/MariaDB/PostgreSQL</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>2GB RAM</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>2 vCPUs</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>50GB SSD</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>2TB bandwidth</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Application monitoring</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Server monitoring</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Weekly backups</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>99.9% uptime</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>24/7 support</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Response within 6 hours</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Recover within 4 hours</span>
+                            </li>
                         </ul>
-                    </li>
-                    <li>
-                        <p>Technology stack</p>
+                        <p>If you are interested in this plan, click the button below to send an inquiry.</p>
+                        <a class="button" href="https://wa.me/{{ str(config('website.whatsapp'))->replace(' ', '') }}" target="_blank">
+                            <span>Send inquiry</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <div class="title">
+                            <h2 class="h2">Ultimate plan.</h2>
+                            <strong>$65 monthly (1 host)</strong>
+                            <strong>$165 monthly (20 hosts)</strong>
+                        </div>
+                        <p>This plan is ideal for individuals and businesses that need to host large, highly scalable web applications. Your application will be hosted on a dedicated EC2 instance, with S3 used for file storage, while the database will be managed through a dedicated RDS instance. This setup provides improved performance, reliability, and scalability.</p>
                         <ul>
-                            <li>PHP</li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Apache/nginx</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>PHP</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>MySQL/MariaDB/PostgreSQL</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>6GB RAMs</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>4 vCPUs</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>200GB SSDs</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>2TB bandwidth</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Application monitoring</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Server monitoring</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Daily backups</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>99.9% uptime</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>24/7 support</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Response within 4 hours</span>
+                            </li>
+                            <li>
+                                <i class="ri-checkbox-circle-line"></i>
+                                <span>Recover within 2 hours</span>
+                            </li>
                         </ul>
-                    </li>
-                    <li>
-                        <p>Database stack</p>
-                        <ul>
-                            <li>MySQL</li>
-                            <li>MariaDB</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p>Specification</p>
-                        <ul>
-                            <li>1 GB memory</li>
-                            <li>2 vCPUs</li>
-                            <li>40 GB storage</li>
-                            <li>Supports up to 5 virtual hosts</li>
-                            <li>10,000 visits per month (1,000 requests per visit)</li>
-                            <li>10,000,000 requests per month (200 KB per request)</li>
-                            <li>2 TB bandwidth per month</li>
-                            <li>No monitoring included</li>
-                            <li>Weekly backups</li>
-                            <li>99.9% uptime guarantee</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p>Support</p>
-                        <ul>
-                            <li>24x7 support via email and WhatsApp</li>
-                            <li>Response time within 8 hours</li>
-                            <li>Recovery time within 6 hours</li>
-                        </ul>
-                    </li>
-                </ul>
-                <p>I you are interested in this plan, click below button to send an inquiry.</p>
-                <div>
-                    <a class="btn btn-primary" href="mailto:{{ config('website.email') }}">Send Inquiry</a>
+                        <p>If you are interested in this plan, click the button below to send an inquiry.</p>
+                        <a class="button" href="https://wa.me/{{ str(config('website.whatsapp'))->replace(' ', '') }}" target="_blank">
+                            <span>Send inquiry</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <div class="x-content">
-                <div class="x-title">
-                    <h2>Scale Plan</h2>
-                    <p>$20/virtual host/month - Suitable for individuals</p>
-                    <p>$85/10 virtual hosts/month - Suitable for businesses</p>
-                </div>
-                <p>This plan is ideal for individuals and businesses aiming to host scalable medium to large-sized web applications with an internal database. Scalability means your web application and server can grow as needed. Your applications will be hosted on a dedicated EC2 instance with HTTPS implemented via Let's Encrypt. I will also monitor your resources and logs using CloudWatch to ensure optimal performance and smooth operation.</p>
-                <p>Under this plan, I will manage the operating system, HTTP server, database server, and all other necessary software. I will also handle DNS, TLS, and other configurations. Additionally, I will host your application, manage version control, provide backups, and offer 24x7 support. See below for more details.</p>
-                <ul>
-                    <li>
-                        <p>Server stack</p>
+    </section>
+    <section id="services-custom-plan-section">
+        <div class="container">
+            <div class="custom-plan">
+                <div class="box">
+                    <div class="content">
+                        <div class="title">
+                            <h2 class="h2">Custom plan.</h2>
+                            <strong>Contact me for pricing</strong>
+                        </div>
+                        <p>If the predefined plans do not meet your needs, please contact me to discuss your requirements. I can create a custom plan tailored to your specific needs. Pricing for custom plans will depend on the services required. Please also see the add-on services below, as they may be useful for your custom plan.</p>
+                        <p>The predefined plans above are basic managed hosting plans and do not include the full range of infrastructure administration services I offer. Below is a complete list of my add-on services. You can combine any of these services with the plans above to build a fully customized infrastructure administration solution.</p>
                         <ul>
-                            <li>Apache</li>
-                            <li>nginx</li>
+                            <li>Go, Node.js, Python, Ruby, Java, and .NET application deployment</li>
+                            <li>Proxy server management</li>
+                            <li>Email server management</li>
+                            <li>DNS management</li>
+                            <li>CDN management</li>
+                            <li>Load balancing management</li>
+                            <li>API gateway management</li>
+                            <li>Application monitoring</li>
+                            <li>Server monitoring</li>
+                            <li>Threat monitoring and security scanning</li>
+                            <li>Server notification management</li>
+                            <li>Custom task management</li>
+                            <li>Custom software development</li>
+                            <li>Custom backup solutions</li>
+                            <li>Network firewall and WAF implementation</li>
                         </ul>
-                    </li>
-                    <li>
-                        <p>Technology stack</p>
-                        <ul>
-                            <li>PHP</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p>Database stack</p>
-                        <ul>
-                            <li>MySQL</li>
-                            <li>MariaDB</li>
-                            <li>PostgreSQL</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p>Specification</p>
-                        <ul>
-                            <li>2 GB memory</li>
-                            <li>2 vCPUs</li>
-                            <li>50 GB storage</li>
-                            <li>Supports up to 10 virtual hosts</li>
-                            <li>10,000 visits per month (1,000 requests per visit)</li>
-                            <li>10,000,000 requests per month (200 KB per request)</li>
-                            <li>2 TB bandwidth per month</li>
-                            <li>Monitoring of CPU, memory, disk, network, and requests</li>
-                            <li>Daily backups</li>
-                            <li>99.9% uptime guarantee</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p>Support</p>
-                        <ul>
-                            <li>24x7 support via email and WhatsApp</li>
-                            <li>Response time within 6 hours</li>
-                            <li>Recovery time within 4 hours</li>
-                        </ul>
-                    </li>
-                </ul>
-                <p>I you are interested in this plan, click below button to send an inquiry.</p>
-                <div>
-                    <a class="btn btn-primary" href="mailto:{{ config('website.email') }}">Send Inquiry</a>
+                        <p>Please send a message by clicking the button below.</p>
+                        <a class="button" href="https://wa.me/{{ str(config('website.whatsapp'))->replace(' ', '') }}" target="_blank">
+                            <span>Contact me</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <div class="x-content">
-                <div class="x-title">
-                    <h2>Ultimate Plan</h2>
-                    <p>$65/virtual host/month - Suitable for individuals</p>
-                    <p>$165/20 virtual hosts/month - Suitable for businesses</p>
-                </div>
-                <p>This plan is ideal for both individuals and businesses needing to host highly scalable, large web applications with RDS. Your applications will be hosted on a dedicated EC2 instance, and the database will be managed through an RDS instance. HTTPS will be implemented using Let's Encrypt. I will also monitor your resources and logs using CloudWatch to ensure optimal performance and smooth operation.</p>
-                <p>Under this plan, I will manage the operating system, HTTP server, and all other necessary software. The database server will be managed through RDS. Additionally, I will handle DNS, TLS, and other configurations. I will also host your application, manage version control, provide backups, and offer 24x7 support. See below for more details.</p>
-                <ul>
-                    <li>
-                        <p>Server stack</p>
-                        <ul>
-                            <li>Apache</li>
-                            <li>nginx</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p>Technology stack</p>
-                        <ul>
-                            <li>PHP</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p>Database stack</p>
-                        <ul>
-                            <li>MySQL</li>
-                            <li>MariaDB</li>
-                            <li>PostgreSQL</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p>Specification</p>
-                        <ul>
-                            <li>4 GB memory for EC2 + 2 GB memory for RDS</li>
-                            <li>2 vCPUs for EC2 + 2 vCPUs for RDS</li>
-                            <li>100 GB storage for EBS + 50 GB storage for RDS + 50 GB storage for S3</li>
-                            <li>Supports up to 20 virtual hosts</li>
-                            <li>10,000 visits per month (1,000 requests per visit)</li>
-                            <li>10,000,000 requests per month (200 KB per request)</li>
-                            <li>2 TB bandwidth per month</li>
-                            <li>Monitoring of CPU, memory, disk, network, and requests</li>
-                            <li>Daily backups</li>
-                            <li>99.9% uptime guarantee</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p>Support</p>
-                        <ul>
-                            <li>24x7 support via email and WhatsApp</li>
-                            <li>Response time within 4 hours</li>
-                            <li>Recovery time within 2 hours</li>
-                        </ul>
-                    </li>
-                </ul>
-                <p>I you are interested in this plan, click below button to send an inquiry.</p>
-                <div>
-                    <a class="btn btn-primary" href="mailto:{{ config('website.email') }}">Send Inquiry</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <div class="x-content">
-                <div class="x-title">
-                    <h2>Custom Plan</h2>
-                    <p>Contact me for pricing</p>
-                </div>
-                <p>If the predefined plans do not meet your needs, please contact me to discuss your requirements. I will create a custom plan tailored to your specific needs. Pricing for custom plans will be based on the services you require.</p>
-                <p>If you are interested in a custom plan, click the button below to send an inquiry.</p>
-                <div>
-                    <a class="btn btn-primary" href="mailto:{{ config('website.email') }}">Send Inquiry</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
+    {{--
     <div class="card">
         <div class="card-body">
             <div class="x-content">
@@ -301,5 +316,5 @@
                 <p>Please contact me for pricing information on these additional services.</p>
             </div>
         </div>
-    </div>
+    </div> --}}
 @endsection

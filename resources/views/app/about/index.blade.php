@@ -1,59 +1,74 @@
 @php
     $id = 'about.index';
-    $title = 'About Me';
-    $description = 'I am a back-end engineer, system administrator, and website security expert from Sri Lanka. With years of experience, I focus on creating and managing reliab...';
-    $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, sri lanka, back-end engineer, system administrator, website security expert';
+    $title = 'About me';
+    $description = 'I am a software engineer, infrastructure administrator, and cybersecurity specialist from Sri Lanka. With years of hands-on experience, I focus on building a...';
+    $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, web developer, infrastructure engineer, linux system administrator, cybersecurity expert, sri lanka';
 @endphp
 
 @extends('components.layouts.pages')
-@section('content')
-    <div class="card">
-        <div class="card-body">
-            <div class="x-content">
-                <h1>About Me</h1>
-                <p>I am a back-end engineer, system administrator, and website security expert from Sri Lanka. With years of experience, I focus on creating and managing reliable, secure, and efficient systems. Below, you can learn more about my professional background, skills, and the services I provide.</p>
+@section('pages-content')
+    <section id="breadcrumb-section">
+        <div class="container">
+            <div class="breadcrumb">
+                <div class="box">
+                    <div class="content">
+                        <h1 class="display-1">
+                            <i class="ri-information-2-line"></i>
+                            <span>About me.</span>
+                        </h1>
+                        <p>I am a software engineer, infrastructure administrator, and cybersecurity specialist from Sri Lanka. With years of hands-on experience, I focus on building and managing reliable, secure, and optimized systems. Below, you will find an overview of my professional background, technical expertise, and the specialized services I provide to help businesses scale securely.</p>
+                        <div class="links">
+                            <a href="{{ route('index') }}">Home</a>
+                            <i class="ri-arrow-right-s-line"></i>
+                            <span>About</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <div class="x-content">
-                <h2>About Me</h2>
-                <h3>Brief Introduction</h3>
-                <p>I'm Enindu Alahapperuma, a freelance software engineer from Sri Lanka with over {{ now()->format('Y') - 2018 }} years of experience in back-end engineering. I specialize in back-end development, system administration, and website security. My journey began with a passion for Linux and open-source software, which led me into system administration. Over time, I transitioned into back-end development, focusing on creating and managing reliable, secure, and efficient systems.</p>
-                <p>My interest in back-end engineering and system administration started with Ubuntu 5.04 over a decade ago. From the moment I installed it, I knew Linux was the right fit for me. Today, I use Arch Linux as my preferred distribution. After my initial experience with Ubuntu, I explored many major Linux distributions, including Debian, Fedora, Mint, openSUSE, Manjaro, Zorin, elementary, NixOS, Kali, Gentoo, and some lesser-known ones like Puppy, Tiny Core, CrunchBang, Void, ArchBang, and Damn Small. I also tried BSD distributions like OpenBSD, GhostBSD, and FreeBSD. Despite using many UNIX-like distributions, I ultimately settled on Arch Linux.</p>
-                <p>My experience with various Linux distributions has given me a deep understanding of different Linux communities, philosophies, build systems, GUIs, CLIs, kernels, and tools. This knowledge has strengthened my abilities as a system administrator and security expert. With this expertise, I transitioned into web development and eventually became a back-end engineer. Today, I specialize in network programming, protocols, encryption, databases, servers, cloud computing, and website security.</p>
-                <p>While I consider myself a web developer, I am not a full-stack developer or a DevOps engineer. I believe the concept of a full-stack developer is flawed, especially in web development. A full-stack developer is expected to be skilled in both front-end and back-end development, but this can lead to a lack of depth in either area. Similarly, DevOps is a unique discipline that combines development and operations practices to enhance the software development lifecycle, focusing more on the application lifecycle rather than server management.</p>
-                <h3>Back-End Engineering</h3>
-                <p>Before becoming a professional back-end engineer, I started my career as a web developer. My curiosity and analytical nature drove me deeper into web development, similar to my journey with Linux. During this time, I experimented with various frameworks, tools, and CMSs, and even created my own CSS and PHP frameworks. This hands-on experience helped me gain significant knowledge quickly, leading me to pursue back-end development as my career.</p>
-                <p>I chose back-end development not just for financial reasons, but because I am genuinely fascinated by how systems work. I am more interested in server-side operations than front-end development. Although I have some experience with front-end frameworks like React and Vue, my focus is on how web browsers communicate with servers, how servers process requests, and how responses are sent back to browsers.</p>
-                <p>As a back-end engineer, I primarily work with Apache, nginx, and PHP. I often integrate cloud computing technologies to optimize the applications I build. While I focus on back-end engineering, I also work as a freelance web developer, using Laravel as my framework of choice. I prefer Laravel over CMS platforms like WordPress or Drupal because it offers a good balance of performance and best practices.</p>
-                <p>For network programming, I prefer Go. Unlike PHP, which runs within Apache or nginx, Go operates at a lower level. I also use Go to create CLI programs, which you can find on my GitHub profile. Go is a simple yet powerful language, especially suited for network programming, with a comprehensive standard library and a concurrency model ideal for performance-critical applications.</p>
-                <p>In addition to PHP and Go, I have experience with Node.js. While JavaScript is not my preferred language, I appreciate Node.js for its non-blocking nature, making it a great choice for I/O programming.</p>
-                <h3>System Administration</h3>
-                <p>Although my main job is back-end engineering, my true passion is system administration, which is where my career started. I am an experienced Linux system administrator with a deep understanding of various build systems and tools. My back-end skills complement my daily work with LAMP (Linux, Apache, MySQL/MariaDB, PHP) stacks. I handle operating systems, networks, firewalls, and servers, taking care of their installation, maintenance, monitoring, and troubleshooting.</p>
-                <p>My expertise is primarily in Linux, but I also have hands-on experience with BSD and Windows, though I don't consider myself an expert in those systems. I've worked with many Linux distributions like Debian and NixOS, and different init systems used in Arch Linux and Void. My experience includes various toolsets, such as Ubuntu and Kali, and environments ranging from GUIs like KDE and GNOME to CLIs. I'm proficient with different package managers, including pacman and dnf. This experience has given me expertise in operating system management, including daily tasks, monitoring, analysis, and user management. Additionally, I manage SSH, VNC, and RDP servers.</p>
-                <p>Throughout my career, I've managed numerous HTTP servers and mail servers like SMTP, IMAP, and POP3, which has honed my skills as a system administrator in the web hosting domain. Managing HTTP servers requires a solid understanding of DNS, TLS, proxies, cron jobs, version control, and log analysis. My expertise in web development, back-end development, and network programming has made me a true expert in system administration within this field.</p>
-                <p>In addition to managing HTTP and mail servers, I also create and maintain low-level TCP, UDP, and UNIX servers through network programming. My expertise as a system administrator spans various types of servers, and I enjoy exploring low-level networking concepts in my free time. I have a deep understanding of how these protocols work and how clients should interact with them. Additionally, I have some knowledge of banking servers, including their protocols and standards.</p>
-                <p>Besides back-end engineering and general system administration, I also have expertise in cloud computing. Early in my career, I used cloud services to enhance my web applications. As I gained more experience and leveraged my system administration skills, I became proficient in cloud computing system administration. I primarily work with Amazon Web Services (AWS) due to its stability and reliability, but I also have hands-on experience with DigitalOcean and Google Cloud. Today, I offer comprehensive system administration services on any cloud platform. However, it's important to clarify that my services are distinct from DevOps, as I focus solely on system administration rather than DevOps practices.</p>
-                <h3>Website Security</h3>
-                <p>My experience in web development, back-end engineering, and system administration has honed my skills in website security. I stay alert to potential threats and ensure security at every stage of development and system management. This vigilance has made me proficient in website security, allowing me to manage security at the operating system, network, and application levels.</p>
-                <p>To maintain strong security, I follow best practices such as patching vulnerabilities, updating to the latest versions, managing TLS certificates, and using tools like port, network, and website scanners to identify vulnerabilities. I understand that no system is completely secure, so I remain proactive and vigilant. With my extensive experience, I strive to maintain the highest level of security.</p>
-                <h3>Freelancing</h3>
-                <p>I offer my services as a freelancer in web development and system administration. If you need assistance with your project or think my expertise can meet your needs, please contact me at <a href="mailto:{{ config('website.email') }}">{{ config('website.email') }}</a>. For more information, including pricing and detailed service descriptions, visit the <a href="{{ route('services.index') }}">Services</a> page.</p>
+    </section>
+    <section>
+        <div class="container">
+            <div class="box">
+                <div class="content">
+                    <h2 class="h1">Learn about my journey.</h2>
+                    <p>I am Enindu Alahapperuma, a freelance software engineer from Sri Lanka with over {{ now()->format('Y') - 2018 }} years of experience in back-end development, Linux system administration, and cybersecurity. My journey started with a strong interest in open-source systems, which led me into system administration. Over time, I moved into software engineering, focusing on building and maintaining reliable, secure, and efficient applications.</p>
+                    <p>My interest in technology began in 2005 with Ubuntu 5.04, when I was ten years old. After completing my first installation, I quickly developed a strong connection with Linux. This led to years of exploring different Linux and BSD distributions. Working across these systems helped me build a solid understanding of different software designs, kernels, build systems, and command-line tools. I eventually chose Arch Linux for my personal setup and Debian for production and enterprise use.</p>
+                    <p>Although I am a software engineer, I do not use labels such as "full-stack developer" or "DevOps engineer". I believe the term full-stack often leads to a lack of depth when one person tries to cover both front-end and back-end work. DevOps is also a separate approach focused on the software delivery process, which is different from core infrastructure administration.</p>
+                    <p>My focus is not to cover every role, but to go deep in specific areas. I specialize in back-end development and Linux system administration, with a strong focus on system logic, security, and infrastructure reliability.</p>
+                    <h3 class="h2">Explore my journey to software engineering.</h3>
+                    <p>Before becoming a professional software engineer, I started my career as a general web developer. Similar to my experience with UNIX-like systems, my curiosity and analytical mindset pushed me to explore how web systems work under the hood. During this early stage, I worked with different libraries, CMS platforms, and frameworks, and even built my own custom CSS and PHP frameworks. This hands-on experimentation helped me learn quickly and confirmed my decision to pursue software engineering as a long-term career.</p>
+                    <p>I chose back-end development not for financial reasons, but because I am genuinely interested in how complex systems work. I have always been more interested in server-side logic than front-end design. While I have experience with front-end frameworks like React and Vue, my main focus is on how browsers communicate with servers, how systems handle large numbers of requests, and how data is processed and delivered efficiently.</p>
+                    <p>My main technical stack is built around Linux, Apache/Nginx, MySQL/MariaDB, and PHP, which form the core of the LAMP/LEMP ecosystem.</p>
+                    <p>Beyond PHP, I also work with Go for CLI tools and network programming. Go is a simple but powerful language with strong concurrency support and a rich standard library, making it well-suited for high-performance systems and microservices. I have also worked with Node.js; while JavaScript is not my primary language, I value Node.js for its asynchronous, non-blocking architecture, especially for I/O-heavy applications.</p>
+                    <p>Today, I use this technical foundation to deliver complete digital solutions, including web development, technical content writing, graphic design support, website maintenance, and cloud infrastructure management. For web applications, I prefer Laravel over monolithic CMS platforms like WordPress or Drupal, as it provides better structure, security, and performance for modern applications.</p>
+                    <h3 class="h2">Explore my journey to infrastructure administration.</h3>
+                    <p>Although my main role is software engineering, my strongest passion is still Linux system administration, which is where my journey in technology began. This background has given me a solid understanding of build systems, automation tools, and kernel architecture. My software engineering skills complement my infrastructure work, allowing me to understand how applications interact with the underlying system. As an infrastructure administrator, I manage the full lifecycle of operating systems, networks, firewalls, and bare-metal or virtual servers, from initial setup and optimization to long-term monitoring and troubleshooting.</p>
+                    <p>While my core focus is Linux, I also have practical experience with BSD and Windows Server environments. Over the years, I have worked with a wide range of Linux distributions, including enterprise systems like Debian, flexible setups like NixOS, and different init systems such as systemd on Arch Linux and runit on Void Linux. I am comfortable with multiple package managers like pacman, apt, and dnf, and I have worked in both minimal server environments and full desktop environments such as KDE and GNOME. At the operating system level, I handle user management, log analysis, performance monitoring, and secure remote access using SSH, VNC, and RDP.</p>
+                    <p>Managing high-traffic web servers has strengthened my systems engineering skills in the web domain. This requires a strong understanding of core technologies such as DNS, TLS/SSL, reverse proxies, cron automation, version control integration, and system monitoring.</p>
+                    <p>My understanding goes beyond configuring existing servers. Through low-level network programming, I also build and maintain custom TCP, UDP, and UNIX socket servers. This has helped me gain a deeper understanding of packet flow, network behavior, and client-server communication protocols.</p>
+                    <p>Today, I use this combined experience to provide cloud infrastructure administration for clients. I specialize in building and managing scalable environments, handling deployments, and maintaining application lifecycles mainly on AWS, along with experience in Google Cloud Platform and DigitalOcean. I regularly work with LAMP and LEMP stacks, and I also support applications built with Go, Node.js, Python, Ruby, Java, and .NET, using both relational and non-relational databases. My goal is to deliver complete and reliable infrastructure solutions across all layers of modern systems.</p>
+                    <h3 class="h2">Explore my journey to cybersecurity.</h3>
+                    <p>My combined experience in software engineering and infrastructure administration has naturally strengthened my skills in cybersecurity. Working at the intersection of code and infrastructure has helped me maintain a security-first approach throughout every stage of a project—from writing secure application logic to hardening the underlying operating system. This approach helps reduce vulnerabilities early and ensures better protection across the entire system.</p>
+                    <p>Today, I use this expertise to help clients secure their digital assets. I provide end-to-end security services, including vulnerability assessments, continuous monitoring, risk remediation, and system hardening for networks, servers, and applications. I also offer cybersecurity consulting, performing risk assessments and helping establish best-practice security frameworks to keep systems resilient against evolving threats.</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <div class="x-content">
-                <h2>About Website</h2>
-                <h3>Changelog</h3>
-                <p>This is the 4th version of my website. The first two versions were built using a custom static site generator written in Go. For various reasons, I migrated to Laravel in the 3rd version. In this 4th version, I've updated the Laravel framework to its latest version and made several front-end improvements to enhance the user experience.</p>
-                <p>In this version, the website uses plain HTML, Halfmoon as the CSS framework, and Laravel as the PHP framework. Although the website doesn't need a database for its operations, Laravel uses SQLite for its database needs. The website is hosted on an AWS EC2 instance and served through an Apache HTTP server. Cloudflare is integrated as a reverse proxy server to enhance security and performance. DNS management from the origin to the proxy is handled through AWS Route 53, while proxy to client DNS management is handled via Cloudflare.</p>
-                <h3>Contribute</h3>
-                <p>You can find the source code for this website on my GitHub profile, licensed under the MIT license. You are welcome to use, share, and modify the code as per the license terms. Visit <a href="https://github.com/enindu/enindu-alahapperuma" target="_blank">this link</a> to access the source code. If you have any issues or suggestions for improvements, please open an issue or submit a pull request. Your contributions are valuable and help improve this project for everyone.</p>
+    </section>
+    @include('components.includes.cta')
+    <section>
+        <div class="container">
+            <div class="box">
+                <div class="content">
+                    <h2 class="h1">Learn about website history.</h2>
+                    <p>This is the 5th version of my personal website. The first 2 versions were built using a custom static site generator written in Go. Later, I migrated the project to Laravel for better flexibility and maintainability, starting from version 3. In this latest version, I upgraded Laravel to the newest release and made major frontend improvements to significantly improve user experience and responsiveness.</p>
+                    <p>The application is built on a simple and efficient architecture. It uses semantic HTML on the frontend with the Halfmoon CSS framework, customized through Sass stylesheets. The backend is powered by PHP using Laravel. Although the core frontend does not strictly require a database, a MariaDB instance is included to support framework requirements and future backend features.</p>
+                    <p>The platform is hosted on an AWS EC2 instance and served through an Apache HTTP server. Cloudflare is used as a reverse proxy at the edge to improve performance and enhance security. DNS routing is managed using a split setup, where AWS Route 53 handles authoritative DNS records from the origin, and Cloudflare manages edge-level routing between the proxy and end users.</p>
+                    <h3 class="h2">Contribute to source code.</h3>
+                    <p>The complete source code for this website is publicly available on my GitHub profile under the permissive MIT license. You are free to use, modify, and share the code in accordance with the license terms. You can <a href="https://github.com/enindu/enindu-alahapperuma" target="blank">visit the GitHub repository</a> to explore the project in detail.</p>
+                    <p>If you find any bugs, have questions, or identify areas for improvement, feel free to open an issue or submit a pull request. Contributions are welcome and help improve the project for the open-source community.</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 @endsection

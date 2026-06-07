@@ -13,7 +13,7 @@ class ServiceController extends Controller
     }
 
     /**
-     * Display system administration page.
+     * Display infrastructure administration page.
      */
     public function service2()
     {

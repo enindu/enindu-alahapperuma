@@ -1,29 +1,54 @@
 @php
     $id = 'contact.index';
-    $title = 'Contact Me';
-    $description = 'You can contact me in various ways, with the quickest being my preferred method. If you are an existing client, you can reach me via WhatsApp. For more conta...';
-    $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, sri lanka, back-end engineer, system administrator, website security expert';
+    $title = 'Contact me';
+    $description = 'Let\'s get connected. You can contact me in several ways. The quickest way is to send me a message on WhatsApp, as I am usually available there. You can also ...';
+    $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, web developer, infrastructure engineer, linux system administrator, cybersecurity expert, sri lanka';
 @endphp
 
 @extends('components.layouts.pages')
-@section('content')
-    <div class="card">
-        <div class="card-body">
-            <div class="x-content">
-                <h1>Contact Me</h1>
-                <p>You can contact me in various ways, with the quickest being my preferred method. If you are an existing client, you can reach me via WhatsApp. For more contact details, please see below.</p>
+@section('pages-content')
+    <section id="breadcrumb-section">
+        <div class="container">
+            <div class="breadcrumb">
+                <div class="box">
+                    <div class="content">
+                        <h1 class="display-1">
+                            <i class="ri-group-line"></i>
+                            <span>Contact me.</span>
+                        </h1>
+                        <p>Let's get connected. You can contact me in several ways. The quickest way is to send me a message on WhatsApp, as I am usually available there. You can also reach me by email. For more information, please see below.</p>
+                        <div class="links">
+                            <a href="{{ route('index') }}">Home</a>
+                            <i class="ri-arrow-right-s-line"></i>
+                            <span>Contact</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <div class="x-content">
-                <h2>Contact Information</h2>
-                <h3>Contact Methods</h3>
-                <p>The fastest way to contact me is by sending an email to <a href="mailto:{{ config('website.email') }}">{{ config('website.email') }}</a>. I check my email frequently, ensuring a quick response. You can also reach out to me on social media platforms listed on the left. However, please note that I may not respond as quickly on social media as I do not check those accounts as often.</p>
-                <h3>Contact Form</h3>
-                <p>Over my career, I have created and managed many websites, most of which included a contact form. However, I found that genuine inquiries through these forms were very rare, with most submissions being spam. Despite using various anti-spam measures, the problem persisted. Therefore, I decided to remove the contact form entirely. In my experience, contact forms are often ineffective and rarely used for their intended purpose.</p>
+    </section>
+    <section id="contact-details-section">
+        <div class="container">
+            <div class="details">
+                <div class="box">
+                    <div class="content">
+                        <h2 class="h1">Send me a message.</h2>
+                        <p>The fastest way to contact me is by sending a message on WhatsApp. You can also reach me by email or connect with me through social media and developer platforms. Links to all of my profiles can be found in the footer of this website.</p>
+                        <p>I do not use a traditional contact form on my website. Over the years, I have built and managed many websites, most of which included inquiry forms. In my experience, these forms rarely generate genuine leads and are often filled with spam messages. Because of that, I decided not to include a contact form on this website.</p>
+                        <p>Please use one of the buttons below to get in touch with me.</p>
+                        <div class="links">
+                            <a class="button" href="https://wa.me/{{ str(config('website.whatsapp'))->replace(' ', '') }}">
+                                <i class="ri-whatsapp-line"></i>
+                                <span>Send message</span>
+                            </a>
+                            <a class="button" href="mailto:{{ config('website.email') }}">
+                                <i class="ri-mail-line"></i>
+                                <span>Send email</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 @endsection

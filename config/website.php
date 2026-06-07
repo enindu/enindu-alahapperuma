@@ -11,10 +11,9 @@ return [
     |
     */
 
-    'address' => env('WEBSITE_ADDRESS'),
-    'email' => env('WEBSITE_EMAIL'),
-    'phone' => env('WEBSITE_PHONE'),
-    'whatsapp' => env('WEBSITE_WHATSAPP'),
-    'currency' => env('WEBSITE_CURRENCY'),
+    "email" => env("WEBSITE_EMAIL"),
+    "whatsapp" => env("WEBSITE_WHATSAPP"),
+    "designation" => env("WEBSITE_DESIGNATION"),
+    "country" => env("WEBSITE_COUNTRY"),
 
 ];

@@ -12,7 +12,7 @@ Route::middleware('web')->group(function () {
     Route::resource('/', BaseController::class)->only(['index']);
     Route::resource('/about', AboutController::class)->only(['index']);
     Route::get('/services/web-development', [ServiceController::class, 'service1'])->name('services.service-1');
-    Route::get('/services/system-administration', [ServiceController::class, 'service2'])->name('services.service-2');
+    Route::get('/services/infrastructure-administration', [ServiceController::class, 'service2'])->name('services.service-2');
     Route::resource('/services', ServiceController::class)->only(['index']);
     Route::resource('/clients', ClientController::class)->only(['index']);
     Route::get('/blog/i-have-revamped-my-website', [BlogController::class, 'blog1'])->name('blog.blog-1');

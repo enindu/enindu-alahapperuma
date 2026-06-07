@@ -1,3 +1,3 @@
-<a class="x-top-container" href="#x-html">
-    <span class="x-top">&uarr;</span>
-</a>
+<div aria-label="Go to top" id="top">
+    <i class="ri-arrow-up-line"></i>
+</div>

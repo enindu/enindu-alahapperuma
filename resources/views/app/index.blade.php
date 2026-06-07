@@ -1,59 +1,209 @@
 @php
     $id = 'index';
-    $title = 'I Am A Freelancer From Sri Lanka';
-    $description = 'I am a back-end engineer, system administrator, and website security expert from Sri Lanka. With years of experience, I focus on creating and managing reliab...';
-    $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, sri lanka, back-end engineer, system administrator, website security expert';
+    $title = 'I am a freelancing software engineer from Sri Lanka';
+    $description = 'I am a freelance software engineer, cloud infrastructure engineer, and cybersecurity expert with years of experience in web development, Linux system adminis...';
+    $keywords = 'enindu, enindu alahapperuma, freelancer, software engineer, web developer, infrastructure engineer, linux system administrator, cybersecurity expert, sri lanka';
 @endphp
 
 @extends('components.layouts.pages')
-@section('content')
-    <div class="card">
-        <div class="card-body">
-            <div class="x-content">
-                <h1>I Am A Freelancer From Sri Lanka</h1>
-                <p>I am a back-end engineer, system administrator, and website security expert from Sri Lanka. With years of experience, I focus on creating and managing reliable, secure, and efficient systems. Below, you can learn more about my professional background, skills, and the services I provide.</p>
+@section('pages-content')
+    <section id="home-hero-section">
+        <div class="container">
+            <div class="hero">
+                <div class="box">
+                    <div class="content">
+                        <h1 class="display-1">
+                            <i class="ri-arrow-right-circle-line"></i>
+                            <span>I am a freelancing software engineer from Sri Lanka.</span>
+                        </h1>
+                        <p>I am a freelance software engineer, cloud infrastructure engineer, and cybersecurity expert with years of experience in web development, Linux system administration, and cybersecurity. By combining strong back-end development skills with expertise in Linux system administration, server and application security, I build reliable, efficient, and secure solutions from the ground up.</p>
+                        <p>Please scroll down to learn more about my professional background, technical skills, and the freelance services I provide.</p>
+                        <div class="links">
+                            <a class="button" href="https://wa.me/{{ str(config('website.whatsapp'))->replace(' ', '') }}" target="_blank">
+                                <span>Hire me</span>
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                            <a class="button" href="{{ route('services.index') }}">
+                                <span>My services</span>
+                                <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <div class="x-content">
-                <h2>About Me</h2>
-                <h3>Brief Introduction</h3>
-                <p>I'm Enindu Alahapperuma, a freelance software engineer from Sri Lanka with over {{ now()->format('Y') - 2018 }} years of experience in back-end engineering. I specialize in back-end development, system administration, and website security. My journey began with a passion for Linux and open-source software, which led me into system administration. Over time, I transitioned into back-end development, focusing on creating and managing reliable, secure, and efficient systems.</p>
-                <p>My interest in back-end engineering and system administration started with Ubuntu 5.04 over a decade ago. From the moment I installed it, I knew Linux was the right fit for me. Today, I use Arch Linux as my preferred distribution. After my initial experience with Ubuntu, I explored many major Linux distributions, including Debian, Fedora, Mint, openSUSE, Manjaro, Zorin, elementary, NixOS, Kali, Gentoo, and some lesser-known ones like Puppy, Tiny Core, CrunchBang, Void, ArchBang, and Damn Small. I also tried BSD distributions like OpenBSD, GhostBSD, and FreeBSD. Despite using many UNIX-like distributions, I ultimately settled on Arch Linux.</p>
-                <p>My experience with various Linux distributions has given me a deep understanding of different Linux communities, philosophies, build systems, GUIs, CLIs, kernels, and tools. This knowledge has strengthened my abilities as a system administrator and security expert. With this expertise, I transitioned into web development and eventually became a back-end engineer. Today, I specialize in network programming, protocols, encryption, databases, servers, cloud computing, and website security.</p>
-                <p>While I consider myself a web developer, I am not a full-stack developer or a DevOps engineer. I believe the concept of a full-stack developer is flawed, especially in web development. A full-stack developer is expected to be skilled in both front-end and back-end development, but this can lead to a lack of depth in either area. Similarly, DevOps is a unique discipline that combines development and operations practices to enhance the software development lifecycle, focusing more on the application lifecycle rather than server management.</p>
-                <h3>Back-End Engineering</h3>
-                <p>Before becoming a professional back-end engineer, I started my career as a web developer. My curiosity and analytical nature drove me deeper into web development, similar to my journey with Linux. During this time, I experimented with various frameworks, tools, and CMSs, and even created my own CSS and PHP frameworks. This hands-on experience helped me gain significant knowledge quickly, leading me to pursue back-end development as my career.</p>
-                <p>I chose back-end development not just for financial reasons, but because I am genuinely fascinated by how systems work. I am more interested in server-side operations than front-end development. Although I have some experience with front-end frameworks like React and Vue, my focus is on how web browsers communicate with servers, how servers process requests, and how responses are sent back to browsers.</p>
-                <p>As a back-end engineer, I primarily work with Apache, nginx, and PHP. I often integrate cloud computing technologies to optimize the applications I build. While I focus on back-end engineering, I also work as a freelance web developer, using Laravel as my framework of choice. I prefer Laravel over CMS platforms like WordPress or Drupal because it offers a good balance of performance and best practices.</p>
-                <p>For network programming, I prefer Go. Unlike PHP, which runs within Apache or nginx, Go operates at a lower level. I also use Go to create CLI programs, which you can find on my GitHub profile. Go is a simple yet powerful language, especially suited for network programming, with a comprehensive standard library and a concurrency model ideal for performance-critical applications.</p>
-                <p>In addition to PHP and Go, I have experience with Node.js. While JavaScript is not my preferred language, I appreciate Node.js for its non-blocking nature, making it a great choice for I/O programming.</p>
-                <h3>System Administration</h3>
-                <p>Although my main job is back-end engineering, my true passion is system administration, which is where my career started. I am an experienced Linux system administrator with a deep understanding of various build systems and tools. My back-end skills complement my daily work with LAMP (Linux, Apache, MySQL/MariaDB, PHP) stacks. I handle operating systems, networks, firewalls, and servers, taking care of their installation, maintenance, monitoring, and troubleshooting.</p>
-                <p>My expertise is primarily in Linux, but I also have hands-on experience with BSD and Windows, though I don't consider myself an expert in those systems. I've worked with many Linux distributions like Debian and NixOS, and different init systems used in Arch Linux and Void. My experience includes various toolsets, such as Ubuntu and Kali, and environments ranging from GUIs like KDE and GNOME to CLIs. I'm proficient with different package managers, including pacman and dnf. This experience has given me expertise in operating system management, including daily tasks, monitoring, analysis, and user management. Additionally, I manage SSH, VNC, and RDP servers.</p>
-                <p>Throughout my career, I've managed numerous HTTP servers and mail servers like SMTP, IMAP, and POP3, which has honed my skills as a system administrator in the web hosting domain. Managing HTTP servers requires a solid understanding of DNS, TLS, proxies, cron jobs, version control, and log analysis. My expertise in web development, back-end development, and network programming has made me a true expert in system administration within this field.</p>
-                <p>In addition to managing HTTP and mail servers, I also create and maintain low-level TCP, UDP, and UNIX servers through network programming. My expertise as a system administrator spans various types of servers, and I enjoy exploring low-level networking concepts in my free time. I have a deep understanding of how these protocols work and how clients should interact with them. Additionally, I have some knowledge of banking servers, including their protocols and standards.</p>
-                <p>Besides back-end engineering and general system administration, I also have expertise in cloud computing. Early in my career, I used cloud services to enhance my web applications. As I gained more experience and leveraged my system administration skills, I became proficient in cloud computing system administration. I primarily work with Amazon Web Services (AWS) due to its stability and reliability, but I also have hands-on experience with DigitalOcean and Google Cloud. Today, I offer comprehensive system administration services on any cloud platform. However, it's important to clarify that my services are distinct from DevOps, as I focus solely on system administration rather than DevOps practices.</p>
-                <h3>Website Security</h3>
-                <p>My experience in web development, back-end engineering, and system administration has honed my skills in website security. I stay alert to potential threats and ensure security at every stage of development and system management. This vigilance has made me proficient in website security, allowing me to manage security at the operating system, network, and application levels.</p>
-                <p>To maintain strong security, I follow best practices such as patching vulnerabilities, updating to the latest versions, managing TLS certificates, and using tools like port, network, and website scanners to identify vulnerabilities. I understand that no system is completely secure, so I remain proactive and vigilant. With my extensive experience, I strive to maintain the highest level of security.</p>
-                <h3>Freelancing</h3>
-                <p>I offer my services as a freelancer in web development and system administration. If you need assistance with your project or think my expertise can meet your needs, please contact me at <a href="mailto:{{ config('website.email') }}">{{ config('website.email') }}</a>. For more information, including pricing and detailed service descriptions, visit the <a href="{{ route('services.index') }}">Services</a> page.</p>
+    </section>
+    <section id="home-facts-section">
+        <div class="container">
+            <div class="facts">
+                <div class="box">
+                    <img alt="experience" height="80" src="{{ Vite::asset('resources/images/experience.svg') }}" width="80">
+                    <div class="meta">
+                        <p class="h1">{{ now()->format('Y') - 2018 }}+</p>
+                        <p>Experience</p>
+                        <p>in years</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img alt="websites" height="80" src="{{ Vite::asset('resources/images/websites.svg') }}" width="80">
+                    <div class="meta">
+                        <p class="h1">86+</p>
+                        <p>Websites</p>
+                        <p>developed</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img alt="servers" height="80" src="{{ Vite::asset('resources/images/servers.svg') }}" width="80">
+                    <div class="meta">
+                        <p class="h1">8+</p>
+                        <p>Servers</p>
+                        <p>managed</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img alt="clients" height="80" src="{{ Vite::asset('resources/images/clients.svg') }}" width="80">
+                    <div class="meta">
+                        <p class="h1">84+</p>
+                        <p>Collaborated</p>
+                        <p>clients</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <div class="x-content">
-                <h2>About Website</h2>
-                <h3>Changelog</h3>
-                <p>This is the 4th version of my website. The first two versions were built using a custom static site generator written in Go. For various reasons, I migrated to Laravel in the 3rd version. In this 4th version, I've updated the Laravel framework to its latest version and made several front-end improvements to enhance the user experience.</p>
-                <p>In this version, the website uses plain HTML, Halfmoon as the CSS framework, and Laravel as the PHP framework. Although the website doesn't need a database for its operations, Laravel uses SQLite for its database needs. The website is hosted on an AWS EC2 instance and served through an Apache HTTP server. Cloudflare is integrated as a reverse proxy server to enhance security and performance. DNS management from the origin to the proxy is handled through AWS Route 53, while proxy to client DNS management is handled via Cloudflare.</p>
-                <h3>Contribute</h3>
-                <p>You can find the source code for this website on my GitHub profile, licensed under the MIT license. You are welcome to use, share, and modify the code as per the license terms. Visit <a href="https://github.com/enindu/enindu-alahapperuma" target="_blank">this link</a> to access the source code. If you have any issues or suggestions for improvements, please open an issue or submit a pull request. Your contributions are valuable and help improve this project for everyone.</p>
+    </section>
+    <section id="home-about-section">
+        <div class="container">
+            <div class="about">
+                <div class="box">
+                    <div class="content">
+                        <h2 class="h1">Brief introduction about me.</h2>
+                        <p>I am Enindu Alahapperuma, a freelance software engineer and infrastructure administrator based in Sri Lanka with over {{ now()->format('Y') - 2018 }} years of experience. I started my career in web development, and my passion for learning gradually led me into cloud infrastructure, Linux system administration, and cybersecurity. Today, I combine expertise across these fields to design, build, and manage reliable, secure, and high-performance digital systems from the ground up.</p>
+                        <p>My broad experience across the entire web technology stack allows me to provide complete end-to-end solutions for clients. By combining secure back-end development with resilient cloud infrastructure and strong security practices, I ensure that every system I build is efficient, scalable, and protected against modern cyber threats.</p>
+                        <p>To learn more about my background, technical skills, and the professional services I offer, please click the button below.</p>
+                        <a class="button" href="{{ route('about.index') }}">
+                            <span>About me</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section id="home-services-section">
+        <div class="container">
+            <div class="services">
+                <div class="box">
+                    <div class="content">
+                        <h2 class="h1">Explore my web development services.</h2>
+                        <p>I provide complete web development services designed to help businesses build and maintain a strong online presence. My expertise covers every stage of the process, including custom website development, content creation, graphic design, website maintenance, and secure cloud infrastructure management.</p>
+                        <p>To find the best solution for your project, please use the button below to explore my web development packages and pricing plans.</p>
+                        <a class="button" href="{{ route('services.service-1') }}">
+                            <span>View pricing</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h2 class="h1">Explore my infrastructure administration services.</h2>
+                        <p>I provide complete infrastructure administration services to keep your platforms secure, reliable, and scalable. My services cover the entire server lifecycle, including server setup, application deployment, security hardening, performance optimization, monitoring, and ongoing maintenance.</p>
+                        <p>Please use the link below to explore my infrastructure administration packages and pricing plans to find the right solution for your needs.</p>
+                        <a class="button" href="{{ route('services.service-2') }}">
+                            <span>View pricing</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home-faq-section">
+        <div class="container">
+            <div class="faq">
+                <div class="box">
+                    <div class="content">
+                        <p class="h3">Who are you?</p>
+                        <p>I am a freelance software engineer specializing in web development, an infrastructure engineer focused on Linux-based cloud system administration, and a cybersecurity specialist focused on application and network security.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <p class="h3">What services do you offer?</p>
+                        <p>I provide freelance services in web development, infrastructure administration, cloud solutions, and cybersecurity for businesses and individuals worldwide.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <p class="h3">What sets you apart?</p>
+                        <p>With more than {{ now()->format('Y') - 2018 }} years of professional experience, I bring together expertise in software engineering, infrastructure management, and cybersecurity. This combination allows me to design, build, secure, and maintain reliable systems from the ground up.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <p class="h3">What web development services do you offer?</p>
+                        <p>I design, develop, and maintain websites throughout their entire lifecycle. I also provide support with content creation, graphic design, domain registration, hosting setup, business email configuration, and cloud-based infrastructure solutions tailored to your needs.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <p class="h3">What infrastructure administration services do you offer?</p>
+                        <p>I provide infrastructure solutions ranging from shared hosting environments to cloud and bare-metal servers. My services include server setup, application deployment, performance optimization, security hardening, monitoring, and ongoing system administration.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <p class="h3">What cybersecurity services do you offer?</p>
+                        <p>I help secure networks, servers, and applications through security assessments, monitoring, vulnerability remediation, and system hardening. I also provide cybersecurity consulting, risk assessments, and guidance on security best practices for businesses and individuals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @include('components.includes.cta')
+    <section id="home-blog-section">
+        <div class="container">
+            <div class="blog">
+                <div class="box">
+                    <div class="content">
+                        <h2 class="h1">How poor development skills break internet.</h2>
+                        <p>The most important part of a website's lifecycle is probably the development skills, with infrastructure skills coming second. I often come across websites b...</p>
+                        <a class="button" href="{{ route('blog.blog-9') }}">
+                            <span>Read article</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h2 class="h1">Running Shell commands within shared hosting.</h2>
+                        <p>In a previous article, I discussed shared hosting. In this one, I'll be experimenting with a shared hosting server. My goal is to highlight a vulnerability a...</p>
+                        <a class="button" href="{{ route('blog.blog-8') }}">
+                            <span>Read article</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h2 class="h1">Playing with DNS clients.</h2>
+                        <p>In a previous article, I provided a low-level overview of DNS servers. While it wasn't an exhaustive guide, it covered the fundamentals to help you understan...</p>
+                        <a class="button" href="{{ route('blog.blog-7') }}">
+                            <span>Read article</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h2 class="h1">Understanding DNS.</h2>
+                        <p>Most developers have a high-level understanding of DNS. However, for web developers, grasping DNS at a low level is crucial. Writing yet another article expl...</p>
+                        <a class="button" href="{{ route('blog.blog-6') }}">
+                            <span>Read article</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
