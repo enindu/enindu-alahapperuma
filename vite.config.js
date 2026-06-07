@@ -6,7 +6,7 @@ export default defineConfig({
     plugins: [
         laravel({
             assets: ["resources/images/**"],
-            input: ["resources/css/style.scss", "resources/js/script.js"],
+            input: ["resources/scss/style.scss", "resources/js/script.js"],
             refresh: true,
         }),
         tailwindcss(),

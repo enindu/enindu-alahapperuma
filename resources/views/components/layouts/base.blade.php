@@ -43,7 +43,7 @@
         <link href="https://x.com/Enindu" rel="me">
         <link href="{{ Vite::asset('resources/images/favicon.png') }}" rel="icon" type="image/png">
         <link href="{{ Vite::asset('resources/images/apple-touch-icon.png') }}" rel="apple-touch-icon">
-        <link href="{{ Vite::asset('resources/css/style.scss') }}" rel="stylesheet">
+        <link href="{{ Vite::asset('resources/scss/style.scss') }}" rel="stylesheet">
         <script>
             (function(w, d, s, l, i) {
                 w[l] = w[l] || [];
