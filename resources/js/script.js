@@ -1,4 +1,7 @@
-import hljs from "highlight.js";
+import hljs from "highlight.js/lib/core";
+import go from "highlight.js/lib/languages/go";
+import http from "highlight.js/lib/languages/http";
+import php from "highlight.js/lib/languages/php";
 import "bootstrap";
 document.addEventListener("DOMContentLoaded", () => {
     initPreloader();
@@ -37,5 +40,8 @@ const initTop = () => {
     }
 };
 const initHighlightJS = () => {
+    hljs.registerLanguage("go", go);
+    hljs.registerLanguage("http", http);
+    hljs.registerLanguage("php", php);
     hljs.highlightAll();
 };

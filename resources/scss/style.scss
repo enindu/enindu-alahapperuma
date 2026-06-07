@@ -89,6 +89,7 @@ a {
 pre {
     background-color: $black_color;
     border-radius: calc($radius_size * 0.75);
+    color: $white_color;
     line-height: 1.2;
     margin: 0;
     max-height: calc($factor_size * 35);
@@ -100,6 +101,7 @@ pre {
         @include code_font();
         font-weight: $bold_font_weight;
         &.hljs {
+            color: $white_color;
             background-color: $black_color;
         }
     }

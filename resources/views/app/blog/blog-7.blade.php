@@ -36,7 +36,7 @@
                     <p>If you've read my previous article, you already know that while we often refer to a "DNS server", in reality, DNS servers function as both clients and servers. Simply put, they act as clients when sending requests to other DNS servers and as servers when processing incoming requests and responding accordingly.</p>
                     <p>Apart from DNS servers, there are also DNS clients—standalone tools designed solely for querying DNS records. These tools, commonly known as DNS lookup utilities, help retrieve DNS records for a given domain. Some also function as local DNS resolvers, or stub resolvers, within an operating system. There are many standalone DNS clients available, both as built-in tools in different operating systems and as online services. While I won't cover all of them, I'll focus on a few that I personally use and recommend.</p>
                     <p>Let's start with dig, arguably the most popular DNS client available. Developed by ISC, dig comes bundled with their well-known DNS server software, BIND. Here's what a basic dig command looks like:</p>
-                    <pre><code>$ dig enindu.com
+                    <pre><code class="nohighlight">$ dig enindu.com
 
 ; &lt;&lt;&gt;&gt; DiG 9.20.22 &lt;&lt;&gt;&gt; enindu.com
 ;; global options: +cmd
@@ -76,13 +76,13 @@ eloise.ns.cloudflare.com. 24550 IN      AAAA    2a06:98c1:50::ac40:22d0
 ;; WHEN: Mon Apr 20 16:20:02 +0530 2026
 ;; MSG SIZE  rcvd: 390</code></pre>
                     <p>Aside from the DNS records, take a look at this line.</p>
-                    <pre><code>;; SERVER: 192.168.1.1#53(192.168.1.1) (UDP)</code></pre>
+                    <pre><code class="nohighlight">;; SERVER: 192.168.1.1#53(192.168.1.1) (UDP)</code></pre>
                     <p>Assuming you've already read my previous article and are familiar with the workings of different DNS servers, you can likely identify that this code triggers a DNS query through the recursive resolver on my local network, with UDP being used at the transport layer. Now, let's quickly address the "#53" in this line, which I didn't cover in the previous article. "#53" refers to the port number of the DNS server. As specified in RFC whatever number, port 53 must be used for both TCP and UDP in DNS communication.</p>
                     <p>If you need to use a specific recursive resolver, you can enter its IP address, and dig will automatically use port 53 to send the DNS query. Here's an example:</p>
-                    <pre><code>$ dig @8.8.8.8 enindu.com</code></pre>
+                    <pre><code class="nohighlight">$ dig @8.8.8.8 enindu.com</code></pre>
                     <p>Notice the IP address 8.8.8.8 in this command—it belongs to Google's public DNS server. These types of servers are commonly referred to as public resolvers. While Google DNS is well-known, there are several other public resolvers available. Two notable ones I often use are Cloudflare (1.1.1.1) and Quad9 (9.9.9.9)—both easy to remember due to their simple numeric patterns.</p>
                     <p>You can switch between TCP and UDP using the following commands.</p>
-                    <pre><code>$ dig @8.8.8.8 enindu.com +tcp # Use TCP
+                    <pre><code class="nohighlight">$ dig @8.8.8.8 enindu.com +tcp # Use TCP
 $ dig @8.8.8.8 enindu.com +notcp # Use UDP</code></pre>
                     <p>Notice the +tcp and +notcp options in these commands—this is how query options are specified in dig. If you want to explore more about dig, you can use the dig -h command. I won't be covering dig any further in this article.</p>
                     <p>As I mentioned earlier, another standalone DNS client worth noting is doggo. It's written in Go and offers a more user-friendly experience compared to dig. Since I won't be covering it in detail, I encourage you to explore it on your own. You can learn more at <a href="https://github.com/mr-karan/doggo" target="_blank">https://github.com/mr-karan/doggo</a>.</p>
@@ -134,7 +134,7 @@ fmt.Printf("%s\n", response.String())</code></pre>
                     <p>As I mentioned in my previous article, root servers sit at the top of the DNS hierarchy. There are 13 logical root servers, and these servers don't store information about every domain in the world. Instead, they hold records for all the top-level domain (TLD) servers. From there, we can trace the request to any authoritative server for a given domain.</p>
                     <p>Memorizing the hostnames of all root servers is quite simple. Each root server has the domain root-servers.net, and its subdomain follows the English alphabet in order. So, the root server names are like a.root-servers.net, b.root-servers.net, and so on, up to m.root-servers.net, since there are only 13 root servers.</p>
                     <p>Memorizing the IP addresses of all root servers can be challenging, but you can easily retrieve them using a tool like nslookup by querying the hostname. This way, you don't have to manually memorize the IP addresses of each root server.</p>
-                    <pre><code>$ nslookup a.root-servers.net
+                    <pre><code class="nohighlight">$ nslookup a.root-servers.net
 
 Server:         192.168.1.1
 Address:        192.168.1.1#53
@@ -276,12 +276,12 @@ fmt.Printf("%s\n", response.String())</code></pre>
                     <p>This code is similar to the first one I provided, so I don't need to explain it step by step. The only difference is that we send the DNS request to the relevant authoritative name server instead of a recursive resolver. Additionally, we use QTYPE as type A instead of NS, since we need to retrieve A records in the final step. Also, unlike the previous two examples where we sent DNS requests to root and TLD servers, the response will have an answer section.</p>
                     <p>This article has already become quite long, but I would like to mention a bonus point. In this section, we will find open resolvers in public networks and test them by sending DNS requests. Please note that this may not be legal in some countries, so exercise caution before attempting this. Additionally, this is not a hacking tutorial; it is simply a demonstration for educational purposes.</p>
                     <p>I use several tools to achieve this. First, we need to find the authoritative name server of the domain we are interested in. We can do this by using the "dig" tool. Let's assume we want to find the NS records for "winterasiatours.com". Our goal is to obtain just the IP address of a random authoritative name server, and that's why we're doing this—nothing more.</p>
-                    <pre><code>$ dig @8.8.8.8 winterasiatours.com NS +short
+                    <pre><code class="nohighlight">$ dig @8.8.8.8 winterasiatours.com NS +short
 
 ns2.zirconhost.com.
 ns1.zirconhost.com.</code></pre>
                     <p>We have obtained two NS records. Now, let's use the "nslookup" tool to get the IP address of one of these NS records.</p>
-                    <pre><code>$ nslookup ns1.zirconhost.com
+                    <pre><code class="nohighlight">$ nslookup ns1.zirconhost.com
 
 Server:         192.168.1.1
 Address:        192.168.1.1#53
@@ -290,7 +290,7 @@ Non-authoritative answer:
 Name:   ns1.zirconhost.com
 Address: 49.12.121.200</code></pre>
                     <p>We have the IP address "49.12.121.200". Now, we can proceed by scanning the IP range from 49.12.121.0 to 49.12.121.255 for open DNS (Port 53) ports. I'll be using the "masscan" tool for this task, but you can also use the widely popular "nmap" tool if you prefer.</p>
-                    <pre><code># masscan --ports 53 49.12.121.0/24
+                    <pre><code class="nohighlight"># masscan --ports 53 49.12.121.0/24
 
 Starting masscan 1.3.2 (http://bit.ly/14GZzcT) at 2025-03-13 14:30:11 GMT
 Initiating SYN Stealth Scan
