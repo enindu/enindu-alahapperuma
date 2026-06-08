@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
-    width="95.000015"
-    height="94.999977"
-    viewBox="0 0 25.13542 25.135409"
+    width="100.00009"
+    height="99.999969"
+    viewBox="0 0 26.458357 26.458323"
     version="1.1"
     id="svg1"
     inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
     sodipodi:docname="logo.svg"
+    inkscape:export-filename="/home/enindu/Work/PHP/Self/enindu-alahapperuma/resources/images/logo.svg"
+    inkscape:export-xdpi="96"
+    inkscape:export-ydpi="96"
     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
     xmlns="http://www.w3.org/2000/svg"
@@ -22,48 +25,54 @@
         inkscape:pagecheckerboard="0"
         inkscape:deskcolor="#505050"
         inkscape:document-units="px"
-        inkscape:zoom="2.0233293"
-        inkscape:cx="47.940787"
-        inkscape:cy="48.187905"
+        inkscape:zoom="2.56"
+        inkscape:cx="113.28125"
+        inkscape:cy="108.78906"
         inkscape:current-layer="layer1"
         showguides="true"
         showgrid="true">
-        <inkscape:grid
-            id="grid47"
-            units="px"
-            originx="-22.48958"
-            originy="-43.65625"
-            spacingx="0.26458333"
-            spacingy="0.26458331"
-            empcolor="#0099e5"
-            empopacity="0.30196078"
-            color="#0099e5"
-            opacity="0.14901961"
-            empspacing="5"
-            enabled="true"
-            visible="true" />
+        <inkscape:page
+            x="0"
+            y="0"
+            width="26.458357"
+            height="26.458323"
+            id="page2"
+            margin="0"
+            bleed="0" />
     </sodipodi:namedview>
-    <defs id="defs1">
-        <inkscape:perspective
-            sodipodi:type="inkscape:persp3d"
-            inkscape:vp_x="0 : 15.874989 : 1"
-            inkscape:vp_y="0 : 1000 : 0"
-            inkscape:vp_z="18.520851 : 15.874989 : 1"
-            inkscape:persp3d-origin="9.2604255 : 12.788182 : 1"
-            id="perspective30" />
-    </defs>
+    <defs id="defs1" />
     <g
         inkscape:label="Layer 1"
         inkscape:groupmode="layer"
         id="layer1"
-        transform="translate(-628.97162,635.19531)">
-        <path
-            id="path29"
-            style="fill:#22292b;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;paint-order:stroke fill markers"
-            d="M 636.24766 -629.90364 A 1.9843738 1.9843724 0 0 0 634.26329 -627.91927 A 1.9843738 1.9843724 0 0 0 636.24094 -625.93489 L 636.25438 -625.93489 L 640.35025 -625.93489 L 646.83099 -625.93489 A 3.3072915 3.3072915 0 0 1 650.13829 -622.6276 A 3.3072915 3.3072915 0 0 1 646.83099 -619.32031 L 640.35025 -619.32031 L 636.25076 -619.32031 L 636.24456 -619.32031 A 1.9843748 1.9843749 0 0 0 634.26329 -617.33594 A 1.9843748 1.9843749 0 0 0 636.24766 -615.35156 L 646.83099 -615.35156 A 7.2760377 7.2760439 0 0 0 654.10704 -622.6276 A 7.2760377 7.2760439 0 0 0 646.85115 -629.90364 L 646.81084 -629.90364 L 636.24766 -629.90364 z " />
-        <path
-            id="path30"
-            style="fill:#22292b;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;paint-order:stroke fill markers"
-            d="M 636.24766 -635.19531 A 7.276041 7.2760415 0 0 0 628.97162 -627.91927 A 7.276041 7.2760415 0 0 0 631.36682 -622.52993 C 631.32978 -622.56339 631.28994 -622.59335 631.25365 -622.6276 A 7.276041 7.2760415 0 0 0 628.97162 -617.33594 A 7.276041 7.2760415 0 0 0 636.23991 -610.05989 L 636.25541 -610.05989 L 652.11284 -610.05989 L 652.13248 -610.05989 A 1.9843748 1.9843749 0 0 0 654.10704 -612.03652 L 654.10704 -612.05202 A 1.9843748 1.9843749 0 0 0 652.12266 -614.02864 L 642.7284 -614.02864 L 636.24766 -614.02864 A 3.3072915 3.3072915 0 0 1 632.94037 -617.33594 A 3.3072915 3.3072915 0 0 1 636.23009 -620.64323 L 636.26523 -620.64323 L 646.83048 -620.64323 A 1.9843748 1.9843749 0 0 0 646.83099 -620.64323 A 1.9843748 1.9843749 0 0 0 648.81537 -622.6276 A 1.9843748 1.9843749 0 0 0 646.83978 -624.61198 L 646.82221 -624.61198 A 1.9843748 1.9843749 0 0 0 646.82169 -624.61198 L 642.7284 -624.61198 L 636.24766 -624.61198 A 3.3072915 3.3072915 0 0 1 632.94037 -627.91927 A 3.3072915 3.3072915 0 0 1 636.24766 -631.22656 L 642.7284 -631.22656 L 652.12266 -631.22656 A 1.9843748 1.9843749 0 0 0 654.10704 -633.20318 L 654.10704 -633.21869 A 1.9843748 1.9843749 0 0 0 652.12576 -635.19531 L 652.11956 -635.19531 L 636.24766 -635.19531 z M 633.21115 -621.31295 A 7.276041 7.2760415 0 0 0 634.07828 -620.98067 C 633.78071 -621.07341 633.49111 -621.18407 633.21115 -621.31295 z " />
+        transform="translate(-700.58487,612.1999)">
+        <g
+            id="g461"
+            transform="rotate(150,719.05003,-594.95403)">
+            <circle
+                style="opacity:1;fill:#ffc153;fill-opacity:1;stroke:none;stroke-width:0.264585;stroke-linecap:square;paint-order:stroke fill markers"
+                id="circle459"
+                cx="85.303345"
+                cy="-931.54877"
+                r="6.2538872"
+                transform="rotate(45)"
+                inkscape:export-filename="/home/enindu/Work/PHP/Self/enindu-alahapperuma/resources/images/logo.svg"
+                inkscape:export-xdpi="96"
+                inkscape:export-ydpi="96" />
+            <circle
+                style="fill:#eb6b56;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:square;paint-order:stroke fill markers"
+                id="circle460"
+                cx="92.524696"
+                cy="-919.04102"
+                r="6.2538533"
+                transform="rotate(45)" />
+            <circle
+                style="opacity:1;fill:#b05f6d;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:square;paint-order:stroke fill markers"
+                id="circle461"
+                cx="99.746056"
+                cy="-931.54883"
+                r="6.2538652"
+                transform="rotate(45)" />
+        </g>
     </g>
 </svg>

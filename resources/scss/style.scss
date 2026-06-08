@@ -3,16 +3,16 @@
 @import "highlight.js/styles/github-dark.css";
 @import "halfmoon/css/halfmoon.css";
 $breakpoint: 1200px;
-$black_color: #22292b;
-$white_color: #f9fbfb;
-$gray_color: #e3e7e8;
+$black_color: #101828;
+$white_color: #f9fafb;
+$gray_color: #e5e7eb;
 $red_color: #e7000b;
 $green_color: #00a63e;
 $cyan_color: #0092b8;
 $indigo_color: #4f39f6;
 $purple_color: #8200db;
 $pink_color: #e60076;
-$primary_color: #155dfc;
+$primary_color: #eb6b56;
 $factor_size: 16px;
 $font_size: calc($factor_size * 1.125);
 $gap_size: $factor_size;
@@ -165,9 +165,9 @@ pre {
 }
 .button {
     align-items: center;
-    background-color: $black_color !important;
+    background-color: $black_color;
     border-radius: calc($radius_size * 0.75);
-    color: $white_color !important;
+    color: $white_color;
     display: flex;
     flex-direction: row;
     gap: calc($gap_size * 0.25);
@@ -179,8 +179,8 @@ pre {
     white-space: nowrap;
     width: max-content;
     &:hover {
-        background-color: $primary_color !important;
-        color: $white_color !important;
+        background-color: $primary_color;
+        color: $white_color;
     }
     i {
         font-size: calc($font_size * 1.5);
@@ -205,36 +205,8 @@ pre {
     visibility: visible;
     width: 100%;
     z-index: 1;
-    svg {
-        overflow: visible;
-        g {
-            path {
-                fill: $black_color;
-                paint-order: stroke fill markers;
-                &:first-child {
-                    animation: float_left 400ms ease;
-                    @keyframes float_left {
-                        0% {
-                            transform: translateX(100%);
-                        }
-                        100% {
-                            transform: translateX(0);
-                        }
-                    }
-                }
-                &:last-child {
-                    animation: float_right 400ms ease;
-                    @keyframes float_right {
-                        0% {
-                            transform: translateX(-100%);
-                        }
-                        100% {
-                            transform: translateX(0);
-                        }
-                    }
-                }
-            }
-        }
+    img {
+        animation: spin 4000ms linear infinite;
     }
 }
 #top-section {
@@ -295,14 +267,16 @@ pre {
                 overflow-x: scroll;
                 scrollbar-width: none;
                 a {
-                    color: $black_color;
-                    text-decoration: none;
-                    white-space: nowrap;
-                    &:hover {
-                        color: $primary_color;
-                    }
-                    &.active {
-                        color: $primary_color;
+                    &:not(.button) {
+                        color: $black_color;
+                        text-decoration: none;
+                        white-space: nowrap;
+                        &:hover {
+                            color: $primary_color;
+                        }
+                        &.active {
+                            text-decoration: underline;
+                        }
                     }
                 }
             }
@@ -770,5 +744,13 @@ pre {
                 }
             }
         }
+    }
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
     }
 }
