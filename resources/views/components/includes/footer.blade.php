@@ -16,7 +16,7 @@
                         <div class="links">
                             <div class="link">
                                 <i class="ri-whatsapp-line"></i>
-                                <a class="u-phone" href="https://wa.me/{{ str(config('website.whatsapp'))->replace(' ', '') }}">{{ config('website.whatsapp') }}</a>
+                                <a class="u-phone" href="https://wa.me/{{ str(config('website.whatsapp'))->replace(' ', '') }}" target="_blank">{{ config('website.whatsapp') }}</a>
                             </div>
                             <div class="link">
                                 <i class="ri-mail-line"></i>
