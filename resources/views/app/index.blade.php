@@ -12,10 +12,7 @@
             <div class="hero">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-arrow-right-circle-line"></i>
-                            <span>I am a freelancing software engineer from Sri Lanka.</span>
-                        </h1>
+                        <h1 class="display-1">I am a freelancing software engineer from Sri Lanka.</h1>
                         <p>I am a freelance software engineer, cloud infrastructure engineer, and cybersecurity expert with years of experience in web development, Linux system administration, and cybersecurity. By combining strong back-end development skills with expertise in Linux system administration, server and application security, I build reliable, efficient, and secure solutions from the ground up.</p>
                         <p>Please scroll down to learn more about my professional background, technical skills, and the freelance services I provide.</p>
                         <div class="links">

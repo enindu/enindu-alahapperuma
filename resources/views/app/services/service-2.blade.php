@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-cloud-line"></i>
-                            <span>Infrastructure administration.</span>
-                        </h1>
+                        <h1 class="display-1">Infrastructure administration.</h1>
                         <p>I offer several infrastructure administration plans, along with a custom plan for specialized requirements. All predefined plans are hosted on AWS and support PHP-based applications. If your application uses a different programming language, framework, or platform, a custom plan will be required. Please review the plans below to find the option that best suits your needs. All plans are billed annually.</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-git-repository-line"></i>
-                            <span>My projects.</span>
-                        </h1>
+                        <h1 class="display-1">My projects.</h1>
                         <p>I enjoy coding in my spare time and often work on personal projects to learn, experiment, and solve real-world problems. Here, you can find some of the open-source projects I have built, along with repositories I share with the community, such as my dotfiles and other useful resources. All of these projects are available on GitHub. You are free to use, modify, and distribute them according to their respective licenses. Feel free to explore the repositories and make use of anything that helps you.</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

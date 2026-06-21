@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-group-line"></i>
-                            <span>My clients.</span>
-                        </h1>
+                        <h1 class="display-1">My clients.</h1>
                         <p>I have worked with various companies and individual clients around the world, including Australia, UK, Switzerland, USA, Canada, UAE, Maldives, China, Thailand, and Sri Lanka, in full-time, part-time, and freelance roles. Below is a list of the companies and individuals I have collaborated with. My services for these clients include a wide range of work such as software development, web development, infrastructure administration, application and server maintenance, cloud solutions, email solutions, SEO, content writing, graphic design, branding, consulting, and more.</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

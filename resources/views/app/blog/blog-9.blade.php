@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-edit-2-line"></i>
-                            <span>How poor development skills break internet.</span>
-                        </h1>
+                        <h1 class="display-1">How poor development skills break internet.</h1>
                         <p>The most important part of a website's lifecycle is probably the development skills, with infrastructure skills coming second. I often come across websites built with poor development practices that are easy to hack. Seeing this so often has frustrated me and inspired me to write this article. So without wasting any more time, let's get straight to the point.</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

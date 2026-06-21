@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-edit-2-line"></i>
-                            <span>Running shell commands within shared hosting.</span>
-                        </h1>
+                        <h1 class="display-1">Running shell commands within shared hosting.</h1>
                         <p>In a previous article, I discussed shared hosting. In this one, I'll be experimenting with a shared hosting server. My goal is to highlight a vulnerability and help you approach certain aspects from a different perspective. Let's get started!</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

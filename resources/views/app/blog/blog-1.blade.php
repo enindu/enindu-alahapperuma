@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-edit-2-line"></i>
-                            <span>I have revamped my website.</span>
-                        </h1>
+                        <h1 class="display-1">I have revamped my website.</h1>
                         <p>I have upgraded the Laravel framework to version 12, made significant improvements to the front-end design, and added service pages to the website. This means I am now officially offering my services as a freelancer. Read below to learn more about these updates.</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

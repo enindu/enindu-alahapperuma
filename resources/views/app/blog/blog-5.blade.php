@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-edit-2-line"></i>
-                            <span>Shared hosting explained for clients.</span>
-                        </h1>
+                        <h1 class="display-1">Shared hosting explained for clients.</h1>
                         <p>This isn't just another article explaining shared hosting. Instead, I'll break it down from a system administrator's perspective—why you should never use shared hosting, even for a small web application, and what better alternatives exist. If you're looking for affordable hosting solutions, this will be a comprehensive guide, much like my previous article on web development. Let's dive in!</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

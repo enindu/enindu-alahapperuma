@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-settings-5-line"></i>
-                            <span>My services.</span>
-                        </h1>
+                        <h1 class="display-1">My services.</h1>
                         <p>With experience in software engineering, infrastructure administration, and cybersecurity, I offer a wide range of freelance services. Below, you will find detailed information about the services I provide, including pricing plans and other relevant details. Feel free to explore and contact me if you have any questions or need help with your project.</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

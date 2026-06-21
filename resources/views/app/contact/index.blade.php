@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-group-line"></i>
-                            <span>Contact me.</span>
-                        </h1>
+                        <h1 class="display-1">Contact me.</h1>
                         <p>Let's get connected. You can contact me in several ways. The quickest way is to send me a message on WhatsApp, as I am usually available there. You can also reach me by email. For more information, please see below.</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

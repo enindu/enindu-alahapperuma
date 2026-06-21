@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-edit-2-line"></i>
-                            <span>Understanding DNS.</span>
-                        </h1>
+                        <h1 class="display-1">Understanding DNS.</h1>
                         <p>Most developers have a high-level understanding of DNS. However, for web developers, grasping DNS at a low level is crucial. Writing yet another article explaining DNS from a high-level perspective would be redundant. Instead, this article delves into the DNS protocol and its inner workings at a low level, offering a system administrator's perspective. Let's dive in.</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

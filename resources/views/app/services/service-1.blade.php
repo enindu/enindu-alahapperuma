@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-global-line"></i>
-                            <span>Web development.</span>
-                        </h1>
+                        <h1 class="display-1">Web development.</h1>
                         <p>I offer several web development plans, along with a custom plan to meet different requirements. Please review the pricing options below to choose the one that best fits your needs. If you are not sure which plan to choose, you can send me a message on WhatsApp, and I will help you select the right one based on your requirements.</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

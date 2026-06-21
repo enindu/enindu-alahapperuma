@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-edit-2-line"></i>
-                            <span>Understanding HTTP.</span>
-                        </h1>
+                        <h1 class="display-1">Understanding HTTP.</h1>
                         <p>There are countless articles and videos on the internet explaining what HTTP is. If I were to write this post in the same way, it would just be another one among many. Instead, I'll be breaking down HTTP from the perspective of a back-end engineer, highlighting common issues developers face with it. Let's dive in.</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

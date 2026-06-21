@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-edit-2-line"></i>
-                            <span>Playing with HTTP servers.</span>
-                        </h1>
+                        <h1 class="display-1">Playing with HTTP servers.</h1>
                         <p>In a previous article, I provided a high-level overview of HTTP. In this article, I will dive into the low-level implementation of HTTP, covering topics such as creating HTTP servers and even lower-level TCP servers. Discussions on HTTP and TCP clients will be reserved for a separate article. Expect plenty of code examples. So, let's get started.</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

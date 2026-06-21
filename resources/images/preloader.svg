@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    width="110"
+    height="110"
+    viewBox="0 0 29.104166 29.104165"
+    version="1.1"
+    id="svg1"
+    xml:space="preserve"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg">
+    <defs
+        id="defs1" />
+    <g
+        id="layer1"
+        transform="translate(-645.5849,625.98456)">
+        <rect
+            style="fill:none;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+            id="rect5"
+            width="29.104166"
+            height="29.104166"
+            x="645.5849"
+            y="-625.98456" />
+        <circle
+            style="fill:none;stroke:none;stroke-width:0.264585;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+            id="circle1"
+            cx="660.13696"
+            cy="-611.4325"
+            r="2.6458333" />
+        <circle
+            style="fill:#b05f6d;fill-opacity:1;stroke:none;stroke-width:0.999998;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+            id="circle4"
+            cx="-199.4476"
+            cy="-868.83911"
+            r="5.9266534"
+            transform="rotate(60)" />
+        <circle
+            style="fill:#ffc153;fill-opacity:1;stroke:none;stroke-width:0.999998;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+            id="circle2"
+            cx="859.58453"
+            cy="274.55161"
+            r="5.9266534"
+            transform="rotate(-60)" />
+        <circle
+            style="fill:#eb6b56;fill-opacity:1;stroke:none;stroke-width:0.999998;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+            id="circle5"
+            cx="660.13696"
+            cy="-620.005"
+            r="5.9266534" />
+    </g>
+</svg>

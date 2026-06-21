@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-edit-2-line"></i>
-                            <span>My blog.</span>
-                        </h1>
+                        <h1 class="display-1">My blog.</h1>
                         <p>I enjoy sharing my knowledge and ideas with people around the world. In addition to providing software engineering, infrastructure administration, and cybersecurity services, I also write articles in my spare time. These articles mainly cover software, infrastructure, cybersecurity, experiences I have had with people, and my thoughts on various topics. Below, you can find all the articles I have written.</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-information-2-line"></i>
-                            <span>About me.</span>
-                        </h1>
+                        <h1 class="display-1">About me.</h1>
                         <p>I am a software engineer, infrastructure administrator, and cybersecurity specialist from Sri Lanka. With years of hands-on experience, I focus on building and managing reliable, secure, and optimized systems. Below, you will find an overview of my professional background, technical expertise, and the specialized services I provide to help businesses scale securely.</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-edit-2-line"></i>
-                            <span>Ultimate web development guide for clients.</span>
-                        </h1>
+                        <h1 class="display-1">Ultimate web development guide for clients.</h1>
                         <p>I come across numerous web development groups on Facebook every day. These groups are filled with people—some searching for web developers at low prices, while others are offering their services for equally low rates. This obsession with cheap work has distorted the true value of web development in recent years. The reality is, web development is not cheap at all.</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>

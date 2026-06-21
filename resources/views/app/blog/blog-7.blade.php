@@ -12,10 +12,7 @@
             <div class="breadcrumb">
                 <div class="box">
                     <div class="content">
-                        <h1 class="display-1">
-                            <i class="ri-edit-2-line"></i>
-                            <span>Playing with DNS clients.</span>
-                        </h1>
+                        <h1 class="display-1">Playing with DNS clients.</h1>
                         <p>In a previous article, I provided a low-level overview of DNS servers. While it wasn't an exhaustive guide, it covered the fundamentals to help you understand how DNS works. In this article, I'll build on that foundation with real-world examples. Let's dive in!</p>
                         <div class="links">
                             <a href="{{ route('index') }}">Home</a>
