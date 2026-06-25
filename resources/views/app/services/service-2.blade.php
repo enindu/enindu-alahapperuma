@@ -260,23 +260,28 @@
                             <strong>Contact me for pricing</strong>
                         </div>
                         <p>If the predefined plans do not meet your needs, please contact me to discuss your requirements. I can create a custom plan tailored to your specific needs. Pricing for custom plans will depend on the services required. Please also see the add-on services below, as they may be useful for your custom plan.</p>
-                        <p>The predefined plans above are basic managed hosting plans and do not include the full range of infrastructure administration services I offer. Below is a complete list of my add-on services. You can combine any of these services with the plans above to build a fully customized infrastructure administration solution.</p>
+                        <p>The predefined plans above are basic managed hosting plans and do not include the full range of infrastructure administration services I offer. Below is a complete list of my services. You can combine any of these services with the plans above to build a fully customized infrastructure administration solution.</p>
                         <ul>
-                            <li>Go, Node.js, Python, Ruby, Java, and .NET application deployment</li>
-                            <li>Proxy server management</li>
-                            <li>Email server management</li>
+                            <li>Linux system administration</li>
+                            <li>HTTP, SSH, FTP, SMTP, IMAP, POP, and proxy server management</li>
+                            <li>Custom server implementation</li>
+                            <li>PHP, Go, Node.js, Python, Ruby, Java, and .NET application management</li>
+                            <li>MySQL, MariaDB, PostgreSQL, SQLite, SQL Server, and Aurora relational database management</li>
+                            <li>MongoDB, CouchDB, DynamoDB, DocumentDB, and Firestore non-relational database management</li>
+                            <li>Redis, Memcached, MemoryDB, ElastiCache, and Memorystore cache database management</li>
                             <li>DNS management</li>
-                            <li>CDN management</li>
-                            <li>Load balancing management</li>
+                            <li>TLS/SSL certificate management</li>
+                            <li>CDN and load balancing management</li>
+                            <li>Network and application firewall management</li>
                             <li>API gateway management</li>
+                            <li>Notification management</li>
+                            <li>Event and task management</li>
                             <li>Application monitoring</li>
-                            <li>Server monitoring</li>
-                            <li>Threat monitoring and security scanning</li>
-                            <li>Server notification management</li>
-                            <li>Custom task management</li>
+                            <li>Network and server monitoring</li>
+                            <li>Network, server, and application security scanning</li>
+                            <li>Backup management</li>
+                            <li>Custom web application development</li>
                             <li>Custom software development</li>
-                            <li>Custom backup solutions</li>
-                            <li>Network firewall and WAF implementation</li>
                         </ul>
                         <p>Please send a message by clicking the button below.</p>
                         <a class="button" href="https://wa.me/{{ str(config('website.whatsapp'))->replace(' ', '') }}" target="_blank">
