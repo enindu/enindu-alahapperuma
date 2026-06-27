@@ -276,8 +276,7 @@
                             <li>API gateway management</li>
                             <li>Notification management</li>
                             <li>Event and task management</li>
-                            <li>Application monitoring</li>
-                            <li>Network and server monitoring</li>
+                            <li>Network, server, and application monitoring</li>
                             <li>Network, server, and application security scanning</li>
                             <li>Backup management</li>
                             <li>Custom web application development</li>
