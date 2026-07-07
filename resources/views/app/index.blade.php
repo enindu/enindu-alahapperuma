@@ -61,8 +61,8 @@
                     <img alt="clients" height="80" src="{{ Vite::asset('resources/images/clients.svg') }}" width="80">
                     <div>
                         <p class="h1">84+</p>
-                        <p>Collaborated</p>
-                        <p>clients</p>
+                        <p>Clients</p>
+                        <p>collaborated</p>
                     </div>
                 </div>
             </div>
