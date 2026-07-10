@@ -174,7 +174,7 @@ writer.WriteString("\r\n")
 writer.WriteString(string([]byte{0xF0, 0x9D, 0x92, 0x9C}) + "\n")</code></pre>
                     <p>No, it will not. Because the "𝒜" character doesn't work in the "ISO-8859-1" encoding. You need to do your homework on the character encoding.</p>
                     <p>These are just two examples. Now you understand that writing a custom HTTP server requires much more knowledge in every aspect. Even small things like these can ruin terabytes of data and the reputation built over years in a second. That's why I always believe that a web developer carries a huge responsibility and must have knowledge in every aspect of web development.</p>
-                    <p>This article has already become quite long, so I will continue discussing the lowest-level HTTP server in a separate article. You can find the code I used for this demonstration at <a href="https://github.com/enindu/examples-for-blog/tree/master/playing-with-http-servers" target="_blank">https://github.com/enindu/examples-for-blog/tree/master/playing-with-http-servers</a>.</p>
+                    <p>This article has already become quite long, so I will continue discussing the lowest-level HTTP server in a separate article. You can find the code I used for this demonstration at <a href="https://github.com/enindu/examples-for-blog/tree/master/blog/playing-with-http-servers" target="_blank">https://github.com/enindu/examples-for-blog/tree/master/blog/playing-with-http-servers</a>.</p>
                 </div>
             </div>
         </div>

@@ -351,7 +351,7 @@ for _, server := range servers {
    }
 }</code></pre>
                     <p>If you run this code, you'll see that none of them is an open resolver. You can scan for more open DNS ports in different IP addresses. I've covered this point, and from now on, it's up to you to experiment on your own.</p>
-                    <p>So this will be the end of this article. You can find all the examples I used in this article at the following link: <a href="https://github.com/enindu/examples-for-blog/tree/master/playing-with-dns-clients" target="_blank">https://github.com/enindu/examples-for-blog/tree/master/playing-with-dns-clients</a>.</p>
+                    <p>So this will be the end of this article. You can find all the examples I used in this article at the following link: <a href="https://github.com/enindu/examples-for-blog/tree/master/blog/playing-with-dns-clients" target="_blank">https://github.com/enindu/examples-for-blog/tree/master/blog/playing-with-dns-clients</a>.</p>
                 </div>
             </div>
         </div>
