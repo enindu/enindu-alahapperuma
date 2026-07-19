@@ -77,6 +77,14 @@ class BlogController extends Controller
     }
 
     /**
+     * Display introducing IP suite page.
+     */
+    public function blog10()
+    {
+        return view('app.blog.blog-10');
+    }
+
+    /**
      * Display a listing of the resource.
      */
     public function index()

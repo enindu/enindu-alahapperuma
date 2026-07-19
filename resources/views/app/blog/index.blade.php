@@ -29,6 +29,16 @@
             <div class="list">
                 <div class="box">
                     <div class="content">
+                        <h2 class="h1">Introducing IP suite.</h2>
+                        <p>Most developers use protocols like HTTP and HTTPS every day without fully understanding the networking layers beneath them. In this article, I introduce the ...</p>
+                        <a class="button" href="{{ route('blog.blog-10') }}">
+                            <span>Read article</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
                         <h2 class="h1">How poor development skills break internet.</h2>
                         <p>The most important part of a website's lifecycle is probably the development skills, with infrastructure skills coming second. I often come across websites b...</p>
                         <a class="button" href="{{ route('blog.blog-9') }}">

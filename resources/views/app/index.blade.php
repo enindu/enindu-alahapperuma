@@ -160,6 +160,16 @@
             <div class="blog">
                 <div class="box">
                     <div class="content">
+                        <h2 class="h1">Introducing IP suite.</h2>
+                        <p>Most developers use protocols like HTTP and HTTPS every day without fully understanding the networking layers beneath them. In this article, I introduce the ...</p>
+                        <a class="button" href="{{ route('blog.blog-10') }}">
+                            <span>Read article</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
                         <h2 class="h1">How poor development skills break internet.</h2>
                         <p>The most important part of a website's lifecycle is probably the development skills, with infrastructure skills coming second. I often come across websites b...</p>
                         <a class="button" href="{{ route('blog.blog-9') }}">
@@ -183,16 +193,6 @@
                         <h2 class="h1">Playing with DNS clients.</h2>
                         <p>In a previous article, I provided a low-level overview of DNS servers. While it wasn't an exhaustive guide, it covered the fundamentals to help you understan...</p>
                         <a class="button" href="{{ route('blog.blog-7') }}">
-                            <span>Read article</span>
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="content">
-                        <h2 class="h1">Understanding DNS.</h2>
-                        <p>Most developers have a high-level understanding of DNS. However, for web developers, grasping DNS at a low level is crucial. Writing yet another article expl...</p>
-                        <a class="button" href="{{ route('blog.blog-6') }}">
                             <span>Read article</span>
                             <i class="ri-arrow-right-up-line"></i>
                         </a>
