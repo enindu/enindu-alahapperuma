@@ -27,6 +27,7 @@ Route::middleware('web')->group(function () {
     Route::get('/blog/running-shell-commands-within-shared-hosting', [BlogController::class, 'blog8'])->name('blog.blog-8');
     Route::get('/blog/how-poor-development-skills-break-internet', [BlogController::class, 'blog9'])->name('blog.blog-9');
     Route::get('/blog/introducing-ip-suite', [BlogController::class, 'blog10'])->name('blog.blog-10');
+    Route::get('/blog/dont-use-webassembly-for-security', [BlogController::class, 'blog11'])->name('blog.blog-11');
     Route::resource('/blog', BlogController::class)->only(['index']);
     Route::resource('/contact', ContactController::class)->only(['index']);
 });

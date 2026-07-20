@@ -100,11 +100,20 @@
         </item>
         <item>
             <title><![CDATA[How Poor Development Skills Break Internet]]></title>
-            <link>https://enindu.com/blog/blog/introducing-ip-suite</link>
+            <link>https://enindu.com/blog/introducing-ip-suite</link>
             <description><![CDATA[Most developers use protocols like HTTP and HTTPS every day without fully understanding the networking layers beneath them. In this article, I introduce the IP suite and explain its four layers from a developer's perspective, showing how data travels across the web and why protocols like TCP, UDP, QUIC, HTTP, and TLS fit where they do.]]></description>
             <author>enindu@gmail.com (Enindu Alahapperuma)</author>
             <guid>https://enindu.com/10</guid>
             <pubDate>Sun, 19 Jul 2026 22:00:00 +0530</pubDate>
+            <category>General</category>
+        </item>
+        <item>
+            <title><![CDATA[How Poor Development Skills Break Internet]]></title>
+            <link>https://enindu.com/blog/dont-use-webassembly-for-security</link>
+            <description><![CDATA[WebAssembly is fast, portable, and increasingly popular, but many developers mistakenly treat it as a security feature. In this case study, I examine how an overengineered authentication mechanism created a false sense of protection. The lesson is simple, once a secret reaches the client, it is no longer a secret, regardless of the technology used to hide it.]]></description>
+            <author>enindu@gmail.com (Enindu Alahapperuma)</author>
+            <guid>https://enindu.com/11</guid>
+            <pubDate>Mon, 20 Jul 2026 14:19:00 +0530</pubDate>
             <category>General</category>
         </item>
     </channel>

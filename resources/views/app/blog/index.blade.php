@@ -29,6 +29,16 @@
             <div class="list">
                 <div class="box">
                     <div class="content">
+                        <h2 class="h1">Don't use WebAssembly for security.</h2>
+                        <p>WebAssembly is fast, portable, and increasingly popular, but many developers mistakenly treat it as a security feature. In this case study, I examine how an ...</p>
+                        <a class="button" href="{{ route('blog.blog-11') }}">
+                            <span>Read article</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
                         <h2 class="h1">Introducing IP suite.</h2>
                         <p>Most developers use protocols like HTTP and HTTPS every day without fully understanding the networking layers beneath them. In this article, I introduce the ...</p>
                         <a class="button" href="{{ route('blog.blog-10') }}">
