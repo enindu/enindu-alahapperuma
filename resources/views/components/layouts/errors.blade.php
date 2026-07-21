@@ -5,10 +5,10 @@
             <div class="box">
                 <div class="content">
                     <h1 class="display-1">
-                        <i class="ri-error-warning-line"></i>
                         <span>{{ $title }}.</span>
                     </h1>
                     <p>{{ $description }}</p>
+                    <p>If you're looking for something, don't waste your time. Check out <a href="https://github.com/enindu/enindu-alahapperuma">this website's source code</a>.</p>
                     <a class="button" href="{{ url()->previous() }}">
                         <i class="ri-arrow-left-down-line"></i>
                         <span>Go back</span>
