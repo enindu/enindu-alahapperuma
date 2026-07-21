@@ -14,11 +14,11 @@
             <title>Enindu Alahapperuma</title>
             <link>https://enindu.com</link>
         </image>
-        <description><![CDATA[Besides offering back-end development and system administration services, I also write articles in my spare time. These articles mainly focus on web development, software I've created, and my personal insights on various topics.]]></description>
+        <description><![CDATA[I enjoy sharing my knowledge and ideas with people around the world. In addition to providing software engineering, infrastructure administration, and cybersecurity services, I also write articles in my spare time. These articles mainly cover software, infrastructure, cybersecurity, experiences I have had with people, and my thoughts on various topics.]]></description>
         <language>en-US</language>
         <pubDate>Wed, 05 Mar 2025 23:29:00 +0530</pubDate>
         <item>
-            <title><![CDATA[I Have Revamped My Website]]></title>
+            <title><![CDATA[I have revamped my website]]></title>
             <link>https://enindu.com/blog/i-have-revamped-my-website</link>
             <description><![CDATA[I have upgraded the Laravel framework to version 12, made significant improvements to the front-end design, and added service pages to the website. This means I am now officially offering my services as a freelancer. Read below to learn more about these updates.]]></description>
             <author>enindu@gmail.com (Enindu Alahapperuma)</author>
@@ -27,7 +27,7 @@
             <category>General</category>
         </item>
         <item>
-            <title><![CDATA[Ultimate Web Development Guide For Clients]]></title>
+            <title><![CDATA[Ultimate web development guide for clients]]></title>
             <link>https://enindu.com/blog/ultimate-web-development-guide-for-clients</link>
             <description><![CDATA[I come across numerous web development groups on Facebook every day. These groups are filled with people—some searching for web developers at low prices, while others are offering their services for equally low rates. This obsession with cheap work has distorted the true value of web development in recent years. The reality is, web development is not cheap at all.]]></description>
             <author>enindu@gmail.com (Enindu Alahapperuma)</author>
@@ -45,7 +45,7 @@
             <category>General</category>
         </item>
         <item>
-            <title><![CDATA[Playing With HTTP Servers]]></title>
+            <title><![CDATA[Playing with HTTP servers]]></title>
             <link>https://enindu.com/blog/playing-with-http-servers</link>
             <description><![CDATA[In a previous article, I provided a high-level overview of HTTP. In this article, I will dive into the low-level implementation of HTTP, covering topics such as creating HTTP servers and even lower-level TCP servers. Discussions on HTTP and TCP clients will be reserved for a separate article. Expect plenty of code examples. So, let's get started.]]></description>
             <author>enindu@gmail.com (Enindu Alahapperuma)</author>
@@ -54,7 +54,7 @@
             <category>General</category>
         </item>
         <item>
-            <title><![CDATA[Shared Hosting Explained For Clients]]></title>
+            <title><![CDATA[Shared hosting explained for clients]]></title>
             <link>https://enindu.com/blog/shared-hosting-explained-for-clients</link>
             <description><![CDATA[This isn't just another article explaining shared hosting. Instead, I'll break it down from a system administrator's perspective—why you should never use shared hosting, even for a small web application, and what better alternatives exist. If you're looking for affordable hosting solutions, this will be a comprehensive guide, much like my previous article on web development. Let's dive in!]]></description>
             <author>enindu@gmail.com (Enindu Alahapperuma)</author>
@@ -72,7 +72,7 @@
             <category>General</category>
         </item>
         <item>
-            <title><![CDATA[Playing With DNS Clients]]></title>
+            <title><![CDATA[Playing with DNS clients]]></title>
             <link>https://enindu.com/blog/playing-with-dns-clients</link>
             <description><![CDATA[In a previous article, I provided a low-level overview of DNS servers. While it wasn't an exhaustive guide, it covered the fundamentals to help you understand how DNS works. In this article, I'll build on that foundation with real-world examples. Let's dive in!]]></description>
             <author>enindu@gmail.com (Enindu Alahapperuma)</author>
@@ -81,7 +81,7 @@
             <category>General</category>
         </item>
         <item>
-            <title><![CDATA[Running Shell Commands Within Shared Hosting]]></title>
+            <title><![CDATA[Running Shell commands within shared hosting]]></title>
             <link>https://enindu.com/blog/running-shell-commands-within-shared-hosting</link>
             <description><![CDATA[In a previous article, I discussed shared hosting. In this one, I'll be experimenting with a shared hosting server. My goal is to highlight a vulnerability and help you approach certain aspects from a different perspective. Let's get started!]]></description>
             <author>enindu@gmail.com (Enindu Alahapperuma)</author>
@@ -90,7 +90,7 @@
             <category>General</category>
         </item>
         <item>
-            <title><![CDATA[How Poor Development Skills Break Internet]]></title>
+            <title><![CDATA[How poor development skills break internet]]></title>
             <link>https://enindu.com/blog/how-poor-development-skills-break-internet</link>
             <description><![CDATA[The most important part of a website's lifecycle is probably the development skills, with infrastructure skills coming second. I often come across websites built with poor development practices that are easy to hack. Seeing this so often has frustrated me and inspired me to write this article. So without wasting any more time, let's get straight to the point.]]></description>
             <author>enindu@gmail.com (Enindu Alahapperuma)</author>
@@ -99,20 +99,11 @@
             <category>General</category>
         </item>
         <item>
-            <title><![CDATA[How Poor Development Skills Break Internet]]></title>
-            <link>https://enindu.com/blog/introducing-ip-suite</link>
-            <description><![CDATA[Most developers use protocols like HTTP and HTTPS every day without fully understanding the networking layers beneath them. In this article, I introduce the IP suite and explain its four layers from a developer's perspective, showing how data travels across the web and why protocols like TCP, UDP, QUIC, HTTP, and TLS fit where they do.]]></description>
+            <title><![CDATA[The wrong technology for the wrong purpose]]></title>
+            <link>https://enindu.com/blog/the-wrong-technology-for-the-wrong-purpose</link>
+            <description><![CDATA[Modern technologies solve specific problems, but using them outside their intended purpose often creates new ones. In this real-world case study, I'll show how a well-built application became less secure because its developer treated WebAssembly as a security mechanism. The issue wasn't the technology itself, but forgetting fundamental security principles while overengineering the solution.]]></description>
             <author>enindu@gmail.com (Enindu Alahapperuma)</author>
             <guid>https://enindu.com/10</guid>
-            <pubDate>Sun, 19 Jul 2026 22:00:00 +0530</pubDate>
-            <category>General</category>
-        </item>
-        <item>
-            <title><![CDATA[How Poor Development Skills Break Internet]]></title>
-            <link>https://enindu.com/blog/dont-use-webassembly-for-security</link>
-            <description><![CDATA[WebAssembly is fast, portable, and increasingly popular, but many developers mistakenly treat it as a security feature. In this case study, I examine how an overengineered authentication mechanism created a false sense of protection. The lesson is simple, once a secret reaches the client, it is no longer a secret, regardless of the technology used to hide it.]]></description>
-            <author>enindu@gmail.com (Enindu Alahapperuma)</author>
-            <guid>https://enindu.com/11</guid>
             <pubDate>Mon, 20 Jul 2026 14:19:00 +0530</pubDate>
             <category>General</category>
         </item>

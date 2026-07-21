@@ -160,18 +160,8 @@
             <div class="blog">
                 <div class="box">
                     <div class="content">
-                        <h2 class="h1">Don't use WebAssembly for security.</h2>
-                        <p>WebAssembly is fast, portable, and increasingly popular, but many developers mistakenly treat it as a security feature. In this case study, I examine how an ...</p>
-                        <a class="button" href="{{ route('blog.blog-11') }}">
-                            <span>Read article</span>
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="content">
-                        <h2 class="h1">Introducing IP suite.</h2>
-                        <p>Most developers use protocols like HTTP and HTTPS every day without fully understanding the networking layers beneath them. In this article, I introduce the ...</p>
+                        <h2 class="h1">The wrong technology for the wrong purpose.</h2>
+                        <p>Modern technologies solve specific problems, but using them outside their intended purpose often creates new ones. In this real-world case study, I'll show h...</p>
                         <a class="button" href="{{ route('blog.blog-10') }}">
                             <span>Read article</span>
                             <i class="ri-arrow-right-up-line"></i>
@@ -193,6 +183,16 @@
                         <h2 class="h1">Running Shell commands within shared hosting.</h2>
                         <p>In a previous article, I discussed shared hosting. In this one, I'll be experimenting with a shared hosting server. My goal is to highlight a vulnerability a...</p>
                         <a class="button" href="{{ route('blog.blog-8') }}">
+                            <span>Read article</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h2 class="h1">Playing with DNS clients.</h2>
+                        <p>In a previous article, I provided a low-level overview of DNS servers. While it wasn't an exhaustive guide, it covered the fundamentals to help you understan...</p>
+                        <a class="button" href="{{ route('blog.blog-7') }}">
                             <span>Read article</span>
                             <i class="ri-arrow-right-up-line"></i>
                         </a>

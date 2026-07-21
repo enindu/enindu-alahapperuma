@@ -77,19 +77,11 @@ class BlogController extends Controller
     }
 
     /**
-     * Display introducing IP suite page.
+     * Display the wrong technology for the wrong purpose page.
      */
     public function blog10()
     {
         return view('app.blog.blog-10');
-    }
-
-    /**
-     * Display don't use WebAssembly for security page.
-     */
-    public function blog11()
-    {
-        return view('app.blog.blog-11');
     }
 
     /**
