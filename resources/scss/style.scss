@@ -14,8 +14,10 @@ $indigo_color: #4f39f6;
 $purple_color: #8200db;
 $pink_color: #e60076;
 $primary_color: #eb6b56;
+$secondary_color: #ffc153;
+$tertiary_color: #b05f6d;
 $factor_size: 16px;
-$font_size: calc($factor_size * 1.125);
+$font_size: $factor_size;
 $gap_size: $factor_size;
 $padding_size: $factor_size;
 $radius_size: $factor_size;
@@ -29,7 +31,7 @@ $black_font_weight: 600;
 @mixin pattern_bg {
     background-image: linear-gradient(0deg, transparent 24%, $gray_color 25%, $gray_color 26%, transparent 27%, transparent 74%, $gray_color 75%, $gray_color 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, $gray_color 25%, $gray_color 26%, transparent 27%, transparent 74%, $gray_color 75%, $gray_color 76%, transparent 77%, transparent);
     background-position: center center;
-    background-size: calc($factor_size * 4.5) calc($factor_size * 4.5);
+    background-size: calc($factor_size * 3.5) calc($factor_size * 3.5);
 }
 @mixin title_font {
     font-family: $title_font;
@@ -160,15 +162,15 @@ pre {
 .button {
     align-items: center;
     background-color: $black_color;
-    border-radius: calc($radius_size * 0.75);
+    border-radius: calc($radius_size * 0.65);
     color: $white_color;
     display: flex;
     flex-direction: row;
     gap: calc($gap_size * 0.25);
-    height: calc($factor_size * 3);
+    height: calc($factor_size * 2.75);
     justify-content: center;
     line-height: 1;
-    padding: 0 calc($padding_size * 1.5);
+    padding: 0 calc($padding_size * 1.25);
     text-decoration: none;
     white-space: nowrap;
     width: max-content;
@@ -177,7 +179,7 @@ pre {
         color: $white_color;
     }
     i {
-        font-size: calc($font_size * 1.5);
+        font-size: calc($font_size * 1.25);
         line-height: 1;
     }
     span {
@@ -201,6 +203,7 @@ pre {
     z-index: 1;
     img {
         animation: spin 800ms ease infinite;
+        height: calc($factor_size * 3.5);
     }
 }
 #top-section {
@@ -249,7 +252,7 @@ pre {
                 a {
                     line-height: 1;
                     img {
-                        height: calc($factor_size * 5);
+                        height: calc($factor_size * 3.5);
                     }
                 }
             }
@@ -257,7 +260,7 @@ pre {
                 align-items: center;
                 display: flex;
                 flex-direction: row;
-                gap: $gap_size;
+                gap: calc($gap_size * 1.5);
                 overflow-x: scroll;
                 scrollbar-width: none;
                 a {
@@ -303,7 +306,7 @@ pre {
                                 flex-direction: column;
                                 gap: calc($gap_size * 0.5);
                                 img {
-                                    max-height: calc($factor_size * 5);
+                                    max-height: calc($factor_size * 3.5);
                                     max-width: max-content;
                                 }
                                 .meta {
@@ -441,7 +444,7 @@ pre {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            min-height: calc(100vh - (114px + ($gap_size * 2)));
+            min-height: calc(100vh - (90px + ($gap_size * 2)));
             .box {
                 border: none;
                 width: 75%;
