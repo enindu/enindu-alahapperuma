@@ -37,7 +37,6 @@
         <link href="{{ url('rss.xml') }}" rel="alternate" title="{{ config('app.name') }}" type="application/rss+xml">
         <link href="https://buymeacoffee.com/enindu" rel="me">
         <link href="https://facebook.com/enindu.alahapperuma.official" rel="me">
-        <link href="https://facebook.com/eve.particles" rel="me">
         <link href="https://github.com/enindu" rel="me">
         <link href="https://gitlab.com/enindu" rel="me">
         <link href="https://indieweb.org/User:Enindu.com" rel="me">
