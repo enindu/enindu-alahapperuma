@@ -8,17 +8,25 @@
         <meta content="{{ $description }}" name="description">
         <meta content="{{ $keywords }}" name="keywords">
         <meta content="Enindu Alahapperuma <enindu@gmail.com>" name="author">
+        <meta content="{{ config('app.name') }}" property="og:site_name">
         <meta content="{{ $title }} | {{ config('app.name') }}" property="og:title">
         <meta content="{{ $description }}" property="og:description">
         <meta content="website" property="og:type">
         <meta content="{{ url()->current() }}" property="og:url">
         <meta content="{{ Vite::asset('resources/images/open-graph.png') }}" property="og:image">
+        <meta content="{{ Vite::asset('resources/images/open-graph.png') }}" property="og:image:secure_url">
+        <meta content="{{ $description }}" property="og:image:alt">
+        <meta content="image/png" property="og:image:type">
+        <meta content="630" property="og:image:height">
+        <meta content="1200" property="og:image:width">
+        <meta content="{{ $title }} | {{ config('app.name') }}" name="twitter:title">
+        <meta content="{{ $description }}" name="twitter:description">
+        <meta content="{{ url()->current() }}" name="twitter:url">
         <meta content="summary_large_image" name="twitter:card">
         <meta content="@Enindu" name="twitter:site">
         <meta content="@Enindu" name="twitter:creator">
-        <meta content="{{ $title }} | {{ config('app.name') }}" name="twitter:title">
-        <meta content="{{ $description }}" name="twitter:description">
         <meta content="{{ Vite::asset('resources/images/twitter.png') }}" name="twitter:image">
+        <meta content="{{ $description }}" name="twitter:image:alt">
         <meta content="#22292b" name="theme-color">
         <meta content="{{ Vite::asset('resources/images/ms-application-tile-image.png') }}" name="msapplication-TileImage">
         <meta content="#22292b" name="msapplication-TileColor">
@@ -29,6 +37,7 @@
         <link href="{{ url('rss.xml') }}" rel="alternate" title="{{ config('app.name') }}" type="application/rss+xml">
         <link href="https://buymeacoffee.com/enindu" rel="me">
         <link href="https://facebook.com/enindu.alahapperuma.official" rel="me">
+        <link href="https://facebook.com/eve.particles" rel="me">
         <link href="https://github.com/enindu" rel="me">
         <link href="https://gitlab.com/enindu" rel="me">
         <link href="https://indieweb.org/User:Enindu.com" rel="me">
