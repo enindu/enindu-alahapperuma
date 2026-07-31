@@ -107,5 +107,14 @@
             <pubDate>Mon, 20 Jul 2026 14:19:00 +0530</pubDate>
             <category>General</category>
         </item>
+        <item>
+            <title><![CDATA[Do people still care about security?]]></title>
+            <link>https://enindu.com/blog/do-people-still-care-about-security</link>
+            <description><![CDATA[This research highlights a troubling pattern I repeatedly encounter while assessing real-world web applications in Sri Lanka: security is often treated as an afterthought. Based on manual security assessments of 22 websites, this article examines the vulnerabilities I discovered, why they existed, how organizations responded, and what those findings reveal about the current state of application security.]]></description>
+            <author>enindu@gmail.com (Enindu Alahapperuma)</author>
+            <guid>https://enindu.com/11</guid>
+            <pubDate>Fri, 31 Jul 2026 20:20:00 +0530</pubDate>
+            <category>General</category>
+        </item>
     </channel>
 </rss>

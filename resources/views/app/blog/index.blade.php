@@ -29,6 +29,16 @@
             <div class="list">
                 <div class="box">
                     <div class="content">
+                        <h2 class="h1">Do people still care about security?</h2>
+                        <p>This research highlights a troubling pattern I repeatedly encounter while assessing real-world web applications in Sri Lanka: security is often treated as an...</p>
+                        <a class="button" href="{{ route('blog.blog-11') }}">
+                            <span>Read article</span>
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
                         <h2 class="h1">The wrong technology for the wrong purpose.</h2>
                         <p>Modern technologies solve specific problems, but using them outside their intended purpose often creates new ones. In this real-world case study, I'll show h...</p>
                         <a class="button" href="{{ route('blog.blog-10') }}">

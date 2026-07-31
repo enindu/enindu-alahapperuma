@@ -85,6 +85,14 @@ class BlogController extends Controller
     }
 
     /**
+     * Display do people still care about security page.
+     */
+    public function blog11()
+    {
+        return view('app.blog.blog-11');
+    }
+
+    /**
      * Display a listing of the resource.
      */
     public function index()
