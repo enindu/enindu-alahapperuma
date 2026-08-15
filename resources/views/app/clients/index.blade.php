@@ -29,14 +29,17 @@
             <div class="list">
                 <div class="box">
                     <div class="content">
-                        <h2 class="h1">Explore my freelance clients.</h2>
-                        <p>As a full-time freelancer, I have delivered a wide range of services to clients, including web development, cloud solutions, infrastructure administration, digital marketing, content writing, and graphic design. My work helps businesses and individuals build their online presence and achieve their goals.</p>
+                        <h2 class="h1">Explore my Eve Particles clients.</h2>
+                        <p>Eve Particles is the brand through which I provide B2B freelance services to my clients. As a freelancer, I have had the opportunity to work with software development companies as well as individual clients across a variety of industries. Throughout my freelance career, I have delivered a wide range of services, including web development, cloud infrastructure administration, cloud application development, cybersecurity consulting, digital marketing, content writing, and graphic design.</p>
                     </div>
                 </div>
                 <div class="box">
                     <div class="content">
-                        <p>Below is a comprehensive list of freelance clients I have worked with. You can learn more about their businesses by clicking the underlined links.</p>
+                        <p>Below is a comprehensive list of clients I have worked with as a freelancer. You can learn more about their businesses by clicking the underlined links.</p>
                         <ul>
+                            <li>
+                                <span>The Blaenllynfi Hotel</span>
+                            </li>
                             <li>
                                 <a href="https://ynjenlighten.com" target="_blank">YNJ Enlighten</a>
                             </li>
@@ -70,18 +73,21 @@
                             <li>
                                 <a href="https://phyxle.com" target="_blank">Phyxle</a>
                             </li>
+                            <li>
+                                <span>novart</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="box">
                     <div class="content">
                         <h2 class="h1">Explore my XynoSync clients.</h2>
-                        <p>XynoSync is one of the companies I have co-founded in Sri Lanka. At XynoSync, I have had the opportunity to work with many clients and developers, providing my expertise in software engineering, web development, infrastructure administration, system administration, and cybersecurity to both clients and fellow developers.</p>
+                        <p>XynoSync is a software development company based in Sri Lanka and one of the companies I co-founded. At XynoSync, I have had the opportunity to work with individual clients across a variety of industries. I have contributed both my engineering and business expertise to the company. In addition, as a part-time engineer, I have delivered a wide range of services, including web development, cloud infrastructure administration, cloud application development, cybersecurity consulting, digital marketing, content writing, and graphic design.</p>
                     </div>
                 </div>
                 <div class="box">
                     <div class="content">
-                        <p>Below is a comprehensive list of freelance clients I have worked with. You can learn more about their businesses by clicking the underlined links.</p>
+                        <p>Below is a comprehensive list of clients I have worked with at XynoSync. You can learn more about their businesses by clicking the underlined links.</p>
                         <ul>
                             <li>
                                 <a href="https://yg-industries.com" target="_blank">YG Industries</a>
@@ -146,12 +152,12 @@
                 <div class="box">
                     <div class="content">
                         <h2 class="h1">Explore my dubsndot clients.</h2>
-                        <p>dubsndot is a web design agency that I co-founded in Melbourne, Australia. Although I did not work directly with their clients or development team, I contributed my expertise by providing freelance services, including web development, infrastructure administration, and technical consulting.</p>
+                        <p>dubsndot is a software development company based in Australia and one of the companies I co-founded. At dubsndot, I have had the opportunity to work with clients across a variety of industries. I have contributed my engineering expertise to the company and, as a part-time engineer, have delivered a wide range of services, including web development, cloud infrastructure administration, cloud application development, cybersecurity consulting, digital marketing, content writing, and graphic design.</p>
                     </div>
                 </div>
                 <div class="box">
                     <div class="content">
-                        <p>Below is a comprehensive list of freelance clients I have worked with. You can learn more about their businesses by clicking the underlined links.</p>
+                        <p>Below is a comprehensive list of clients I have worked with at dubsndot. You can learn more about their businesses by clicking the underlined links.</p>
                         <ul>
                             <li>
                                 <span>Holz World</span>
@@ -174,12 +180,15 @@
                 <div class="box">
                     <div class="content">
                         <h2 class="h1">Explore my Phyxle clients.</h2>
-                        <p>I first joined Phyxle, a web design agency in Sri Lanka, as a freelance web developer. After some time, I moved into a full-time role and later became the company director. In this role, I worked with many clients and collaborated with other developers. As director and senior developer, my responsibilities covered a wide range of work, including interviewing new recruits, designing software architectures, building solutions, and managing the full lifecycle of systems through DevOps and infrastructure administration.</p>
+                        <p>Phyxle is a software development company based in Sri Lanka. I initially joined the company as a part-time web developer, later transitioned into a full-time senior web developer role, and was subsequently promoted to lead web developer and eventually executive director.</p>
+                        <p>At Phyxle, I had the opportunity to work closely with both employees and clients across a variety of industries. Throughout my tenure, I contributed both engineering and business expertise to the company. As an engineer, I delivered a wide range of services, including web development, cloud infrastructure administration, cloud application development, cybersecurity consulting, digital marketing, content writing, and graphic design.</p>
+                        <p>Furthermore, I introduced standardized project management processes, covering requirements gathering, project planning, software development, and product delivery. I also established consistent design and development practices across client projects and internal company operations.</p>
+                        <p>In addition, I played an active role in employee recruitment, training, and professional development. I provided technical leadership in designing system architectures and developing back-end systems. I was also responsible for making technology stack decisions, conducting technical interviews, collaborating with clients, and overseeing task allocation to ensure the successful delivery of projects.</p>
                     </div>
                 </div>
                 <div class="box">
                     <div class="content">
-                        <p>Below is a comprehensive list of freelance clients I have worked with. You can learn more about their businesses by clicking the underlined links.</p>
+                        <p>Below is a comprehensive list of clients I have worked with at Phyxle. You can learn more about their businesses by clicking the underlined links.</p>
                         <ul>
                             <li>
                                 <a href="https://iconique.tech" target="_blank">Iconique</a>
@@ -339,13 +348,13 @@
                 </div>
                 <div class="box">
                     <div class="content">
-                        <h2 class="h1">Explore my Novart clients.</h2>
-                        <p>Novart, an advertising agency in Sri Lanka, was the first company where I started my career. At Novart, I gained strong experience in web development and worked with many clients alongside senior developers. My role included both web development and application maintenance services.</p>
+                        <h2 class="h1">Explore my novart clients.</h2>
+                        <p>novart is a marketing agency based in Sri Lanka where I began my software engineering career. At novart, I had the opportunity to work alongside other developers and collaborate with clients across a variety of industries. In this role, I contributed my engineering expertise and delivered a range of services, primarily focused on web design and web development. Through this experience, I developed strong technical skills while gaining valuable exposure to client-focused project delivery and collaborative software development practices.</p>
                     </div>
                 </div>
                 <div class="box">
                     <div class="content">
-                        <p>Below is a comprehensive list of freelance clients I have worked with. You can learn more about their businesses by clicking the underlined links.</p>
+                        <p>Below is a comprehensive list of clients I have worked with at novart. You can learn more about their businesses by clicking the underlined links.</p>
                         <ul>
                             <li>
                                 <span>Beaudire</span>
