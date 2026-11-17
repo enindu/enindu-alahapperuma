@@ -90,6 +90,9 @@
                         <p>Below is a comprehensive list of clients I have worked with at XynoSync. You can learn more about their businesses by clicking the underlined links.</p>
                         <ul>
                             <li>
+                                <a href="https://unionsupermart.lk" target="_blank">Union Super Mart</a>
+                            </li>
+                            <li>
                                 <a href="https://yg-industries.com" target="_blank">YG Industries</a>
                             </li>
                             <li>
